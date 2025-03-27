@@ -383,13 +383,13 @@
 						"type": "item",
 						"code": "game:redmeat-raw",
 						"quantityByType": {
-							"*-tyrannosaurus-adult-*": {"avg": 330,"var": 10}, "*-tyrannosaurus-baby-*": {"avg": 10,"var": 3},
-							"*-tarbosaurus-adult-*": {"avg": 300,"var": 10}, "*-tarbosaurus-baby-*": {"avg": 8,"var": 3},
+							"*-tyrannosaurus-adult-*": {"avg": 200,"var": 10}, "*-tyrannosaurus-baby-*": {"avg": 10,"var": 3},
+							"*-tarbosaurus-adult-*": {"avg": 180,"var": 10}, "*-tarbosaurus-baby-*": {"avg": 8,"var": 3},
 							"*-nanuqsaurus-adult-*": {"avg": 165,"var": 10}, "*-nanuqsaurus-baby-*": {"avg": 5,"var": 3},
-							"*-albertosaurus-adult-*": {"avg": 290,"var": 10}, "*-albertosaurus-baby-*": {"avg": 7,"var": 3},
-							"*-gorgosaurus-adult-*": {"avg": 280,"var": 10}, "*-gorgosaurus-baby-*": {"avg": 6,"var": 3},
+							"*-albertosaurus-adult-*": {"avg": 170,"var": 10}, "*-albertosaurus-baby-*": {"avg": 7,"var": 3},
+							"*-gorgosaurus-adult-*": {"avg": 165,"var": 10}, "*-gorgosaurus-baby-*": {"avg": 6,"var": 3},
 							"*-alioramus-adult-*": {"avg": 155,"var": 10}, "*-alioramus-baby-*": {"avg": 4,"var": 3},
-							"*-qianzhousaurus-adult-*": {"avg": 280,"var": 10}, "*-qianzhousaurus-baby-*": {"avg": 6,"var": 3},
+							"*-qianzhousaurus-adult-*": {"avg": 165,"var": 10}, "*-qianzhousaurus-baby-*": {"avg": 6,"var": 3},
 						}
 					},
 					{
