@@ -1,0 +1,84 @@
+﻿{
+  "code": "creature",
+  "class": "ItemCreature",
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ 
+	  "tyrannosauridae-tyrannosaurus-adult-male","tyrannosauridae-tyrannosaurus-adult-female", "tyrannosauridae-tyrannosaurus-baby-male", "tyrannosauridae-tyrannosaurus-baby-female","tyrannosauridae-tyrannosaurus-nest-mature","tyrannosauridae-tyrannosaurus-nest-incubating","tyrannosauridae-tyrannosaurus-nest-empty",
+
+	  "tyrannosauridae-tarbosaurus-adult-male","tyrannosauridae-tarbosaurus-adult-female", "tyrannosauridae-tarbosaurus-baby-male", "tyrannosauridae-tarbosaurus-baby-female","tyrannosauridae-tarbosaurus-nest-mature","tyrannosauridae-tarbosaurus-nest-incubating","tyrannosauridae-tarbosaurus-nest-empty",
+
+	  "tyrannosauridae-nanuqsaurus-adult-male","tyrannosauridae-nanuqsaurus-adult-female", "tyrannosauridae-nanuqsaurus-baby-male", "tyrannosauridae-nanuqsaurus-baby-female","tyrannosauridae-nanuqsaurus-nest-mature","tyrannosauridae-nanuqsaurus-nest-incubating","tyrannosauridae-nanuqsaurus-nest-empty",
+
+	  "tyrannosauridae-albertosaurus-adult-male","tyrannosauridae-albertosaurus-adult-female", "tyrannosauridae-albertosaurus-baby-male", "tyrannosauridae-albertosaurus-baby-female","tyrannosauridae-albertosaurus-nest-mature","tyrannosauridae-albertosaurus-nest-incubating","tyrannosauridae-albertosaurus-nest-empty",
+
+	  "tyrannosauridae-gorgosaurus-adult-male","tyrannosauridae-gorgosaurus-adult-female", "tyrannosauridae-gorgosaurus-baby-male", "tyrannosauridae-gorgosaurus-baby-female","tyrannosauridae-gorgosaurus-nest-mature","tyrannosauridae-gorgosaurus-nest-incubating","tyrannosauridae-gorgosaurus-nest-empty",
+
+	  "tyrannosauridae-alioramus-adult-male","tyrannosauridae-alioramus-adult-female", "tyrannosauridae-alioramus-baby-male", "tyrannosauridae-alioramus-baby-female","tyrannosauridae-alioramus-nest-mature","tyrannosauridae-alioramus-nest-incubating","tyrannosauridae-alioramus-nest-empty",
+
+	  "tyrannosauridae-qianzhousaurus-adult-male","tyrannosauridae-qianzhousaurus-adult-female", "tyrannosauridae-qianzhousaurus-baby-male", "tyrannosauridae-qianzhousaurus-baby-female","tyrannosauridae-qianzhousaurus-nest-mature","tyrannosauridae-qianzhousaurus-nest-incubating","tyrannosauridae-qianzhousaurus-nest-empty",
+	  ]
+    }
+  ],
+  "shapeByType": {
+	 "*-tyrannosaurus-adult-*":{"base": "entity/land/tyrannosauridae/tyrannosaurus/adult"},"*-tyrannosaurus-baby-*":{"base": "entity/land/tyrannosauridae/tyrannosaurus/baby"},
+	 "*-tarbosaurus-adult-*":{"base": "entity/land/tyrannosauridae/tarbosaurus/adult"},"*-tarbosaurus-baby-*":{"base": "entity/land/tyrannosauridae/tarbosaurus/baby"},
+	 "*-nanuqsaurus-adult-*":{"base": "entity/land/tyrannosauridae/nanuqsaurus/adult"},"*-nanuqsaurus-baby-*":{"base": "entity/land/tyrannosauridae/nanuqsaurus/baby"},
+	 "*-albertosaurus-adult-*":{"base": "entity/land/tyrannosauridae/albertosaurus/adult"},"*-albertosaurus-baby-*":{"base": "entity/land/tyrannosauridae/albertosaurus/baby"},
+	 "*-gorgosaurus-adult-*":{"base": "entity/land/tyrannosauridae/gorgosaurus/adult"},"*-gorgosaurus-baby-*":{"base": "entity/land/tyrannosauridae/gorgosaurus/baby"},
+	 "*-alioramus-adult-*":{"base": "entity/land/tyrannosauridae/alioramus/adult"},"*-alioramus-baby-*":{"base": "entity/land/tyrannosauridae/alioramus/baby"},
+	 "*-qianzhousaurus-adult-*":{"base": "entity/land/tyrannosauridae/qianzhousaurus/adult"},"*-qianzhousaurus-baby-*":{"base": "entity/land/tyrannosauridae/qianzhousaurus/baby"},
+	 "*-nest-*":{"base": "entity/land/nest"},"*-nest-empty":{"base": "entity/land/nest-empty"},
+  },
+  "textureByType": { 
+	  "*-tyrannosaurus-adult-*":{"base": "entity/tyrannosaurus-adult"},"*-tyrannosaurus-baby-*":{"base": "entity/tyrannosaurus-baby"},
+	  "*-tarbosaurus-adult-*":{"base": "entity/tarbosaurus-adult"},"*-tarbosaurus-baby-*":{"base": "entity/tarbosaurus-baby"},
+	  "*-nanuqsaurus-adult-*":{"base": "entity/nanuqsaurus-adult"},"*-nanuqsaurus-baby-*":{"base": "entity/nanuqsaurus-baby"},
+	  "*-albertosaurus-adult-*":{"base": "entity/albertosaurus-adult"},"*-albertosaurus-baby-*":{"base": "entity/albertosaurus-baby"},
+	  "*-gorgosaurus-adult-*":{"base": "entity/gorgosaurus-adult"},"*-gorgosaurus-baby-*":{"base": "entity/gorgosaurus-adult"},
+	  "*-alioramus-adult-*":{"base": "entity/alioramus-adult"},"*-alioramus-baby-*":{"base": "entity/alioramus-baby"},
+	  "*-qianzhousaurus-adult-*":{"base": "entity/qianzhousaurus-adult"},"*-qianzhousaurus-baby-*":{"base": "entity/qianzhousaurus-adult"},
+	  "*-nest-*":{"base": "entity/land/nest"}, "*-nest-empty":{"base": "entity/land/nest-empty"},
+  },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"creature-tyrannosauridae-*": {
+			"rotate": true,
+			"translation": { "x": -16, "y": 0, "z": -5 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.3
+		},
+		"tyrannosauridae:creature-tyrannosauridae-{type}-baby-*": {
+			"rotate": true,
+			"translation": { "x": -16, "y": 0, "z": -5 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.5
+		}
+	},
+
+	"tpHandTransformByType": {
+		"tyrannosauridae:creature-tyrannosauridae-{type}-adult-*": {
+			"translation": { "x": -2, "y": -4, "z": -2 },
+			"rotation": { "x": -180, "y": 0, "z": -156 },
+			"scale": 0.15
+		},
+		"tyrannosauridae:creature-tyrannosauridae-{type}-baby-*": {
+			"translation": { "x": -0.5, "y": -0.5, "z": -0.5 },
+			"rotation": { "x": -180, "y": 0, "z": -100 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.25
+		},
+	},
+
+	"fpHandTransformByType": {
+		"creature-tyrannosauridae-*": {
+			"translation": { "x": 0.2, "y": 0, "z": 0 },
+			"rotation": { "x": -8, "y": -63, "z": -7 }
+		}
+	}
+}

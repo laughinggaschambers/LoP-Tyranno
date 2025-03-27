@@ -1,0 +1,102 @@
+{
+	"code": "tyrannosauridae",
+	"class": "EntityAgent",
+	"variantgroups": [
+		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus"]},
+		{"code": "age", "states": ["egg"] },
+		{"code": "state", "states": ["raw"] }
+	],
+	"collisionBoxSizeByType": {
+		"*": {	"x": 0.5,"y": 0.5}
+	},
+	"deadCollisionBoxSizeByType": {
+		"*": {"x": 0.5,"y": 0.5}
+	},
+	"selectionBoxSizeByType": {
+		"*": {"x": 0.5,"y": 0.5}
+	},
+	"deadSelectionBoxSizeByType": {
+		"*": {"x": 0.5,"y": 0.5}
+	},
+	"knockbackResistanceByType": {
+		"*": 0.5
+	},	
+	"eyeHeight": 0.6,
+	"weightByType": {
+		"*": 1
+	},
+	"drops": [{ "type": "item", "code": "creature-tyrannosauridae-{type}-egg-raw" }],
+	"attributes": {
+		"handbook": {
+			"groupcode": "creaturegroup-tyrannosauridae"
+		}
+	},
+	"client": {
+		"renderer": "Shape",
+		"shapeByType": {"*": { "base": "entity/land/egg" }},
+		"sizeByType": {
+			"*": 1
+		},
+		"behaviors": [
+			{"code": "repulseagents" },
+			{"code": "controlledphysics","stepHeight": 0},
+			{"code": "interpolateposition" },
+			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
+			{"code": "floatupwhenstuck","onlyWhenDead": true}
+
+		],
+		"animations": [
+		]
+	},
+	"server": {
+		"attributes": {
+		},
+		"behaviors": [
+			{ "code": "repulseagents" },
+			{"code": "controlledphysics","stepHeight": 0},
+			{"code": "health","maxhealthByType": {"*": 0.1}},
+			{"code": "deaddecay","hoursToDecay": 0,"decayedBlock": "none"},
+			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
+			{"code": "floatupwhenstuck","onlyWhenDead": true},
+			{"code": "emotionstates","states": []},
+			{ 
+				"code": "grow", 
+				"hoursToGrow": 160,
+				"adultEntityCodesByType": {"*": ["tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-female"]}
+				},
+			{
+				"code": "taskai",
+				"aitasks": [
+					{
+						"code": "idle",
+						"priority": 0.9,
+						"minduration": 3000,
+						"maxduration": 3000,
+						"mincooldown": 0,
+						"maxcooldown": 0,
+						"stopOnNearbyEntityCodes": [ ],
+						"stopRange": 15,
+						"animation": "Idle",
+						"animationSpeed": 2.0,
+					}
+				]
+			}
+
+		],
+		"spawnconditions": {
+			"runtime": {
+				"group": "neutral",
+				"tryOnlySurface": true,
+				"maxQuantity": 1,
+				"spawnCapPlayerScaling": 0.0,
+				"maxQuantityByGroup": {
+					"code": "tyrannosauridae-*",
+					"maxQuantity": 1
+				},
+				"chanceByType": {
+					"*": 0.0
+				}
+			}
+		}
+	}
+}

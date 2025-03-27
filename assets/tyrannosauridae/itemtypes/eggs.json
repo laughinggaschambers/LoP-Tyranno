@@ -1,0 +1,77 @@
+{
+	"code": "creature",
+	"class": "ItemCreature",
+	"maxstacksize": 32,
+	"variantgroups": [
+		{"code": "family","states": ["tyrannosauridae",]},
+		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus"]},
+		{ "code": "age", "states": ["egg"] },
+		{ "code": "state", "states": ["raw"] }
+	],
+
+	"shapeByType": {
+		"*": {"base": "entity/land/egg"},
+	},
+	"texturesByType": {
+		"*": {"egg":{ "base": "entity/egg"}},
+	},
+	
+	
+	
+	"creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
+	"attributes": {
+		"foodTags": "egg",
+		"nutritionPropsWhenInMealByType": {
+		"*": {"satiety": 100,"foodcategory": "Protein"},
+    },
+	"nutritionPropsByType": {
+		"*-boiled": {"satiety": 90,"foodcategory": "Protein"},
+	}},
+	"materialDensity": 200,
+	"guiTransformByType": {
+		"*": {
+			"rotate": true,
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
+			"scale": 4
+		}},	
+
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": -0.6, "z": -0.5},
+			"rotation": { "x": -180, "y": 0, "z": -100 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 1
+		},
+	},
+
+	"groundTransformByType":{
+		"*":{
+			"translation": {"x": 0,"y": 0,"z": 0},
+			"rotation": {"x": -90,"y": 0,"z": 0},
+			"origin": {"x": 0.5,"y": 0.1,"z": 0.4},
+			"scale": 5
+		},
+	},
+
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 720 },
+		"transitionHours": { "avg": 24 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.5
+	}],
+
+
+}
+	
+
+	
+	
+	
+	
+
+
+
+

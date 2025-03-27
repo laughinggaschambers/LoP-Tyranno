@@ -1,0 +1,309 @@
+[
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-tyrannosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-tyrannosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*", 
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-tyrannosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-tyrannosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+
+
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-tarbosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-tarbosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-tarbosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-tarbosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+
+
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-nanuqsaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-nanuqsaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-nanuqsaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-nanuqsaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+
+
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-albertosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-albertosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-albertosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-albertosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+
+
+
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-gorgosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-gorgosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-gorgosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-gorgosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+
+
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-alioramus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-alioramus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-alioramus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-alioramus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+
+
+
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-qianzhousaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-qianzhousaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "tyrannosauridae:creature-tyrannosauridae-qianzhousaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-qianzhousaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+]

@@ -1,0 +1,99 @@
+{
+	code: "tyrannowearable",
+	variantgroups: [
+		{ code: "type", states: [
+			"bridle1","bridle2", "saddle"
+		] }
+	],
+	allowedVariants: [
+		"tyrannowearable-bridle1",
+		"tyrannowearable-bridle2",
+		"tyrannowearable-saddle"
+	],
+	attributes: {
+		attachableToEntity: {
+			categoryCodeByType: {
+				"tyrannowearable-bridle*": "tyrannobridle",
+				"tyrannowearable-saddle*": "tyrannosaddle"
+			},
+			attachedShapeBySlotCodeByType: {
+				"*-saddle": {"*": { base: "item/wearable/saddle"}},
+				"*-bridle*": { 
+					"*": { base: "item/wearable/bridle1" }
+				}
+			}
+		},
+		controlSchemeByType: {
+			"*-bridle1": "Hold",
+			"*-bridle2": "Press"
+		},
+		isSaddleByType: {
+			"tyrannowearable-saddle": true
+		},
+		isBridleByType: {
+			"tyrannowearable-bridle*": true
+		},
+		interactPassthroughByType: {
+			"*-saddle": true
+		}
+	},
+	shapeByType: {
+		"*-bridle2": { base: "item/wearable/bridle1" },
+		"*-bridle1": { base: "item/wearable/bridle1" },
+		"*-saddle": { base: "item/wearable/saddle" }
+	},
+	texturesByType: {
+		"*": {
+			"plain": { base: "game:block/leather/chromium" },
+			"poor": { base: "game:block/leather/plain" },
+			"black": { base: "game:block/leather/black" },
+			"steel": { base: "game:block/metal/plate/steel"},
+			"brass": { base: "game:block/metal/plate/brass"},
+		}
+	},
+	heldTpIdleAnimationByType: {
+		"*": "holdbothhands",
+		"tyrannowearable-saddlebags*": "holdbothhands"
+	},
+	maxStackSize: 1,
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	renderAlphaTest: 0.25,
+	guiTransformByType: {
+		"*-saddle": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -35, y: -46, z: -180 },
+			origin: { x: 0.5, y: 0.2, z: 0.6 },
+			scale: 1
+		},
+		"tyrannowearable-bridle*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -45, y: -70, z: -180 },
+			origin: { x: 0.5, y: -0, z: 0.5 },
+			scale: 1
+		}
+	},
+	groundTransformByType: {
+		"*-saddle": {
+			translation: { x: 0, y: 0.51, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			scale: 5
+		},
+		"tyrannowearable-bridle*": {
+			translation: { x: 0, y: 0.5, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			scale: 5
+		}
+	},
+	tpHandTransformByType: {
+		"*-saddle": {
+			translation: { x: -1, y: -1.50, z: -0.6 },
+			rotation: { x: -43, y: -17, z: -107 },
+			scale: 0.8
+		},
+		"tyrannowearable-bridle*": {
+			translation: { x: -1, y: -1.50, z: -0.6 },
+			rotation: { x: -43, y: -17, z: -107 },
+			scale: 0.8
+		}
+	}
+}

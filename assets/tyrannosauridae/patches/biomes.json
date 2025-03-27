@@ -1,0 +1,91 @@
+[
+ {
+    "file": "tyrannosauridae:entities/land/tyrannosauridae.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "side": "Server",
+    "value": {
+      "*-tyrannosaurus-*": {
+        "biorealm": [
+          "atlantic nearctic",
+          "pacific nearctic"
+        ]
+      },
+      "*-tarbosaurus-*": {
+        "biorealm": [
+          "eastern paleartic",
+        ]
+      },
+      "*-nanuqsaurus-*": {
+        "biorealm": [
+          "pacific nearctic",
+        ]
+      },
+      "*-albertosaurus-*": {
+        "biorealm": [
+          "atlantic nearctic",
+          "pacific nearctic"
+        ]
+      },
+      "*-gorgosaurus-*": {
+        "biorealm": [
+          "atlantic nearctic",
+          "pacific nearctic"
+        ]
+      },
+      "*-alioramus-*": {
+        "biorealm": [
+          "eastern paleartic",
+        ]
+      },
+      "*-qianzhousaurus-*": {
+        "biorealm": [
+          "eastern paleartic",
+        ]
+      },
+    },
+    "dependsOn": [
+      {
+        "modid": "biomes"
+      }
+    ]
+  },
+  {
+    "file": "tyrannosauridae:entities/land/egg.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "side": "Server",
+    "value": {
+      "*": {
+        "biorealm": [
+          "atlantic nearctic",
+          "pacific nearctic"
+        ]
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "biomes"
+      }
+    ]
+  },
+  {
+    "file": "tyrannosauridae:entities/land/nest.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "side": "Server",
+    "value": {
+      "*": {
+        "biorealm": [
+          "atlantic nearctic",
+          "pacific nearctic"
+        ]
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "biomes"
+      }
+    ]
+  },
+]
