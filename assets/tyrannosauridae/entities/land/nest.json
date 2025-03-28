@@ -189,7 +189,7 @@
 				"tryOnlySurface": true,
 				"maxQuantityByGroup": {"code": "*",	"maxQuantity": 1},
 				"chanceByType": {"*-incubating": 0.00001,"*": 0.0},
-				"TriesPerChunk": { "avg": 0.001, "var": 0 },
+				"TriesPerChunk": { "avg": 0.0, "var": 0 },
 				"mindistancetoplayer": 50,
 				"maxLightLevel": 7,
 				"lightLevelType": "onlyBlockLight",
