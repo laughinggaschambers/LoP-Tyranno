@@ -45,6 +45,13 @@
   "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
 	"materialDensity": 600,
 	"guiTransformByType": {
+		"*-baby-*": {
+			"rotate": true,
+			"translation": { "x": -20, "y": -15, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.7
+		},
 		"creature-tyrannosauridae-*": {
 			"rotate": true,
 			"translation": { "x": -16, "y": 0, "z": -5 },
@@ -52,26 +59,19 @@
 			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
 			"scale": 0.3
 		},
-		"tyrannosauridae:creature-tyrannosauridae-{type}-baby-*": {
-			"rotate": true,
-			"translation": { "x": -16, "y": 0, "z": -5 },
-			"rotation": { "x": -11, "y": -52, "z": -180 },
-			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
-			"scale": 0.5
-		}
 	},
 
 	"tpHandTransformByType": {
-		"tyrannosauridae:creature-tyrannosauridae-{type}-adult-*": {
-			"translation": { "x": -2, "y": -4, "z": -2 },
-			"rotation": { "x": -180, "y": 0, "z": -156 },
-			"scale": 0.15
-		},
-		"tyrannosauridae:creature-tyrannosauridae-{type}-baby-*": {
-			"translation": { "x": -0.5, "y": -0.5, "z": -0.5 },
-			"rotation": { "x": -180, "y": 0, "z": -100 },
+		"*-baby-*": {
+			"translation": { "x": -0.51, "y": -0.2, "z": -0.7 },
+			"rotation": { "x": 53, "y": -165, "z": 77 },
 			"origin": { "x": 0, "y": 0, "z": 0 },
 			"scale": 0.25
+		},
+		"creature-tyrannosauridae-*": {
+			"translation": { "x": -2.5, "y": -4.6, "z": -2.4 },
+			"rotation": { "x": 2, "y": -180, "z": 23 },
+			"scale": 0.15
 		},
 	},
 
@@ -82,3 +82,4 @@
 		}
 	}
 }
+

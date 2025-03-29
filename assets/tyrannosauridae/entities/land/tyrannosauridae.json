@@ -447,7 +447,7 @@
 				"spawnEntityCodesByType": {
 					"*": [ { "code":"tyrannosauridae:tyrannosauridae-{type}-egg-raw"}]},
 				"requiresNearbyEntityCodeByType": {
-					"*-adult-female": "tyrannosauridae:tyrannosauridae-{type}-adult-male"},
+					"*": "tyrannosauridae:tyrannosauridae-{type}-adult-male"},
 				"requiresNearbyEntityRange": 20,
 				"spawnQuantityMin": 6,
 				"spawnQuantityMaxByType": {"*": 12},
