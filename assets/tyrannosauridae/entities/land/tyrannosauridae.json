@@ -953,26 +953,26 @@
     "spawnconditionsByType": {
 			"*-tyrannosaurus-adult-*": {
 				"climate": {
-					"minTemp": 18,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
+					"minTemp": 10,
+					"maxTemp": 35,
+					"minRain": 0.4,
+					"maxRain": 0.9,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.8,
+					"maxShrubs": 0.7,
 					"minY": 0.9,
-					"maxY": 1.7
+					"maxY": 1.6
 				},
 			},
 			"*-tarbosaurus-adult-*": {
 				"climate": {
-					"minTemp": 20,
+					"minTemp": 15,
 					"maxTemp": 40,
-					"minRain": 0,
-					"maxRain": 0.6,
-					"minForestOrShrubs": 0,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
+					"minRain": 0.2,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 0.6,
+					"maxShrubs": 0.8,
 					"minY": 0.9,
 					"maxY": 1.7
 				},
@@ -980,65 +980,65 @@
 			"*-nanuqsaurus-adult-*": {
 				"climate": {
 					"minTemp": -10,
-					"maxTemp": 15,
-					"minRain": 0,
+					"maxTemp": 20,
+					"minRain": 0.5,
 					"maxRain": 1,
-					"minForestOrShrubs": 0,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.2,
-					"maxY": 1.8
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.9,
+					"maxShrubs": 0.6,
+					"minY": 1.0,
+					"maxY": 1.7
 				},
 			},
 			"*-albertosaurus-adult-*": {
 				"climate": {
 					"minTemp": 5,
-					"maxTemp": 28,
-					"minRain": 0.4,
-					"maxRain": 1,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.2,
-					"maxY": 1.7
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.8,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.6
 				},
 			},
 			"*-gorgosaurus-adult-*": {
 				"climate": {
-					"minTemp": 10,
-					"maxTemp": 27,
-					"minRain": 0.5,
-					"maxRain": 1,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
-					"maxY": 1.7
-				},
-			},
-			"*-alioramus-adult-*": {
-				"climate": {
-					"minTemp": 22,
-					"maxTemp": 34,
+					"minTemp": 5,
+					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
-					"maxY": 1.4
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.8,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.6
 				},
 			},
 			"*-alioramus-adult-*": {
 				"climate": {
-					"minTemp": 20,
-					"maxTemp": 35,
-					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.6,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
+					"minTemp": 15,
+					"maxTemp": 38,
+					"minRain": 0.2,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 0.5,
+					"maxShrubs": 0.8,
+					"minY": 0.9,
+					"maxY": 1.5
+				},
+			},
+			"*-qianzhousaurus-adult-*": {
+				"climate": {
+					"minTemp": 15,
+					"maxTemp": 38,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.7,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
 			},
