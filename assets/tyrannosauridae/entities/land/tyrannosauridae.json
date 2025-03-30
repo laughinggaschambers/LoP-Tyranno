@@ -937,6 +937,7 @@
 			"maxQuantity": 1,
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
+			"spawnCapPlayerScaling": 0.0,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 1,"var": 1},
