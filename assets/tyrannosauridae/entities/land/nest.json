@@ -104,7 +104,7 @@
 					"*-empty": false,
 					"*": true
 				},
-				"hoursToGrowByType": {"*-incubating": 160,"*-mature": 3},
+				"hoursToGrowByType": {"*-incubating": 160,"*-mature": 2},
 				"adultEntityCodesByType": {
 					"*-incubating": ["tyrannosauridae:tyrannosauridae-{type}-nest-mature"],
 					"*-mature": ["tyrannosauridae:tyrannosauridae-{type}-nest-empty"]
@@ -123,7 +123,7 @@
 							"tyrannosauridae:tyrannosauridae-{type}-baby-female",
 							"tyrannosauridae:tyrannosauridae-{type}-baby-male"
 						],
-						"spawnMaxQuantity": 30,
+						"spawnMaxQuantity": 5,
 						"spawnIntervalMsMin": 1000,
 						"spawnIntervalMsMax": 4000,
 						"spawnRange": 0.5,
@@ -193,6 +193,7 @@
 				"mindistancetoplayer": 50,
 				"maxLightLevel": 7,
 				"lightLevelType": "onlyBlockLight",
+				"spawnCapPlayerScaling": 0.0,
 				"groupSizeByType": {
 					"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
 				},
