@@ -17,7 +17,7 @@
 			"*-qianzhousaurus-adult-male": {"x": 3,"y": 2.75},"*-qianzhousaurus-adult-female": {"x": 3,"y": 2.75},"*-qianzhousaurus-baby-*": {"x": 0.7,"y": 0.5},
 		},
 
-    "deadhitBoxSizeByType": {"*-adult-*":{	"x": 5,"y": 3},"*-baby-*":{	"x": 1,"y": 1}},
+    "deadhitBoxSizeByType": {"*-adult-*":{	"x": 2,"y": 2},"*-baby-*":{	"x": 1,"y": 1}},
     "eyeHeightByType": {"*":3},
     "weightByType": {"*-adult-*":4000,"*-baby-*":10},
     "knockbackResistanceByType": {"*-adult-*": 3,"*-baby-*": 1	},
