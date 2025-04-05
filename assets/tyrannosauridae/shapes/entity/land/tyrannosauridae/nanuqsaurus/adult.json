@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth5,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth4,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth,Root/Cube20,Root/Center/Body/Torso2/Torso3/Torso4,Root/Center/Body/Torso2/Torso3/Torso5,Root/Center/Body/Torso/Neck/Head/Low Jar,Root/Center/Body/Torso2/Neck2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth7,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth6,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth9,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth8,Root/Center/Body/Torso2/FatT2,Root/Body/Tail Main,Root/Center/Body/ArmR,Root/Center/Body/Torso/Neck/Head/Top Jar/Snout,Root/Center/Body/Cube2,Root/Center/Body/ArmL,Root/Low Jar,Root/Cube36,Root/Body/Torso/Neck/Head/Top Jar,Root/Cube34,Root/Cube31,Root/Body/Cube2,Root/Body,Root/Body/Torso/Neck,Root/Torso,Root/Center/Body/Torso/ArmR,Root/Center/Body/Tail Main/FatMT,Root/Cube39,Root/Cube11/Cube12,Root/Torso/Neck,Root/Center/Body/LegR/ThighR/ChinR,Root/Cube15/Cube16,Root/Top Jar/Cube20,Root/Center/Body/Torso/ArmL,Root/Tail Main/Tail/Cube44,Root/Center/Body/Torso2/Torso3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth17,Root/Cube48,Root/Center/Body/Tail Main/Cube34,Root/Cube44,Root/Center/Body/LegL/ThighL,Root/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Center/Body/Torso2,Root/Torso/Cube8,Root/Center/Body/LegR/ThighR,Root/Center/Body/LegL/ThighL/ChinL/FeetL/Cube68,Root/Tail Main,Root/Body/Torso,Root/Cube15,Root/Cube18/Cube20,Root/Cube16,Root/Head,Root/Center/Body/Tail Main/Tail,Root/Cube11,Root/Cube12,Root/Cube53,Root/Cube18,Root/Center/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Cube5,Root/Top Jar,Root/Center/Body/Cube11,Root/Cube31/Cube34",
+		"collapsedPaths": ",Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth5,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth4,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth,Root/Cube20,Root/Center/Body/Torso2/Torso3/Torso4,Root/Center/Body/Torso2/Torso3/Torso5,Root/Center/Body/Torso/Neck/Head/Low Jar,Root/Center/Body/Torso2/Neck2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth7,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth6,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth9,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth8,Root/Center/Body/Torso2/FatT2,Root/Body/Tail Main,Root/Center/Body/ArmR,Root/Center/Body/Torso/Neck/Head/Top Jar/Snout,Root/Center/Body/Cube2,Root/Center/Body/ArmL,Root/Low Jar,Root/Cube36,Root/Body/Torso/Neck/Head/Top Jar,Root/Cube34,Root/Cube31,Root/Body/Cube2,Root/Body,Root/Body/Torso/Neck,Root/Torso,Root/Center/Body/Tail Main/FatMT,Root/Cube39,Root/Cube11/Cube12,Root/Torso/Neck,Root/Center/Body/LegR/ThighR/ChinR,Root/Cube15/Cube16,Root/Top Jar/Cube20,Root/Tail Main/Tail/Cube44,Root/Center/Body/Torso2/Torso3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth17,Root/Cube48,Root/Center/Body/Tail Main/Cube34,Root/Cube44,Root/Center/Body/LegL/ThighL,Root/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Center/Body/Torso2,Root/Torso/Cube8,Root/Center/Body/LegR/ThighR,Root/Center/Body/LegL/ThighL/ChinL/FeetL/Cube68,Root/Tail Main,Root/Body/Torso,Root/Cube15,Root/Cube18/Cube20,Root/Cube16,Root/Head,Root/Center/Body/Tail Main/Tail,Root/Cube11,Root/Cube12,Root/Cube53,Root/Cube18,Root/Center/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Cube5,Root/Top Jar,Root/Center/Body/Cube11,Root/Cube31/Cube34",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -2321,7 +2321,7 @@
 									},
 									"children": [
 										{
-											"name": "Torso3",
+											"name": "WristR",
 											"from": [ 0.56, -5.6, 0.0 ],
 											"to": [ 2.8, 1.12, 2.24 ],
 											"unwrapMode": 4,
@@ -2431,7 +2431,7 @@
 									},
 									"children": [
 										{
-											"name": "Torso8",
+											"name": "WristL",
 											"from": [ 0.56, -5.6, 0.0 ],
 											"to": [ 2.8, 1.12, 2.24 ],
 											"unwrapMode": 4,
@@ -4160,10 +4160,10 @@
 						"Tail Main": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
 						"Tail 2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
 						"Torso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Torso3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
+						"WristR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
 						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Torso8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 }
+						"WristL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 }
 					}
 				},
 				{
@@ -4189,9 +4189,9 @@
 						"Tail tip": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"Torso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -42.0 },
-						"Torso8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
+						"WristL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
 						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
-						"Torso3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 }
+						"WristR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 }
 					}
 				},
 				{
@@ -4216,10 +4216,10 @@
 						"Tail 4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail tip": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Torso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Torso8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"WristL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Torso3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+						"WristR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
 					}
 				},
 				{
@@ -4266,9 +4266,9 @@
 						"Tail Main": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
 						"Torso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -39.0 },
-						"Torso8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
+						"WristL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
 						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -47.0 },
-						"Torso3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 44.0 }
+						"WristR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 44.0 }
 					}
 				}
 			]
@@ -4313,9 +4313,9 @@
 						"Neck": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 },
 						"Head": { "rotationX": 0.0, "rotationY": -6.0, "rotationZ": 0.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
-						"Torso8": { "rotationX": 0.0, "rotationY": -42.0, "rotationZ": 0.0 },
+						"WristL": { "rotationX": 0.0, "rotationY": -42.0, "rotationZ": 0.0 },
 						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
-						"Torso3": { "rotationX": 0.0, "rotationY": 61.0, "rotationZ": 0.0 },
+						"WristR": { "rotationX": 0.0, "rotationY": 61.0, "rotationZ": 0.0 },
 						"Tail Main": { "rotationX": 0.0, "rotationY": 22.0, "rotationZ": -8.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": 17.0, "rotationZ": 0.0 },
 						"Tail 1": { "rotationX": 0.0, "rotationY": 11.0, "rotationZ": 0.0 },
@@ -4345,9 +4345,9 @@
 						"LegL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
 						"FootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 53.0 },
-						"Torso8": { "rotationX": 0.0, "rotationY": -36.0, "rotationZ": 17.0 },
+						"WristL": { "rotationX": 0.0, "rotationY": -36.0, "rotationZ": 17.0 },
 						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
-						"Torso3": { "rotationX": -25.0, "rotationY": 11.0, "rotationZ": 39.0 },
+						"WristR": { "rotationX": -25.0, "rotationY": 11.0, "rotationZ": 39.0 },
 						"ThighL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
 						"ChinR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 44.0 },
 						"Torso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
@@ -4552,8 +4552,8 @@
 						"LegR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Torso3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Torso8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"WristR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"WristL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail Main": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
 					}
@@ -4567,8 +4567,8 @@
 						"Torso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 },
 						"Neck": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
-						"Torso8": { "rotationX": 47.0, "rotationY": 0.0, "rotationZ": 33.0 },
-						"Torso3": { "rotationX": -50.0, "rotationY": 0.0, "rotationZ": 69.0 },
+						"WristL": { "rotationX": 47.0, "rotationY": 0.0, "rotationZ": 33.0 },
+						"WristR": { "rotationX": -50.0, "rotationY": 0.0, "rotationZ": 69.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -28.0 },
 						"Tail Main": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -11.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 }
@@ -4724,9 +4724,9 @@
 						"FootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
 						"Tail Main": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -11.0 },
 						"ArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 58.0 },
-						"Torso8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"WristL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
 						"ArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 50.0 },
-						"Torso3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"WristR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
 						"Tail 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail 2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail 3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
