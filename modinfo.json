@@ -2,10 +2,8 @@
   "type": "content",
   "modid": "tyrannosauridae",
   "name": "Legacy of the Phanerozoic: Tyrant King",
-  "author": "laughinggas",
+  "authors": [ "laughinggas" ],
   "description": "Adds severals tyrannosaurids to Vintage Story",
-  "version": "1.2.12",
-  "dependency": {
-    "game": "1.5.4"
-  }
+  "version": "1.2.13",
+  "side": "Universal"
 }

@@ -9,10 +9,10 @@
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
         "Torso": ["Neck", "Torso", "Body", "Tail Main", "Tail", "Tail 1", "Tail 2","Tail 3",],
-        "Head": ["Head", "Top Jar", "Low Jar"],
+        "Head": ["Head", "Top Jar", "Low Jar","Cheek", "Jaw Line", "Dome","Snout", "Lowerlip","Nose"],
         "Arm": ["ArmR","ArmL","WristL","WristR"],
-        "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR"],
-        "Critical": ["FatN"],
+        "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR", "Cube5","Cube57"],
+        "Critical": ["EyeL", "EyeR"],
         "Resistant": []
       }
     }
@@ -27,10 +27,10 @@
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
         "Torso": ["Neck", "Torso", "Body", "Tail Main", "Tail", "Tail 1", "Tail 2","Tail 3",],
-        "Head": ["Head", "Top Jar", "Low Jar"],
+        "Head": ["Head", "Top Jar", "Low Jar","Cheek", "Jaw Line", "Dome","Snout", "Lowerlip","Nose"],
         "Arm": ["ArmR","ArmL","WristL","WristR"],
-        "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR"],
-        "Critical": ["FatN"],
+        "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR", "Cube5","Cube57"],
+        "Critical": ["EyeL", "EyeR"],
         "Resistant": []
       }
     }
@@ -46,8 +46,8 @@
       "damageModel": {
         "TorsoDamageMultiplier": 1,
         "LimbsDamageMultiplier": 0.75,
-        "HeadDamageMultiplier": 1.5,
-        "CriticalDamageMultiplier": 2,
+        "HeadDamageMultiplier": 2.5,
+        "CriticalDamageMultiplier": 25,
         "DefaultResists": {"BluntAttack": 8, "SlashingAttack": 6, "PiercingAttack": 0}
       }
     }
@@ -63,8 +63,8 @@
       "damageModel": {
         "TorsoDamageMultiplier": 1,
         "LimbsDamageMultiplier": 0.75,
-        "HeadDamageMultiplier": 1.5,
-        "CriticalDamageMultiplier": 2,
+        "HeadDamageMultiplier": 2.5,
+        "CriticalDamageMultiplier": 25,
         "DefaultResists": {"BluntAttack": 8, "SlashingAttack": 6, "PiercingAttack": 0}
       }
     }
