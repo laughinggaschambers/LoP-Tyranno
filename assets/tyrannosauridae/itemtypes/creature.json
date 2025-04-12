@@ -40,7 +40,6 @@
 	  "*-gorgosaurus-adult-*":{"base": "entity/gorgosaurus-adult"},"*-gorgosaurus-baby-*":{"base": "entity/gorgosaurus-adult"},
 	  "*-alioramus-adult-*":{"base": "entity/alioramus-adult"},"*-alioramus-baby-*":{"base": "entity/alioramus-baby"},
 	  "*-qianzhousaurus-adult-*":{"base": "entity/qianzhousaurus-adult"},"*-qianzhousaurus-baby-*":{"base": "entity/qianzhousaurus-adult"},
-	  "*-nest-*":{"base": "entity/land/nest"}, "*-nest-empty":{"base": "entity/land/nest-empty"},
   },
   "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
 	"materialDensity": 600,

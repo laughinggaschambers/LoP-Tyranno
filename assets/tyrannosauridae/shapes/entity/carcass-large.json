@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"allAngles": true,
-		"singleTexture": false
+		"singleTexture": true
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
