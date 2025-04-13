@@ -381,7 +381,7 @@
 				"drops": [
 					{
 						"type": "item",
-						"code": "game:redmeat-raw",
+						"code": "game:bushmeat-raw",
 						"quantityByType": {
 							"*-tyrannosaurus-adult-*": {"avg": 200,"var": 10}, "*-tyrannosaurus-baby-*": {"avg": 5,"var": 1},
 							"*-tarbosaurus-adult-*": {"avg": 180,"var": 10}, "*-tarbosaurus-baby-*": {"avg": 4,"var": 1},

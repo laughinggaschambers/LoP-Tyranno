@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "/home/tiger/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Mods/LoP-Tyranno-1.2.0/assets/tyrannosauridae/shapes/entity/land/tyrannosauridae/tyrannosaurus/adult",
+		"backDropShape": "entity/land/tyrannosauridae/tyrannosaurus/adult",
 		"collapsedPaths": "Root/Leather square center,Root/Center,Root/Main Saddle bottom,Root/Mainstrap  bulge  L,Root/Leather square center2,Root,Root/Strap Main/Main strap top L,Root/Strap Main/Main strap top R,Root/Strap Main2,Root/Strap Main2/Main strap top L2,Root/Strap Main,Root/Leather square center/Leather square center L,Root/Ring L,Root/Ring R,Root/Main strap bottom L2,Root/Main strap top R,Root/Leather square center/Leather square center L9,Root/Main strap bottom L,Root/Main strap top L,Root/Leather square center2/Leather square center L3,Root/Main Saddle bottom/Saddle Back In",
 		"allAngles": true,
 		"entityTextureMode": false
