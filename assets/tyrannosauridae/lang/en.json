@@ -1,14 +1,13 @@
 {
   "game:creaturegroup-tyrannosauridae": "Tyrannosauridae",
+
   "item-tyrannowearable-saddle": "Saddle made for tyrnannosaurids",
-  "item-tyrannowearable-bridle1": "Bridle made of tyrnannosaurids",
+  "item-tyrannowearable-bridle1": "Bridle made for tyrnannosaurids",
   "itemdesc-tyrannowearable-bridle1": "Useful for precise, short distance travel",
-  "item-tyrannowearable-bridle2": "Bridle made of tyrnannosaurids",
+  "item-tyrannowearable-bridle2": "Bridle made for tyrnannosaurids",
   "itemdesc-tyrannowearable-bridle2": "Useful for long distance travel",
   "item-handbooktitle-tyrannowearable-bridle2": "How to Use",
   "item-handbooktext-tyrannowearable-bridle2": "When your mount is wearing a curb bit, you need only press forward once, rather than hold it down, to move.",
-  "creature-tyrannosauridae-*-selectionbox-HeadAP": "Bridle slot",
-  "creature-tyrannosauridae-*-selectionbox-MidAP": "Saddle",
 
   "item-creature-tyrannosauridae-tyrannosaurus-adult-male": "Tyrannosaurus (Male)",
   "item-creature-tyrannosauridae-tyrannosaurus-adult-female": "Tyrannosaurus (Female)",

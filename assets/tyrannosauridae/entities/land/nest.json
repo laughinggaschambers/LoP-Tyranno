@@ -182,7 +182,7 @@
                 "groupSizeByType": {
 					"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
 				},
-                "*":["tyrannosauridae:tyrannosauridae-{type}-adult-female"]},
+                "*":["tyrannosauridae:tyrannosauridae-{type}-adult-female","tyrannosauridae:tyrannosauridae-{type}-adult-male"]},
 
 			"runtime": {
 				"group": "neutral",
@@ -206,11 +206,11 @@
                     "game:soil-*"
                 ],
 				"companionsByType": {
-				"*":["tyrannosauridae:tyrannosauridae-{type}-adult-female"]}
+				"*":["tyrannosauridae:tyrannosauridae-{type}-adult-female","tyrannosauridae:tyrannosauridae-{type}-adult-male"]}
 			}
 		},
 		"spawnconditionsByType": {
-			"*-tyrannosaurus-adult-*": {
+			"*-tyrannosaurus-*": {
 				"climate": {
 					"minTemp": 18,
 					"maxTemp": 30,
@@ -222,8 +222,11 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-tarbosaurus-adult-*": {
+			"*-tarbosaurus-*": {
 				"climate": {
 					"minTemp": 20,
 					"maxTemp": 40,
@@ -235,8 +238,11 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-nanuqsaurus-adult-*": {
+			"*-nanuqsaurus-*": {
 				"climate": {
 					"minTemp": -10,
 					"maxTemp": 15,
@@ -248,8 +254,11 @@
 					"minY": 1.2,
 					"maxY": 1.8
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-albertosaurus-adult-*": {
+			"*-albertosaurus-*": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 28,
@@ -261,8 +270,11 @@
 					"minY": 1.2,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-gorgosaurus-adult-*": {
+			"*-gorgosaurus-*": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 27,
@@ -274,8 +286,11 @@
 					"minY": 1.1,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-alioramus-adult-*": {
+			"*-alioramus-*": {
 				"climate": {
 					"minTemp": 22,
 					"maxTemp": 34,
@@ -287,8 +302,11 @@
 					"minY": 1.1,
 					"maxY": 1.4
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-alioramus-adult-*": {
+			"*-alioramus-*": {
 				"climate": {
 					"minTemp": 20,
 					"maxTemp": 35,
@@ -300,6 +318,9 @@
 					"minY": 1.1,
 					"maxY": 1.5
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
 			},
 		}
 	}
