@@ -6,7 +6,16 @@
         {"code": "age","states": [ "adult","baby"]},
         {"code": "gender","states": ["male","female"]},
     ],
-    "fallDamageMultiplierByType": { "*-baby-*" :1,"*-adult-*" :10},
+    "fallDamageMultiplierByType": {
+		"*-baby-*" :1,
+		"*-tyrannosaurus-adult-*": 10,
+		"*-tarbosaurus-adult-*": 8,
+		"*-nanuqsaurus-adult-*": 7,
+		"*-albertosaurus-adult-*": 7,
+		"*-gorgosaurus-adult-*": 7,
+		"*-alioramus-adult-*": 5,
+		"*-qianzhousaurus-adult-*": 7,
+		},
     "hitBoxSizeByType": {
 			"*-tyrannosaurus-adult-male": {"x": 3,"y": 4},"*-tyrannosaurus-adult-female": {"x": 3,"y": 4},"*-tyrannosaurus-baby-*": {"x": 0.7,"y": 0.7},
 			"*-tarbosaurus-adult-male": {"x": 3,"y": 3.9},"*-tarbosaurus-adult-female": {"x": 3,"y": 3.9},"*-tarbosaurus-baby-*": {"x": 0.7,"y": 0.6},
@@ -926,14 +935,12 @@
 		},
 		"runtime": {
 			"group": "hostile",
-			"TriesPerChunk": { "avg": 0, "var": 0 },
-			"MinDistanceToPlayer": 70,
+			"MinDistanceToPlayer": 100,
 			"tryOnlySurface": true,
 			"chanceByType": {
 				"*-adult-*": 0.00001,"*-baby-*": 0.00000,
 				"*":0.00,
 			},
-			"maxQuantity": 1,
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
@@ -963,6 +970,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0006, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
 				}
@@ -978,6 +988,9 @@
 					"maxShrubs": 0.8,
 					"minY": 0.9,
 					"maxY": 1.7
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0006, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
@@ -995,6 +1008,9 @@
 					"minY": 1.0,
 					"maxY": 1.7
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0006, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
 				}
@@ -1010,6 +1026,9 @@
 					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.6
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0006, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
@@ -1027,6 +1046,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0006, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
 				}
@@ -1043,6 +1065,9 @@
 					"minY": 0.9,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0006, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
 				}
@@ -1058,6 +1083,9 @@
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0006, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
