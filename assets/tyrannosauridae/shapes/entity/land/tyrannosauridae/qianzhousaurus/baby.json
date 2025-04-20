@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth,Root/Cube20,Root/Center/Body/Torso2/Torso3/Torso4,Root/Center/Body/Torso2/Torso3/Torso5,Root/Center/Body/Torso2/Neck2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth8,Root/Center/Body/Torso2/FatT2,Root/Body/Tail Main,Root/Center/Body/ArmR,Root/Center/Body/Torso/Neck/Head/Dome,Root/Center/Body/Cube2,Root/Center/Body/ArmL,Root/Low Jar,Root/Cube36,Root/Body/Torso/Neck/Head/Top Jar,Root/Cube34,Root/Cube31,Root/Body/Cube2,Root/Body,Root/Body/Torso/Neck,Root/Torso,Root/Cube39,Root/Cube11/Cube12,Root/Torso/Neck,Root/Cube15/Cube16,Root/Top Jar/Cube20,Root/Tail Main/Tail/Cube44,Root/Center/Body/Torso2/Torso3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth17,Root/Cube48,Root/Center/Body/Tail Main/Cube34,Root/Cube44,Root/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Center/Body/Torso2,Root/Center/Body/Torso/FatT,Root/Torso/Cube8,Root/Center/Body/Torso/Neck/FatN,Root/Center/Body/LegL/ThighL/ChinL/FeetL/Cube68,Root/Tail Main,Root/Body/Torso,Root/Cube15,Root/Cube18/Cube20,Root/Cube16,Root/Head,Root/Cube11,Root/Cube12,Root/Cube53,Root/Cube18,Root/Center/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Cube5,Root/Top Jar,Root/Center/Body/Cube11,Root/Cube31/Cube34",
+		"collapsedPaths": ",Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth,Root/Cube20,Root/Center/Body/Torso2/Torso3/Torso4,Root/Center/Body/Torso2/Torso3/Torso5,Root/Center/Body/Torso2/Neck2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth8,Root/Center/Body/Torso2/FatT2,Root/Body/Tail Main,Root/Center/Body/ArmR,Root/Center/Body/Torso/Neck/Head/Dome,Root/Center/Body/Cube2,Root/Center/Body/ArmL,Root/Low Jar,Root/Center/Torso,Root/Cube36,Root/Body/Torso/Neck/Head/Top Jar,Root/Cube34,Root/Cube31,Root/Body/Cube2,Root/Body,Root/Body/Torso/Neck,Root/Torso,Root/Cube39,Root/Center/LegR,Root/Cube11/Cube12,Root/Torso/Neck,Root/Center/LegL,Root/Cube15/Cube16,Root/Top Jar/Cube20,Root/Tail Main/Tail/Cube44,Root/Center/Body/Torso2/Torso3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth17,Root/Cube48,Root/Center/Body/Tail Main/Cube34,Root/Cube44,Root/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Center/Body/Torso2,Root/Center/Body/Torso/FatT,Root/Torso/Cube8,Root/Center/Body/Torso/Neck/FatN,Root/Center/Body/LegL/ThighL/ChinL/FeetL/Cube68,Root/Center/Tail Main,Root/Tail Main,Root/Body/Torso,Root/Cube15,Root/Cube18/Cube20,Root/Cube16,Root/Head,Root/Cube11,Root/Cube12,Root/Cube53,Root/Center/FatB,Root/Cube18,Root/Center/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Cube5,Root/Top Jar,Root/Center/Body/Cube11,Root/Center/Body/FatB,Root/Cube31/Cube34",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -14,10 +14,10 @@
 	"elements": [
 		{
 			"name": "Center",
-			"from": [ 6.64, 6.08, 7.2 ],
-			"to": [ 6.64, 6.08, 7.2 ],
+			"from": [ 6.6, 6.1, 7.2 ],
+			"to": [ 6.6, 6.1, 7.2 ],
 			"uv": [ 216.0, 6.0 ],
-			"rotationOrigin": [ 7.816, 6.0917, 8.0203 ],
+			"rotationOrigin": [ 7.8, 6.1, 8.0 ],
 			"faces": {
 				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 216.0, 8.0, 218.0, 10.0 ], "autoUv": false },
 				"east": { "texture": "#tyrannosaurus-baby", "uv": [ 218.0, 8.0, 220.0, 10.0 ], "autoUv": false },
@@ -29,11 +29,11 @@
 			"children": [
 				{
 					"name": "Body",
-					"from": [ 0.0, -2.305, -0.9878 ],
-					"to": [ 3.1282, 1.1525, 2.6342 ],
+					"from": [ 0.0, -2.3, -0.8 ],
+					"to": [ 3.1, 0.2, 2.5 ],
 					"autoUnwrap": false,
 					"uv": [ 250.0, 239.0 ],
-					"rotationOrigin": [ 0.0, -2.305, -0.9878 ],
+					"rotationOrigin": [ 2.0, -1.3, 1.2 ],
 					"faces": {
 						"north": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 128.0, 202.0, 157.0 ], "autoUv": false },
 						"east": { "texture": "#tyrannosaurus-baby", "uv": [ 24.0, 112.0, 54.0, 140.0 ], "autoUv": false },
@@ -44,128 +44,12 @@
 					},
 					"children": [
 						{
-							"name": "FatB",
-							"from": [ 0.0012, 2.4696, 0.3293 ],
-							"to": [ 3.1294, 3.7867, 3.2928 ],
-							"autoUnwrap": false,
-							"uv": [ 306.0, 112.0 ],
-							"rotationOrigin": [ 0.0, 2.4696, 0.3293 ],
-							"faces": {
-								"north": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 122.0, 202.0, 133.0 ], "autoUv": false },
-								"east": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 108.0, 50.0, 118.0 ], "autoUv": false },
-								"south": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 122.0, 202.0, 132.0 ], "autoUv": false },
-								"west": { "texture": "#tyrannosaurus-baby", "uv": [ 156.0, 62.0, 180.0, 72.0 ], "autoUv": false },
-								"up": { "texture": "#tyrannosaurus-baby", "uv": [ 174.0, 178.0, 200.0, 202.0 ], "autoUv": false },
-								"down": { "texture": "#tyrannosaurus-baby", "uv": [ 328.0, 0.0, 354.0, 24.0 ], "autoUv": false }
-							},
-							"children": [
-								{
-									"name": "Cube7",
-									"from": [ 0.0012, 0.0, 0.4939 ],
-									"to": [ 3.1294, 1.4818, 2.4696 ],
-									"autoUnwrap": false,
-									"uv": [ 274.0, 112.0 ],
-									"rotationOrigin": [ 0.0, 0.0, 0.4939 ],
-									"faces": {
-										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 116.0, 202.0, 128.0 ], "autoUv": false },
-										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 30.0, 102.0, 46.0, 114.0 ], "autoUv": false },
-										"south": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 116.0, 202.0, 128.0 ], "autoUv": false },
-										"west": { "texture": "#tyrannosaurus-baby", "uv": [ 160.0, 58.0, 176.0, 70.0 ], "autoUv": false },
-										"up": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 182.0, 202.0, 198.0 ], "autoUv": false },
-										"down": { "texture": "#tyrannosaurus-baby", "uv": [ 356.0, 0.0, 382.0, 16.0 ], "autoUv": false }
-									},
-									"children": [
-										{
-											"name": "Cube17",
-											"from": [ 0.0, 1.3524, 0.0 ],
-											"to": [ 1.176, 1.4112, 0.588 ],
-											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 0.0, 1.3524, 0.0 ],
-											"rotationZ": 14.0,
-											"faces": {
-												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
-												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
-												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
-												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
-												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
-												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
-											}
-										},
-										{
-											"name": "Cube19",
-											"from": [ 1.176, 1.3524, 0.588 ],
-											"to": [ 2.352, 1.4112, 1.176 ],
-											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 1.176, 1.3524, 0.588 ],
-											"rotationZ": 14.0,
-											"faces": {
-												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
-												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
-												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
-												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
-												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
-												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
-											}
-										},
-										{
-											"name": "Cube20",
-											"from": [ 2.352, 1.3524, 1.764 ],
-											"to": [ 3.528, 1.4112, 2.352 ],
-											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 2.352, 1.3524, 1.764 ],
-											"rotationZ": 14.0,
-											"faces": {
-												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
-												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
-												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
-												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
-												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
-												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
-											}
-										},
-										{
-											"name": "Cube21",
-											"from": [ 0.0, 1.3524, 1.176 ],
-											"to": [ 1.176, 1.4112, 1.764 ],
-											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 0.0, 1.3524, 1.176 ],
-											"rotationZ": 14.0,
-											"faces": {
-												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
-												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
-												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
-												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
-												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
-												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
-											}
-										},
-										{
-											"name": "Cube22",
-											"from": [ 2.352, 1.3524, 0.0 ],
-											"to": [ 3.528, 1.4112, 0.588 ],
-											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 2.352, 1.3524, 0.0 ],
-											"rotationZ": 14.0,
-											"faces": {
-												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
-												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
-												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
-												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
-												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
-												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
-											}
-										}
-									]
-								}
-							]
-						},
-						{
 							"name": "Torso",
-							"from": [ -2.305, 0.4939, 0.3293 ],
-							"to": [ 1.0584, 3.2928, 3.1752 ],
+							"from": [ -2.3, 0.3, 0.1 ],
+							"to": [ 1.1, 3.1, 2.9 ],
 							"autoUnwrap": false,
 							"uv": [ 136.0, 44.0 ],
-							"rotationOrigin": [ 0.047, 1.7875, 1.8581 ],
+							"rotationOrigin": [ 0.0, 1.6, 1.7 ],
 							"faces": {
 								"north": { "texture": "#tyrannosaurus-baby", "uv": [ 158.0, 130.0, 186.0, 153.0 ], "autoUv": false },
 								"east": { "texture": "#tyrannosaurus-baby", "uv": [ 208.0, 14.0, 232.0, 37.0 ], "autoUv": false },
@@ -177,11 +61,11 @@
 							"children": [
 								{
 									"name": "FatT",
-									"from": [ 0.0, 1.9757, 0.8232 ],
-									"to": [ 3.3634, 3.2928, 2.1403 ],
+									"from": [ 0.0, 2.0, 0.8 ],
+									"to": [ 3.4, 3.3, 2.1 ],
 									"autoUnwrap": false,
 									"uv": [ 284.0, 122.0 ],
-									"rotationOrigin": [ 0.0, 1.9757, 0.8232 ],
+									"rotationOrigin": [ 0.0, 2.0, 0.8 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 158.0, 122.0, 186.0, 133.0 ], "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 318.0, 10.0, 329.0, 21.0 ], "autoUv": false },
@@ -193,11 +77,11 @@
 									"children": [
 										{
 											"name": "FatT1",
-											"from": [ 0.0012, -0.1646, -0.4939 ],
-											"to": [ 3.3646, 1.1525, 1.811 ],
+											"from": [ 0.0, -0.2, -0.5 ],
+											"to": [ 3.4, 1.1, 1.8 ],
 											"autoUnwrap": false,
 											"uv": [ 298.0, 122.0 ],
-											"rotationOrigin": [ 0.0, -0.1646, -0.4939 ],
+											"rotationOrigin": [ 0.0, -0.2, -0.5 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 158.0, 126.0, 186.0, 137.0 ], "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 144.0, 12.0, 162.0, 22.0 ], "autoUv": false },
@@ -209,11 +93,11 @@
 										},
 										{
 											"name": "FatT2",
-											"from": [ 0.1646, -2.305, -0.4939 ],
-											"to": [ 3.481, -1.811, 1.811 ],
+											"from": [ 0.2, -2.3, -0.5 ],
+											"to": [ 3.5, -1.8, 1.8 ],
 											"autoUnwrap": false,
 											"uv": [ 290.0, 206.0 ],
-											"rotationOrigin": [ 0.1646, -2.305, -0.4939 ],
+											"rotationOrigin": [ 0.2, -2.3, -0.5 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 160.0, 152.0, 188.0, 156.0 ], "rotation": 180, "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 300.0, 10.0, 318.0, 14.0 ], "autoUv": false },
@@ -225,10 +109,10 @@
 										},
 										{
 											"name": "Cube26",
-											"from": [ 1.129, 1.176, 0.2587 ],
-											"to": [ 2.305, 1.2348, 0.8467 ],
+											"from": [ 1.1, 1.2, 0.3 ],
+											"to": [ 2.3, 1.3, 0.9 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 1.1314, 1.176, 0.2587 ],
+											"rotationOrigin": [ 1.1, 1.2, 0.3 ],
 											"rotationZ": 14.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -241,10 +125,10 @@
 										},
 										{
 											"name": "Cube27",
-											"from": [ 1.129, 0.9996, 1.1995 ],
-											"to": [ 2.305, 1.0584, 1.7875 ],
+											"from": [ 1.1, 1.0, 1.2 ],
+											"to": [ 2.3, 1.1, 1.8 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 1.1314, 0.9996, 1.1995 ],
+											"rotationOrigin": [ 1.1, 1.0, 1.2 ],
 											"rotationZ": 14.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -257,10 +141,10 @@
 										},
 										{
 											"name": "Cube28",
-											"from": [ 0.7174, 0.8232, -0.7997 ],
-											"to": [ 1.8934, 0.882, -0.2117 ],
+											"from": [ 0.7, 0.8, -0.8 ],
+											"to": [ 1.9, 0.9, -0.2 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 0.7198, 0.8232, -0.7997 ],
+											"rotationOrigin": [ 0.7, 0.8, -0.8 ],
 											"rotationZ": 14.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -275,11 +159,11 @@
 								},
 								{
 									"name": "Neck",
-									"from": [ -1.7758, 1.3289, 0.4445 ],
-									"to": [ 1.1878, 2.9588, 2.2226 ],
+									"from": [ -1.8, 1.3, 0.4 ],
+									"to": [ 1.2, 2.9, 2.2 ],
 									"autoUnwrap": false,
 									"uv": [ 133.0, 60.0 ],
-									"rotationOrigin": [ 0.0847, 2.2603, 1.3336 ],
+									"rotationOrigin": [ 0.1, 2.3, 1.3 ],
 									"rotationZ": -45.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 139.0, 125.0, 167.0, 140.0 ], "autoUv": false },
@@ -292,11 +176,11 @@
 									"children": [
 										{
 											"name": "FatN",
-											"from": [ 0.0, -0.2964, 0.4445 ],
-											"to": [ 2.6671, 2.1486, 1.3336 ],
+											"from": [ 0.0, -0.3, 0.4 ],
+											"to": [ 2.7, 2.1, 1.3 ],
 											"autoUnwrap": false,
 											"uv": [ 151.0, 58.0 ],
-											"rotationOrigin": [ 2.0744, 0.7409, 1.3336 ],
+											"rotationOrigin": [ 2.1, 0.7, 1.3 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 142.0, 120.0, 167.0, 143.0 ], "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 190.0, 8.0, 198.0, 30.0 ], "autoUv": false },
@@ -308,11 +192,11 @@
 											"children": [
 												{
 													"name": "Cube9",
-													"from": [ 0.0011, 0.1482, -0.1493 ],
-													"to": [ 2.9646, 2.2226, 1.0382 ],
+													"from": [ 0.0, 0.1, -0.1 ],
+													"to": [ 3.0, 2.2, 1.1 ],
 													"autoUnwrap": false,
 													"uv": [ 147.0, 60.0 ],
-													"rotationOrigin": [ 2.0744, 1.1854, 0.7409 ],
+													"rotationOrigin": [ 2.1, 1.2, 0.7 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 140.0, 122.0, 168.0, 141.0 ], "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 198.0, 14.0, 208.0, 32.0 ], "autoUv": false },
@@ -326,11 +210,11 @@
 										},
 										{
 											"name": "Head",
-											"from": [ -0.8044, 0.6192, 0.14 ],
-											"to": [ 0.5292, 2.0861, 1.6736 ],
+											"from": [ -0.8, 0.6, 0.1 ],
+											"to": [ 0.5, 2.1, 1.6 ],
 											"autoUnwrap": false,
 											"uv": [ 149.0, 40.0 ],
-											"rotationOrigin": [ 0.5948, 1.431, 0.8049 ],
+											"rotationOrigin": [ 0.6, 1.4, 0.8 ],
 											"rotationZ": 45.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 132.0, 122.0, 146.0, 137.0 ], "autoUv": false },
@@ -343,11 +227,11 @@
 											"children": [
 												{
 													"name": "Dome",
-													"from": [ -0.0571, -0.3239, 0.3611 ],
-													"to": [ 1.1431, 1.9433, 1.163 ],
+													"from": [ -0.1, -0.3, 0.4 ],
+													"to": [ 1.1, 2.0, 1.2 ],
 													"autoUnwrap": false,
 													"uv": [ 91.0, 20.0 ],
-													"rotationOrigin": [ 1.1431, 1.9433, 0.762 ],
+													"rotationOrigin": [ 1.1, 1.9, 0.8 ],
 													"rotationZ": 3.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 131.0, 118.0, 143.0, 141.0 ], "autoUv": false },
@@ -360,11 +244,11 @@
 													"children": [
 														{
 															"name": "Head2",
-															"from": [ -0.0095, 0.1524, -0.1343 ],
-															"to": [ 1.3241, 2.0195, 0.9364 ],
+															"from": [ 0.0, 0.2, -0.1 ],
+															"to": [ 1.3, 2.1, 1.0 ],
 															"autoUnwrap": false,
 															"uv": [ 88.0, 15.0 ],
-															"rotationOrigin": [ 1.8575, 1.0859, 0.6668 ],
+															"rotationOrigin": [ 1.9, 1.1, 0.7 ],
 															"rotationZ": -3.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 132.0, 118.0, 146.0, 137.0 ], "autoUv": false },
@@ -377,11 +261,11 @@
 														},
 														{
 															"name": "Skullback",
-															"from": [ 1.2002, 1.5622, 0.001 ],
-															"to": [ 1.5241, 2.229, 0.7992 ],
+															"from": [ 1.2, 1.6, 0.0 ],
+															"to": [ 1.5, 2.3, 0.8 ],
 															"autoUnwrap": false,
 															"uv": [ 156.0, 54.0 ],
-															"rotationOrigin": [ 1.2002, 2.229, 0.4001 ],
+															"rotationOrigin": [ 1.2, 2.2, 0.4 ],
 															"rotationZ": -28.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 126.0, 118.0, 129.0, 125.0 ], "rotation": 180, "autoUv": false },
@@ -396,11 +280,11 @@
 												},
 												{
 													"name": "Top Jar",
-													"from": [ -2.37, 0.4572, 0.2953 ],
-													"to": [ 0.0969, 1.6574, 1.2955 ],
+													"from": [ -1.9, 0.5, 0.3 ],
+													"to": [ -0.4, 1.5, 1.3 ],
 													"autoUnwrap": false,
 													"uv": [ 118.0, 50.0 ],
-													"rotationOrigin": [ -0.3285, 1.2574, 0.6954 ],
+													"rotationOrigin": [ 0.2, 1.3, 0.7 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 112.0, 120.0, 127.0, 132.0 ], "rotation": 270, "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 146.0, 0.0, 156.0, 12.0 ], "autoUv": false },
@@ -412,12 +296,12 @@
 													"children": [
 														{
 															"name": "Snout",
-															"from": [ -0.381, 0.0, 0.0 ],
-															"to": [ 0.0, 0.8287, 1.0002 ],
+															"from": [ -0.4, 0.0, 0.0 ],
+															"to": [ 0.0, 0.8, 1.0 ],
 															"unwrapMode": 1,
 															"autoUnwrap": false,
 															"uv": [ 140.0, 124.0 ],
-															"rotationOrigin": [ 0.2857, 0.9335, 0.6668 ],
+															"rotationOrigin": [ 0.3, 0.9, 0.7 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 108.0, 124.0, 112.0, 132.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [3,3,3,3] },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 188.0, 0.0, 198.0, 8.0 ], "autoUv": false },
@@ -429,12 +313,12 @@
 															"children": [
 																{
 																	"name": "Nose",
-																	"from": [ -0.3334, 0.4572, 0.001 ],
-																	"to": [ 0.2, 1.124, 0.9992 ],
+																	"from": [ 0.0, 0.1, 0.1 ],
+																	"to": [ 0.5, 0.8, 0.9 ],
 																	"autoUnwrap": false,
 																	"uv": [ 80.0, 59.0 ],
-																	"rotationOrigin": [ 0.2, 1.3907, 0.6668 ],
-																	"rotationZ": 44.0,
+																	"rotationOrigin": [ 0.0, 0.8, 0.8 ],
+																	"rotationZ": 22.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 108.0, 120.0, 113.5, 127.0 ], "rotation": 180, "autoUv": false },
 																		"east": { "texture": "#tyrannosaurus-baby", "uv": [ 172.0, 0.0, 179.0, 10.0 ], "rotation": 90, "autoUv": false },
@@ -448,11 +332,11 @@
 														},
 														{
 															"name": "Cheek",
-															"from": [ 1.87, -0.0095, -0.2 ],
-															"to": [ 2.4034, 1.2002, 1.1335 ],
+															"from": [ 1.5, 0.0, -0.2 ],
+															"to": [ 2.0, 1.2, 1.1 ],
 															"autoUnwrap": false,
 															"uv": [ 142.0, 61.0 ],
-															"rotationOrigin": [ 2.8005, 0.5239, 0.4668 ],
+															"rotationOrigin": [ 2.4, 0.5, 0.5 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 128.0, 120.0, 133.0, 132.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 118.0, 0.0, 132.0, 12.0 ], "autoUv": false },
@@ -464,11 +348,11 @@
 															"children": [
 																{
 																	"name": "EyehornR",
-																	"from": [ -0.2953, 1.0764, -0.0953 ],
-																	"to": [ 0.1048, 1.3526, 0.0476 ],
+																	"from": [ -0.3, 1.1, -0.1 ],
+																	"to": [ 0.1, 1.4, 0.0 ],
 																	"unwrapMode": 4,
 																	"uv": [ 246.0, 16.0 ],
-																	"rotationOrigin": [ 0.1048, 1.3432, -0.0095 ],
+																	"rotationOrigin": [ 0.1, 1.3, 0.0 ],
 																	"rotationX": -28.0,
 																	"rotationY": 3.0,
 																	"rotationZ": 33.0,
@@ -483,11 +367,11 @@
 																},
 																{
 																	"name": "EyehornL",
-																	"from": [ -0.2953, 1.0764, 1.2764 ],
-																	"to": [ 0.1048, 1.3526, 1.4194 ],
+																	"from": [ -0.3, 1.1, 1.3 ],
+																	"to": [ 0.1, 1.4, 1.4 ],
 																	"unwrapMode": 4,
 																	"uv": [ 246.0, 16.0 ],
-																	"rotationOrigin": [ 0.1048, 1.3432, 1.3621 ],
+																	"rotationOrigin": [ 0.1, 1.3, 1.4 ],
 																	"rotationX": 28.0,
 																	"rotationY": -3.0,
 																	"rotationZ": 33.0,
@@ -502,11 +386,11 @@
 																},
 																{
 																	"name": "EyeR",
-																	"from": [ -0.1333, 0.8287, -0.0667 ],
-																	"to": [ 0.2668, 1.1621, 0.0667 ],
+																	"from": [ -0.1, 0.8, -0.1 ],
+																	"to": [ 0.3, 1.1, 0.0 ],
 																	"unwrapMode": 4,
 																	"uv": [ 246.0, 5.0 ],
-																	"rotationOrigin": [ 0.2668, 1.2955, -0.0667 ],
+																	"rotationOrigin": [ 0.3, 1.3, -0.1 ],
 																	"rotationY": 11.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 246.0, 9.0, 250.0, 12.0 ], "autoUv": false },
@@ -519,11 +403,11 @@
 																},
 																{
 																	"name": "EyeL",
-																	"from": [ -0.1333, 0.8287, 1.267 ],
-																	"to": [ 0.2668, 1.1621, 1.4003 ],
+																	"from": [ -0.1, 0.8, 1.3 ],
+																	"to": [ 0.3, 1.1, 1.4 ],
 																	"unwrapMode": 4,
 																	"uv": [ 246.0, 5.0 ],
-																	"rotationOrigin": [ 0.2668, 1.2955, 1.4003 ],
+																	"rotationOrigin": [ 0.3, 1.3, 1.4 ],
 																	"rotationY": -11.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 246.0, 9.0, 250.0, 12.0 ], "autoUv": false },
@@ -538,13 +422,13 @@
 														},
 														{
 															"name": "Headslope1",
-															"from": [ 0.3715, 1.0288, 0.0667 ],
-															"to": [ 1.4383, 1.2955, 0.8669 ],
+															"from": [ 0.4, 0.7, 0.1 ],
+															"to": [ 1.5, 1.0, 0.9 ],
 															"unwrapMode": 5,
 															"autoUnwrap": false,
 															"uv": [ 177.0, 81.0 ],
-															"rotationOrigin": [ 1.4383, 1.2955, 0.4668 ],
-															"rotationZ": 3.0,
+															"rotationOrigin": [ 0.4, 1.0, 0.5 ],
+															"rotationZ": 11.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 116.0, 118.0, 127.0, 120.5 ], "rotation": 180, "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 132.0, 0.0, 134.5, 8.0 ], "rotation": 90, "autoUv": false },
@@ -556,12 +440,12 @@
 															"children": [
 																{
 																	"name": "Headslope",
-																	"from": [ 1.0478, -0.3144, 0.0 ],
-																	"to": [ 1.9479, 0.3524, 0.8002 ],
+																	"from": [ 1.0, -0.4, 0.0 ],
+																	"to": [ 1.5, 0.3, 0.8 ],
 																	"autoUnwrap": false,
 																	"uv": [ 115.0, 55.0 ],
-																	"rotationOrigin": [ 1.4479, 0.3524, 0.4001 ],
-																	"rotationZ": 8.0,
+																	"rotationOrigin": [ 1.0, 0.3, 0.4 ],
+																	"rotationZ": 19.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 128.0, 118.0, 132.0, 125.0 ], "rotation": 180, "autoUv": false },
 																		"east": { "texture": "#tyrannosaurus-baby", "uv": [ 110.0, 0.0, 118.0, 6.0 ], "autoUv": false },
@@ -575,10 +459,10 @@
 														},
 														{
 															"name": "Teeth",
-															"from": [ -0.3619, -0.0571, 0.0191 ],
-															"to": [ -0.2286, 0.0571, 0.1144 ],
+															"from": [ -0.4, -0.1, 0.0 ],
+															"to": [ -0.3, 0.0, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.3048, 0.0571, 0.0571 ],
+															"rotationOrigin": [ -0.3, 0.1, 0.1 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -590,10 +474,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -608,10 +492,10 @@
 														},
 														{
 															"name": "Teeth2",
-															"from": [ -0.3619, -0.0571, 0.8858 ],
-															"to": [ -0.2286, 0.0571, 0.9811 ],
+															"from": [ -0.4, -0.1, 0.9 ],
+															"to": [ -0.3, 0.0, 1.0 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.3048, 0.0571, 0.924 ],
+															"rotationOrigin": [ -0.3, 0.1, 0.9 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -623,10 +507,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot2",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -641,10 +525,10 @@
 														},
 														{
 															"name": "Teeth3",
-															"from": [ -0.0953, -0.0571, 0.8954 ],
-															"to": [ 0.0382, 0.0571, 0.9907 ],
+															"from": [ -0.1, -0.1, 0.9 ],
+															"to": [ 0.0, 0.0, 1.0 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.0382, 0.0571, 0.9431 ],
+															"rotationOrigin": [ 0.0, 0.1, 0.9 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -656,10 +540,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot3",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -674,10 +558,10 @@
 														},
 														{
 															"name": "Teeth4",
-															"from": [ 0.1619, -0.0571, 0.8954 ],
-															"to": [ 0.2953, 0.0571, 0.9907 ],
+															"from": [ 0.2, -0.1, 0.9 ],
+															"to": [ 0.3, 0.0, 1.0 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.2286, 0.0571, 0.9431 ],
+															"rotationOrigin": [ 0.2, 0.1, 0.9 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -689,10 +573,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot4",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -707,10 +591,10 @@
 														},
 														{
 															"name": "Teeth5",
-															"from": [ 0.4286, -0.0571, 0.8954 ],
-															"to": [ 0.562, 0.0571, 0.9907 ],
+															"from": [ 0.4, -0.1, 0.9 ],
+															"to": [ 0.5, 0.0, 1.0 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.4954, 0.0571, 0.9431 ],
+															"rotationOrigin": [ 0.5, 0.1, 0.9 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -722,10 +606,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot5",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -740,10 +624,10 @@
 														},
 														{
 															"name": "Teeth6",
-															"from": [ 0.6954, -0.0571, 0.8954 ],
-															"to": [ 0.8287, 0.0571, 0.9907 ],
+															"from": [ 0.7, -0.1, 0.9 ],
+															"to": [ 0.8, 0.0, 1.0 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.762, 0.0571, 0.9431 ],
+															"rotationOrigin": [ 0.8, 0.1, 0.9 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -755,10 +639,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot6",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -773,10 +657,10 @@
 														},
 														{
 															"name": "Teeth7",
-															"from": [ 0.962, -0.0571, 0.8954 ],
-															"to": [ 1.0955, 0.0571, 0.9907 ],
+															"from": [ 1.0, -0.1, 0.9 ],
+															"to": [ 1.1, 0.0, 1.0 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 1.0288, 0.0571, 0.9431 ],
+															"rotationOrigin": [ 1.0, 0.1, 0.9 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -788,10 +672,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot7",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -806,10 +690,10 @@
 														},
 														{
 															"name": "Teeth9",
-															"from": [ -0.3619, -0.0571, 0.2191 ],
-															"to": [ -0.2286, 0.0571, 0.3144 ],
+															"from": [ -0.4, -0.1, 0.2 ],
+															"to": [ -0.3, 0.0, 0.3 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.3048, 0.0571, 0.2572 ],
+															"rotationOrigin": [ -0.3, 0.1, 0.3 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -821,10 +705,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot9",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -839,10 +723,10 @@
 														},
 														{
 															"name": "Teeth10",
-															"from": [ -0.3619, -0.0571, 0.4763 ],
-															"to": [ -0.2286, 0.0571, 0.5716 ],
+															"from": [ -0.4, -0.1, 0.5 ],
+															"to": [ -0.3, 0.0, 0.6 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.3048, 0.0571, 0.5144 ],
+															"rotationOrigin": [ -0.3, 0.1, 0.5 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -854,10 +738,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot10",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -872,10 +756,10 @@
 														},
 														{
 															"name": "Teeth11",
-															"from": [ -0.3619, -0.0571, 0.6954 ],
-															"to": [ -0.2286, 0.0571, 0.7907 ],
+															"from": [ -0.4, -0.1, 0.7 ],
+															"to": [ -0.3, 0.0, 0.8 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.3048, 0.0571, 0.743 ],
+															"rotationOrigin": [ -0.3, 0.1, 0.7 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -887,10 +771,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot11",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -905,10 +789,10 @@
 														},
 														{
 															"name": "Teeth12",
-															"from": [ -0.0953, -0.0571, 0.0191 ],
-															"to": [ 0.0382, 0.0571, 0.1144 ],
+															"from": [ -0.1, -0.1, 0.0 ],
+															"to": [ 0.0, 0.0, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.0382, 0.0571, 0.0571 ],
+															"rotationOrigin": [ 0.0, 0.1, 0.1 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -920,10 +804,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot12",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -938,10 +822,10 @@
 														},
 														{
 															"name": "Teeth13",
-															"from": [ 0.1619, -0.0571, 0.0191 ],
-															"to": [ 0.2953, 0.0571, 0.1144 ],
+															"from": [ 0.2, -0.1, 0.0 ],
+															"to": [ 0.3, 0.0, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.2286, 0.0571, 0.0571 ],
+															"rotationOrigin": [ 0.2, 0.1, 0.1 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -953,10 +837,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot13",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -971,10 +855,10 @@
 														},
 														{
 															"name": "Teeth14",
-															"from": [ 0.4286, -0.0571, 0.0191 ],
-															"to": [ 0.562, 0.0571, 0.1144 ],
+															"from": [ 0.4, -0.1, 0.0 ],
+															"to": [ 0.5, 0.0, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.4954, 0.0571, 0.0571 ],
+															"rotationOrigin": [ 0.5, 0.1, 0.1 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -986,10 +870,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot14",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -1004,10 +888,10 @@
 														},
 														{
 															"name": "Teeth15",
-															"from": [ 0.6954, -0.0571, 0.0191 ],
-															"to": [ 0.8287, 0.0571, 0.1144 ],
+															"from": [ 0.7, -0.1, 0.0 ],
+															"to": [ 0.8, 0.0, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.762, 0.0571, 0.0571 ],
+															"rotationOrigin": [ 0.8, 0.1, 0.1 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -1019,10 +903,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot15",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -1037,10 +921,10 @@
 														},
 														{
 															"name": "Teeth16",
-															"from": [ 0.962, -0.0571, 0.0191 ],
-															"to": [ 1.0955, 0.0571, 0.1144 ],
+															"from": [ 1.0, -0.1, 0.0 ],
+															"to": [ 1.1, 0.0, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 1.0288, 0.0571, 0.0571 ],
+															"rotationOrigin": [ 1.0, 0.1, 0.1 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.0, 1.0, 252.0, 2.0 ], "autoUv": false },
@@ -1052,10 +936,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot16",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -1072,11 +956,11 @@
 												},
 												{
 													"name": "Low Jar",
-													"from": [ -2.5, -0.1333, 0.3906 ],
-													"to": [ 0.2336, 0.5334, 1.1906 ],
+													"from": [ -2.0, -0.1, 0.4 ],
+													"to": [ -0.3, 0.6, 1.2 ],
 													"autoUnwrap": false,
 													"uv": [ 117.0, 42.0 ],
-													"rotationOrigin": [ -0.4429, 0.5334, 0.7907 ],
+													"rotationOrigin": [ 0.1, 0.5, 0.8 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 112.0, 132.0, 130.0, 139.0 ], "rotation": 180, "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 86.0, 0.0, 94.0, 6.0 ], "autoUv": false },
@@ -1088,11 +972,11 @@
 													"children": [
 														{
 															"name": "Lowerlip",
-															"from": [ 0.0, 0.0, 0.001 ],
-															"to": [ 0.2668, 0.6572, 0.7992 ],
+															"from": [ 0.0, 0.0, 0.1 ],
+															"to": [ 0.3, 0.7, 0.7 ],
 															"autoUnwrap": false,
 															"uv": [ 124.0, 95.0 ],
-															"rotationOrigin": [ 0.0, 0.0, 0.4001 ],
+															"rotationOrigin": [ 0.0, 0.0, 0.5 ],
 															"rotationZ": 14.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 110.0, 132.0, 112.5, 138.5 ], "rotation": 180, "autoUv": false },
@@ -1105,11 +989,11 @@
 														},
 														{
 															"name": "Throat",
-															"from": [ 0.0286, -0.0667, 0.1333 ],
-															"to": [ 2.0289, 0.0667, 0.6668 ],
+															"from": [ 0.0, -0.1, 0.1 ],
+															"to": [ 1.6, 0.0, 0.6 ],
 															"autoUnwrap": false,
 															"uv": [ 126.0, 40.0 ],
-															"rotationOrigin": [ 1.0955, 0.0667, 0.4001 ],
+															"rotationOrigin": [ 1.1, 0.1, 0.4 ],
 															"rotationZ": -2.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 114.0, 140.0, 130.5, 141.0 ], "rotation": 180, "autoUv": false },
@@ -1122,11 +1006,11 @@
 														},
 														{
 															"name": "Jaw Line",
-															"from": [ 2.1, 0.0, -0.2286 ],
-															"to": [ 2.5001, 0.6954, 0.9716 ],
+															"from": [ 1.6, 0.0, -0.2 ],
+															"to": [ 2.0, 0.7, 1.0 ],
 															"autoUnwrap": false,
 															"uv": [ 143.0, 51.0 ],
-															"rotationOrigin": [ 2.9005, 0.6668, 0.5716 ],
+															"rotationOrigin": [ 2.4, 0.7, 0.6 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 128.0, 132.0, 132.0, 139.0 ], "rotation": 180, "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 50.0, 2.0, 62.0, 8.0 ], "autoUv": false },
@@ -1138,11 +1022,11 @@
 															"children": [
 																{
 																	"name": "Lower throa",
-																	"from": [ -0.0667, -0.1333, 0.3334 ],
-																	"to": [ 0.8002, 0.0, 0.8669 ],
+																	"from": [ -0.1, -0.1, 0.3 ],
+																	"to": [ 0.8, 0.0, 0.8 ],
 																	"autoUnwrap": false,
 																	"uv": [ 134.0, 58.0 ],
-																	"rotationOrigin": [ 0.7334, 0.2668, 0.8669 ],
+																	"rotationOrigin": [ 0.7, 0.3, 0.9 ],
 																	"rotationZ": -3.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 128.0, 138.0, 137.0, 139.0 ], "rotation": 180, "autoUv": false },
@@ -1157,10 +1041,10 @@
 														},
 														{
 															"name": "Teeth18",
-															"from": [ 0.562, 0.4763, 0.7039 ],
-															"to": [ 0.6858, 0.5906, 0.7992 ],
+															"from": [ 0.6, 0.5, 0.7 ],
+															"to": [ 0.7, 0.6, 0.8 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.6287, 0.5906, 0.7334 ],
+															"rotationOrigin": [ 0.6, 0.6, 0.7 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -1173,10 +1057,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot18",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1191,10 +1075,10 @@
 														},
 														{
 															"name": "Teeth19",
-															"from": [ 0.8573, 0.4763, 0.7039 ],
-															"to": [ 0.9811, 0.5906, 0.7992 ],
+															"from": [ 0.9, 0.5, 0.7 ],
+															"to": [ 1.0, 0.6, 0.8 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.9144, 0.5906, 0.743 ],
+															"rotationOrigin": [ 0.9, 0.6, 0.7 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -1207,10 +1091,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot19",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1225,10 +1109,10 @@
 														},
 														{
 															"name": "Teeth20",
-															"from": [ 1.1431, 0.4763, 0.7039 ],
-															"to": [ 1.267, 0.5906, 0.7992 ],
+															"from": [ 1.1, 0.5, 0.7 ],
+															"to": [ 1.2, 0.6, 0.8 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 1.2002, 0.5906, 0.743 ],
+															"rotationOrigin": [ 1.2, 0.6, 0.7 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -1241,10 +1125,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot20",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1259,10 +1143,10 @@
 														},
 														{
 															"name": "Teeth22",
-															"from": [ 0.2857, 0.4763, 0.7039 ],
-															"to": [ 0.4096, 0.5906, 0.7992 ],
+															"from": [ 0.3, 0.5, 0.7 ],
+															"to": [ 0.4, 0.6, 0.8 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.343, 0.5906, 0.743 ],
+															"rotationOrigin": [ 0.3, 0.6, 0.7 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -1275,10 +1159,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot22",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 249.375, 1.6406, 251.0156, 3.2812 ], "autoUv": false },
@@ -1293,10 +1177,10 @@
 														},
 														{
 															"name": "Teeth23",
-															"from": [ 0.0, 0.4763, 0.7039 ],
-															"to": [ 0.1238, 0.5906, 0.7992 ],
+															"from": [ 0.0, 0.5, 0.7 ],
+															"to": [ 0.1, 0.6, 0.8 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.0571, 0.5906, 0.743 ],
+															"rotationOrigin": [ 0.1, 0.6, 0.7 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 1.0, 251.0, 2.0 ], "autoUv": false },
@@ -1309,10 +1193,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot23",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1327,10 +1211,10 @@
 														},
 														{
 															"name": "Teeth24",
-															"from": [ -0.1144, 0.4763, 0.5716 ],
-															"to": [ 0.0095, 0.5906, 0.6668 ],
+															"from": [ -0.1, 0.5, 0.6 ],
+															"to": [ 0.0, 0.6, 0.7 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.0571, 0.5906, 0.6096 ],
+															"rotationOrigin": [ -0.1, 0.6, 0.6 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1343,10 +1227,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot24",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1361,10 +1245,10 @@
 														},
 														{
 															"name": "Teeth25",
-															"from": [ -0.1144, 0.4763, 0.3619 ],
-															"to": [ 0.0095, 0.5906, 0.4572 ],
+															"from": [ -0.1, 0.5, 0.4 ],
+															"to": [ 0.0, 0.6, 0.5 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.0571, 0.5906, 0.4001 ],
+															"rotationOrigin": [ -0.1, 0.6, 0.4 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1377,10 +1261,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot25",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1395,10 +1279,10 @@
 														},
 														{
 															"name": "Teeth26",
-															"from": [ -0.1144, 0.4763, 0.1333 ],
-															"to": [ 0.0095, 0.5906, 0.2286 ],
+															"from": [ -0.1, 0.5, 0.1 ],
+															"to": [ 0.0, 0.6, 0.2 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ -0.0571, 0.5906, 0.1715 ],
+															"rotationOrigin": [ -0.1, 0.6, 0.2 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1411,10 +1295,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot26",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1429,10 +1313,10 @@
 														},
 														{
 															"name": "Teeth27",
-															"from": [ 0.0, 0.4763, 0.0095 ],
-															"to": [ 0.1238, 0.5906, 0.1048 ],
+															"from": [ 0.0, 0.5, 0.0 ],
+															"to": [ 0.1, 0.6, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.0571, 0.5906, 0.0476 ],
+															"rotationOrigin": [ 0.1, 0.6, 0.0 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1445,10 +1329,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot27",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1463,10 +1347,10 @@
 														},
 														{
 															"name": "Teeth28",
-															"from": [ 0.2857, 0.4763, 0.0095 ],
-															"to": [ 0.4096, 0.5906, 0.1048 ],
+															"from": [ 0.3, 0.5, 0.0 ],
+															"to": [ 0.4, 0.6, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.343, 0.5906, 0.0476 ],
+															"rotationOrigin": [ 0.3, 0.6, 0.0 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1479,10 +1363,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot28",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1497,10 +1381,10 @@
 														},
 														{
 															"name": "Teeth29",
-															"from": [ 0.562, 0.4763, 0.0191 ],
-															"to": [ 0.6858, 0.5906, 0.1144 ],
+															"from": [ 0.6, 0.5, 0.0 ],
+															"to": [ 0.7, 0.6, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.6287, 0.5906, 0.0571 ],
+															"rotationOrigin": [ 0.6, 0.6, 0.1 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1513,10 +1397,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot29",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1531,10 +1415,10 @@
 														},
 														{
 															"name": "Teeth30",
-															"from": [ 0.8573, 0.4763, 0.0286 ],
-															"to": [ 0.9811, 0.5906, 0.1238 ],
+															"from": [ 0.9, 0.5, 0.0 ],
+															"to": [ 1.0, 0.6, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 0.9144, 0.5906, 0.0667 ],
+															"rotationOrigin": [ 0.9, 0.6, 0.1 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1547,10 +1431,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot30",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1565,10 +1449,10 @@
 														},
 														{
 															"name": "Teeth31",
-															"from": [ 1.1431, 0.4763, 0.0191 ],
-															"to": [ 1.267, 0.5906, 0.1144 ],
+															"from": [ 1.1, 0.5, 0.0 ],
+															"to": [ 1.2, 0.6, 0.1 ],
 															"uv": [ 250.0, 0.0 ],
-															"rotationOrigin": [ 1.2002, 0.5906, 0.0571 ],
+															"rotationOrigin": [ 1.2, 0.6, 0.1 ],
 															"rotationZ": 180.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1581,10 +1465,10 @@
 															"children": [
 																{
 																	"name": "TeethRoot31",
-																	"from": [ 0.0, -0.0953, 0.0 ],
-																	"to": [ 0.0953, 0.0, 0.0953 ],
+																	"from": [ 0.0, -0.1, 0.0 ],
+																	"to": [ 0.1, 0.0, 0.1 ],
 																	"uv": [ 250.0, 0.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.0095 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 																	"rotationZ": 44.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 2.0, 252.0, 4.0 ], "autoUv": false },
@@ -1601,10 +1485,10 @@
 												},
 												{
 													"name": "Cube31",
-													"from": [ -0.247, 1.6934, 0.1864 ],
-													"to": [ 0.635, 1.7522, 0.4804 ],
+													"from": [ -0.2, 1.7, 0.2 ],
+													"to": [ 0.7, 1.8, 0.5 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ -0.247, 1.6993, 0.1888 ],
+													"rotationOrigin": [ -0.2, 1.7, 0.2 ],
 													"rotationZ": 28.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 24.0, 29.0 ], "autoUv": false },
@@ -1617,10 +1501,10 @@
 												},
 												{
 													"name": "Cube67",
-													"from": [ 0.2822, 1.6934, 0.4234 ],
-													"to": [ 1.1642, 1.7522, 0.7174 ],
+													"from": [ 0.3, 1.7, 0.4 ],
+													"to": [ 1.2, 1.8, 0.7 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ 0.2822, 1.6993, 0.424 ],
+													"rotationOrigin": [ 0.3, 1.7, 0.4 ],
 													"rotationZ": 25.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 24.0, 29.0 ], "autoUv": false },
@@ -1633,10 +1517,10 @@
 												},
 												{
 													"name": "Cube68",
-													"from": [ 0.1058, 1.7522, 0.7762 ],
-													"to": [ 0.9878, 1.811, 1.0702 ],
+													"from": [ 0.1, 1.8, 0.8 ],
+													"to": [ 1.0, 1.9, 1.1 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ 0.1058, 1.7581, 0.7768 ],
+													"rotationOrigin": [ 0.1, 1.8, 0.8 ],
 													"rotationZ": 19.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 24.0, 29.0 ], "autoUv": false },
@@ -1649,10 +1533,10 @@
 												},
 												{
 													"name": "Cube69",
-													"from": [ -0.3646, 1.811, 0.6586 ],
-													"to": [ 0.5174, 1.8698, 0.9526 ],
+													"from": [ -0.4, 1.8, 0.7 ],
+													"to": [ 0.5, 1.9, 1.0 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ -0.3646, 1.8169, 0.7174 ],
+													"rotationOrigin": [ -0.4, 1.8, 0.7 ],
 													"rotationZ": 19.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 24.0, 29.0 ], "autoUv": false },
@@ -1665,10 +1549,10 @@
 												},
 												{
 													"name": "Cube70",
-													"from": [ -0.0118, 1.811, 0.8938 ],
-													"to": [ 0.8702, 1.8698, 1.1878 ],
+													"from": [ 0.0, 1.8, 0.9 ],
+													"to": [ 0.9, 1.9, 1.2 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ -0.0118, 1.8169, 0.9526 ],
+													"rotationOrigin": [ 0.0, 1.8, 1.0 ],
 													"rotationZ": 19.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 24.0, 29.0 ], "autoUv": false },
@@ -1681,10 +1565,10 @@
 												},
 												{
 													"name": "Cube71",
-													"from": [ 0.5762, 1.811, 0.8938 ],
-													"to": [ 1.4582, 1.8698, 1.1878 ],
+													"from": [ 0.6, 1.8, 0.9 ],
+													"to": [ 1.5, 1.9, 1.2 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ 0.5762, 1.8169, 0.9526 ],
+													"rotationOrigin": [ 0.6, 1.8, 1.0 ],
 													"rotationZ": 19.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 24.0, 29.0 ], "autoUv": false },
@@ -1697,10 +1581,10 @@
 												},
 												{
 													"name": "Cube72",
-													"from": [ -0.0118, 1.6346, 1.2466 ],
-													"to": [ 0.8702, 1.6934, 1.5406 ],
+													"from": [ 0.0, 1.6, 1.2 ],
+													"to": [ 0.9, 1.7, 1.5 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ -0.0118, 1.6405, 1.3054 ],
+													"rotationOrigin": [ 0.0, 1.6, 1.3 ],
 													"rotationX": 89.0,
 													"rotationZ": 19.0,
 													"faces": {
@@ -1714,10 +1598,10 @@
 												},
 												{
 													"name": "Cube73",
-													"from": [ 0.2822, 1.1642, 1.423 ],
-													"to": [ 1.1642, 1.223, 1.717 ],
+													"from": [ 0.3, 1.2, 1.4 ],
+													"to": [ 1.2, 1.3, 1.7 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ 0.2822, 1.1701, 1.4818 ],
+													"rotationOrigin": [ 0.3, 1.2, 1.5 ],
 													"rotationX": 89.0,
 													"rotationZ": 19.0,
 													"faces": {
@@ -1731,10 +1615,10 @@
 												},
 												{
 													"name": "Cube74",
-													"from": [ 0.2822, 1.1642, 0.0118 ],
-													"to": [ 1.1642, 1.223, 0.3058 ],
+													"from": [ 0.3, 1.2, 0.0 ],
+													"to": [ 1.2, 1.3, 0.3 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ 0.2822, 1.1701, 0.0706 ],
+													"rotationOrigin": [ 0.3, 1.2, 0.1 ],
 													"rotationX": 89.0,
 													"rotationZ": -22.0,
 													"faces": {
@@ -1748,10 +1632,10 @@
 												},
 												{
 													"name": "Cube75",
-													"from": [ -0.0706, 1.3994, -0.047 ],
-													"to": [ 0.8114, 1.4582, 0.247 ],
+													"from": [ -0.1, 1.4, 0.0 ],
+													"to": [ 0.8, 1.5, 0.3 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ -0.0706, 1.4053, 0.0118 ],
+													"rotationOrigin": [ -0.1, 1.4, 0.0 ],
 													"rotationX": 89.0,
 													"rotationZ": -22.0,
 													"faces": {
@@ -1767,10 +1651,10 @@
 										},
 										{
 											"name": "Cube29",
-											"from": [ 0.6174, 1.9463, 0.8702 ],
-											"to": [ 1.7934, 2.0051, 1.4582 ],
+											"from": [ 0.6, 1.9, 0.9 ],
+											"to": [ 1.8, 2.0, 1.5 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 0.6178, 1.949, 0.8726 ],
+											"rotationOrigin": [ 0.6, 1.9, 0.9 ],
 											"rotationZ": 22.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -1783,10 +1667,10 @@
 										},
 										{
 											"name": "Cube30",
-											"from": [ -0.0294, 1.9463, 0.9878 ],
-											"to": [ 1.1466, 2.0051, 1.5758 ],
+											"from": [ 0.0, 1.9, 1.0 ],
+											"to": [ 1.2, 2.0, 1.6 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ -0.029, 1.949, 0.9902 ],
+											"rotationOrigin": [ 0.0, 1.9, 1.0 ],
 											"rotationZ": 22.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -1799,10 +1683,10 @@
 										},
 										{
 											"name": "Cube56",
-											"from": [ 0.9114, 0.7115, 1.6934 ],
-											"to": [ 2.0874, 0.7703, 2.2814 ],
+											"from": [ 0.9, 0.7, 1.7 ],
+											"to": [ 2.1, 0.8, 2.3 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 0.9118, 0.7142, 1.6958 ],
+											"rotationOrigin": [ 0.9, 0.7, 1.7 ],
 											"rotationX": 97.0,
 											"rotationY": 8.0,
 											"rotationZ": 19.0,
@@ -1817,10 +1701,10 @@
 										},
 										{
 											"name": "Cube59",
-											"from": [ -0.0294, 1.4171, 1.6934 ],
-											"to": [ 1.1466, 1.4759, 2.2814 ],
+											"from": [ 0.0, 1.4, 1.7 ],
+											"to": [ 1.2, 1.5, 2.3 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ -0.029, 1.4198, 1.6934 ],
+											"rotationOrigin": [ 0.0, 1.4, 1.7 ],
 											"rotationX": 97.0,
 											"rotationY": 8.0,
 											"rotationZ": 19.0,
@@ -1835,10 +1719,10 @@
 										},
 										{
 											"name": "Cube60",
-											"from": [ -0.0294, 0.8291, 0.2234 ],
-											"to": [ 1.1466, 0.8879, 0.8114 ],
+											"from": [ 0.0, 0.8, 0.2 ],
+											"to": [ 1.2, 0.9, 0.8 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ -0.029, 0.8318, 0.2234 ],
+											"rotationOrigin": [ 0.0, 0.8, 0.2 ],
 											"rotationX": -97.0,
 											"rotationY": -8.0,
 											"rotationZ": 19.0,
@@ -1853,10 +1737,10 @@
 										},
 										{
 											"name": "Cube61",
-											"from": [ 0.8526, 0.1235, 0.1058 ],
-											"to": [ 2.0286, 0.1823, 0.6938 ],
+											"from": [ 0.9, 0.1, 0.1 ],
+											"to": [ 2.1, 0.2, 0.7 ],
 											"uv": [ 23.0, 27.0 ],
-											"rotationOrigin": [ 0.853, 0.1235, 0.1058 ],
+											"rotationOrigin": [ 0.9, 0.1, 0.1 ],
 											"rotationX": -97.0,
 											"rotationY": -8.0,
 											"rotationZ": 19.0,
@@ -1873,11 +1757,11 @@
 								},
 								{
 									"name": "ArmR",
-									"from": [ 0.4939, -0.7409, -0.247 ],
-									"to": [ 1.2348, 0.7409, 0.1235 ],
+									"from": [ 0.5, -0.7, -0.2 ],
+									"to": [ 1.2, 0.8, 0.2 ],
 									"unwrapMode": 4,
 									"uv": [ 364.2188, 229.6875 ],
-									"rotationOrigin": [ 0.8644, 0.3881, -0.0176 ],
+									"rotationOrigin": [ 0.9, 0.4, 0.0 ],
 									"rotationZ": 22.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 364.2188, 233.5, 367.5, 242.8125 ], "autoUv": false },
@@ -1890,11 +1774,11 @@
 									"children": [
 										{
 											"name": "WristR",
-											"from": [ 0.1235, -1.2348, 0.0 ],
-											"to": [ 0.6174, 0.247, 0.4939 ],
+											"from": [ 0.1, -1.2, 0.0 ],
+											"to": [ 0.6, 0.3, 0.5 ],
 											"unwrapMode": 4,
 											"uv": [ 365.8594, 246.0938 ],
-											"rotationOrigin": [ 0.3704, 0.247, 0.247 ],
+											"rotationOrigin": [ 0.4, 0.2, 0.2 ],
 											"rotationX": -14.0,
 											"rotationZ": -47.0,
 											"faces": {
@@ -1908,11 +1792,11 @@
 											"children": [
 												{
 													"name": "Torso4",
-													"from": [ -0.0176, -0.4939, 0.0 ],
-													"to": [ 0.2293, 0.247, 0.247 ],
+													"from": [ 0.0, -0.5, 0.0 ],
+													"to": [ 0.2, 0.2, 0.2 ],
 													"unwrapMode": 4,
 													"uv": [ 386.9531, 188.0469 ],
-													"rotationOrigin": [ 0.1058, 0.247, 0.1235 ],
+													"rotationOrigin": [ 0.1, 0.2, 0.1 ],
 													"rotationX": -14.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 387.1875, 190.3125, 388.8281, 193.5937 ], "autoUv": false },
@@ -1925,10 +1809,10 @@
 													"children": [
 														{
 															"name": "Torso7",
-															"from": [ 0.1058, -0.247, 0.0176 ],
-															"to": [ 0.1764, 0.1235, 0.1411 ],
+															"from": [ 0.1, -0.2, 0.0 ],
+															"to": [ 0.2, 0.2, 0.1 ],
 															"uv": [ 230.0, 0.0 ],
-															"rotationOrigin": [ 0.1411, 0.1235, 0.0706 ],
+															"rotationOrigin": [ 0.1, 0.1, 0.1 ],
 															"rotationX": -22.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 229.6875, 1.6406, 231.3281, 3.2812 ], "autoUv": false },
@@ -1943,11 +1827,11 @@
 												},
 												{
 													"name": "Torso5",
-													"from": [ 0.2646, -0.247, 0.0 ],
-													"to": [ 0.5116, 0.247, 0.247 ],
+													"from": [ 0.3, -0.2, 0.0 ],
+													"to": [ 0.5, 0.3, 0.2 ],
 													"unwrapMode": 4,
 													"uv": [ 370.9344, 159.1369 ],
-													"rotationOrigin": [ 0.3881, 0.247, 0.1235 ],
+													"rotationOrigin": [ 0.4, 0.2, 0.1 ],
 													"rotationX": -14.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 370.7812, 160.7812, 372.4219, 162.4219 ], "autoUv": false },
@@ -1960,10 +1844,10 @@
 													"children": [
 														{
 															"name": "Torso6",
-															"from": [ 0.1058, -0.247, 0.0176 ],
-															"to": [ 0.1764, 0.1235, 0.1411 ],
+															"from": [ 0.1, -0.2, 0.0 ],
+															"to": [ 0.2, 0.2, 0.1 ],
 															"uv": [ 230.0, 0.0 ],
-															"rotationOrigin": [ 0.1411, 0.1235, 0.0706 ],
+															"rotationOrigin": [ 0.1, 0.1, 0.1 ],
 															"rotationX": -22.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 229.6875, 1.6406, 231.3281, 3.2812 ], "autoUv": false },
@@ -1978,11 +1862,11 @@
 												},
 												{
 													"name": "Cube8",
-													"from": [ 0.0, 0.0, 0.2352 ],
-													"to": [ 1.176, 1.4112, 0.294 ],
+													"from": [ 0.0, 0.0, 0.1 ],
+													"to": [ 1.2, 1.4, 0.2 ],
 													"autoUnwrap": false,
 													"uv": [ 29.0, 30.0 ],
-													"rotationOrigin": [ 0.0, 0.0, 0.2352 ],
+													"rotationOrigin": [ 0.0, 0.0, 0.1 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 29.0, 31.0, 44.0, 50.0 ], "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 31.0, 31.0, 32.0, 33.0 ], "autoUv": false },
@@ -1996,11 +1880,11 @@
 										},
 										{
 											"name": "Cube11",
-											"from": [ 0.588, 0.0, 0.1764 ],
-											"to": [ 1.176, 1.47, 0.2352 ],
+											"from": [ 0.6, 0.0, 0.1 ],
+											"to": [ 1.2, 1.5, 0.2 ],
 											"autoUnwrap": false,
 											"uv": [ 5.0, 40.0 ],
-											"rotationOrigin": [ 0.588, 0.0, 0.1764 ],
+											"rotationOrigin": [ 0.6, 0.0, 0.1 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 19.0, 51.0, 34.0 ], "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 6.0, 41.0, 7.0, 43.0 ], "autoUv": false },
@@ -2014,12 +1898,12 @@
 								},
 								{
 									"name": "ArmL",
-									"from": [ 0.4939, -0.7409, 2.8342 ],
-									"to": [ 1.2348, 0.7409, 3.2046 ],
+									"from": [ 0.5, -0.7, 2.7 ],
+									"to": [ 1.2, 0.8, 3.1 ],
 									"unwrapMode": 4,
 									"autoUnwrap": false,
 									"uv": [ 365.22, 229.6875 ],
-									"rotationOrigin": [ 0.8644, 0.3881, 3.0458 ],
+									"rotationOrigin": [ 0.9, 0.4, 2.9 ],
 									"rotationZ": 22.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 365.0, 234.0, 369.0, 242.0 ], "autoUv": false },
@@ -2032,12 +1916,12 @@
 									"children": [
 										{
 											"name": "WristL",
-											"from": [ 0.1235, -1.2348, 0.0 ],
-											"to": [ 0.6174, 0.247, 0.4939 ],
+											"from": [ 0.1, -1.2, 0.0 ],
+											"to": [ 0.6, 0.3, 0.5 ],
 											"unwrapMode": 4,
 											"autoUnwrap": false,
 											"uv": [ 367.4994, 246.0894 ],
-											"rotationOrigin": [ 0.3704, 0.247, 0.247 ],
+											"rotationOrigin": [ 0.4, 0.2, 0.2 ],
 											"rotationX": 14.0,
 											"rotationZ": -47.0,
 											"faces": {
@@ -2051,11 +1935,11 @@
 											"children": [
 												{
 													"name": "Torso9",
-													"from": [ -0.0176, -0.4939, 0.247 ],
-													"to": [ 0.2293, 0.247, 0.4939 ],
+													"from": [ 0.0, -0.5, 0.2 ],
+													"to": [ 0.2, 0.2, 0.4 ],
 													"unwrapMode": 4,
 													"uv": [ 387.1869, 188.6688 ],
-													"rotationOrigin": [ 0.1058, 0.247, 0.3704 ],
+													"rotationOrigin": [ 0.1, 0.2, 0.4 ],
 													"rotationX": 14.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 387.1875, 190.3125, 388.8281, 193.5937 ], "autoUv": false },
@@ -2068,10 +1952,10 @@
 													"children": [
 														{
 															"name": "Torso10",
-															"from": [ 0.1058, -0.247, 0.1235 ],
-															"to": [ 0.1764, 0.1235, 0.247 ],
+															"from": [ 0.1, -0.2, 0.1 ],
+															"to": [ 0.2, 0.2, 0.2 ],
 															"uv": [ 230.0, 0.0 ],
-															"rotationOrigin": [ 0.1411, 0.1235, 0.1764 ],
+															"rotationOrigin": [ 0.1, 0.1, 0.2 ],
 															"rotationX": 22.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 229.6875, 1.6406, 231.3281, 3.2812 ], "autoUv": false },
@@ -2086,11 +1970,11 @@
 												},
 												{
 													"name": "Torso11",
-													"from": [ 0.2646, -0.247, 0.247 ],
-													"to": [ 0.5116, 0.247, 0.4939 ],
+													"from": [ 0.3, -0.2, 0.2 ],
+													"to": [ 0.5, 0.3, 0.4 ],
 													"unwrapMode": 4,
 													"uv": [ 370.7813, 157.5 ],
-													"rotationOrigin": [ 0.3881, 0.247, 0.3704 ],
+													"rotationOrigin": [ 0.4, 0.2, 0.4 ],
 													"rotationX": 14.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 370.7812, 160.7812, 372.4219, 162.4219 ], "autoUv": false },
@@ -2103,10 +1987,10 @@
 													"children": [
 														{
 															"name": "Torso12",
-															"from": [ 0.1058, -0.247, 0.1235 ],
-															"to": [ 0.1764, 0.1235, 0.247 ],
+															"from": [ 0.1, -0.2, 0.1 ],
+															"to": [ 0.2, 0.2, 0.2 ],
 															"uv": [ 230.0, 0.0 ],
-															"rotationOrigin": [ 0.1411, 0.1235, 0.1764 ],
+															"rotationOrigin": [ 0.1, 0.1, 0.2 ],
 															"rotationX": 22.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 229.6875, 1.6406, 231.3281, 3.2812 ], "autoUv": false },
@@ -2121,11 +2005,11 @@
 												},
 												{
 													"name": "Cube2",
-													"from": [ 0.0, 0.0, 0.294 ],
-													"to": [ 1.176, 1.4112, 0.3528 ],
+													"from": [ 0.0, 0.0, 0.2 ],
+													"to": [ 1.2, 1.4, 0.3 ],
 													"autoUnwrap": false,
 													"uv": [ 5.0, 40.0 ],
-													"rotationOrigin": [ 0.0, 0.0, 0.294 ],
+													"rotationOrigin": [ 0.0, 0.0, 0.2 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 5.0, 41.0, 7.0, 43.0 ], "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 7.0, 41.0, 8.0, 43.0 ], "autoUv": false },
@@ -2139,11 +2023,11 @@
 										},
 										{
 											"name": "Cube6",
-											"from": [ 0.0, 0.0, 0.294 ],
-											"to": [ 1.176, 1.47, 0.3528 ],
+											"from": [ 0.0, 0.0, 0.2 ],
+											"to": [ 1.2, 1.5, 0.3 ],
 											"autoUnwrap": false,
 											"uv": [ 28.0, 33.0 ],
-											"rotationOrigin": [ 0.0, 0.0, 0.294 ],
+											"rotationOrigin": [ 0.0, 0.0, 0.2 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 34.0, 30.0, 36.0 ], "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 30.0, 34.0, 31.0, 36.0 ], "autoUv": false },
@@ -2157,10 +2041,10 @@
 								},
 								{
 									"name": "Cube36",
-									"from": [ 0.541, 1.7405, 2.7871 ],
-									"to": [ 1.717, 1.7993, 3.3751 ],
+									"from": [ 0.5, 1.7, 2.8 ],
+									"to": [ 1.7, 1.8, 3.4 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.5434, 1.7405, 2.7871 ],
+									"rotationOrigin": [ 0.5, 1.7, 2.8 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -2174,10 +2058,10 @@
 								},
 								{
 									"name": "Cube39",
-									"from": [ 1.129, 2.3873, 2.7871 ],
-									"to": [ 2.305, 2.4461, 3.3751 ],
+									"from": [ 1.1, 2.4, 2.8 ],
+									"to": [ 2.3, 2.5, 3.4 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.1314, 2.3873, 2.7871 ],
+									"rotationOrigin": [ 1.1, 2.4, 2.8 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -2191,10 +2075,10 @@
 								},
 								{
 									"name": "Cube40",
-									"from": [ 1.717, 1.0349, 2.7871 ],
-									"to": [ 2.893, 1.0937, 3.3751 ],
+									"from": [ 1.7, 1.0, 2.8 ],
+									"to": [ 2.9, 1.1, 3.4 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.7194, 1.0349, 2.7871 ],
+									"rotationOrigin": [ 1.7, 1.0, 2.8 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -2208,10 +2092,10 @@
 								},
 								{
 									"name": "Cube44",
-									"from": [ 0.1294, 2.7989, 2.7871 ],
-									"to": [ 1.3054, 2.8577, 3.3751 ],
+									"from": [ 0.1, 2.8, 2.8 ],
+									"to": [ 1.3, 2.9, 3.4 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.1294, 2.7989, 2.7871 ],
+									"rotationOrigin": [ 0.1, 2.8, 2.8 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -2225,10 +2109,10 @@
 								},
 								{
 									"name": "Cube76",
-									"from": [ 0.1294, 2.6225, 0.0235 ],
-									"to": [ 1.3054, 2.6813, 0.6115 ],
+									"from": [ 0.1, 2.6, 0.0 ],
+									"to": [ 1.3, 2.7, 0.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.1294, 2.6225, 0.0235 ],
+									"rotationOrigin": [ 0.1, 2.6, 0.0 ],
 									"rotationX": 94.0,
 									"rotationZ": -22.0,
 									"faces": {
@@ -2242,10 +2126,10 @@
 								},
 								{
 									"name": "Cube77",
-									"from": [ 1.3054, 2.2697, 0.0823 ],
-									"to": [ 2.4814, 2.3285, 0.6703 ],
+									"from": [ 1.3, 2.3, 0.1 ],
+									"to": [ 2.5, 2.4, 0.7 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.3054, 2.2697, 0.0823 ],
+									"rotationOrigin": [ 1.3, 2.3, 0.1 ],
 									"rotationX": 94.0,
 									"rotationZ": -22.0,
 									"faces": {
@@ -2259,10 +2143,10 @@
 								},
 								{
 									"name": "Cube78",
-									"from": [ 0.4234, 1.6817, 0.0823 ],
-									"to": [ 1.5994, 1.7405, 0.6703 ],
+									"from": [ 0.4, 1.7, 0.1 ],
+									"to": [ 1.6, 1.8, 0.7 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.4234, 1.6817, 0.0823 ],
+									"rotationOrigin": [ 0.4, 1.7, 0.1 ],
 									"rotationX": 94.0,
 									"rotationZ": -22.0,
 									"faces": {
@@ -2277,12 +2161,128 @@
 							]
 						},
 						{
+							"name": "FatB",
+							"from": [ 0.0, 2.0, 0.1 ],
+							"to": [ 3.1, 3.3, 3.1 ],
+							"autoUnwrap": false,
+							"uv": [ 306.0, 112.0 ],
+							"rotationOrigin": [ 0.0, 2.0, 0.1 ],
+							"faces": {
+								"north": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 122.0, 202.0, 133.0 ], "autoUv": false },
+								"east": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 108.0, 50.0, 118.0 ], "autoUv": false },
+								"south": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 122.0, 202.0, 132.0 ], "autoUv": false },
+								"west": { "texture": "#tyrannosaurus-baby", "uv": [ 156.0, 62.0, 180.0, 72.0 ], "autoUv": false },
+								"up": { "texture": "#tyrannosaurus-baby", "uv": [ 174.0, 178.0, 200.0, 202.0 ], "autoUv": false },
+								"down": { "texture": "#tyrannosaurus-baby", "uv": [ 328.0, 0.0, 354.0, 24.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube7",
+									"from": [ 0.0, 0.0, 0.5 ],
+									"to": [ 3.1, 1.5, 2.5 ],
+									"autoUnwrap": false,
+									"uv": [ 274.0, 112.0 ],
+									"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+									"faces": {
+										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 116.0, 202.0, 128.0 ], "autoUv": false },
+										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 30.0, 102.0, 46.0, 114.0 ], "autoUv": false },
+										"south": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 116.0, 202.0, 128.0 ], "autoUv": false },
+										"west": { "texture": "#tyrannosaurus-baby", "uv": [ 160.0, 58.0, 176.0, 70.0 ], "autoUv": false },
+										"up": { "texture": "#tyrannosaurus-baby", "uv": [ 176.0, 182.0, 202.0, 198.0 ], "autoUv": false },
+										"down": { "texture": "#tyrannosaurus-baby", "uv": [ 356.0, 0.0, 382.0, 16.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Cube17",
+											"from": [ 0.0, 1.4, 0.0 ],
+											"to": [ 1.2, 1.5, 0.6 ],
+											"uv": [ 23.0, 27.0 ],
+											"rotationOrigin": [ 0.0, 1.4, 0.0 ],
+											"rotationZ": 14.0,
+											"faces": {
+												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
+												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
+												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
+												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
+												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
+												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
+											}
+										},
+										{
+											"name": "Cube19",
+											"from": [ 1.2, 1.4, 0.6 ],
+											"to": [ 2.4, 1.5, 1.2 ],
+											"uv": [ 23.0, 27.0 ],
+											"rotationOrigin": [ 1.2, 1.4, 0.6 ],
+											"rotationZ": 14.0,
+											"faces": {
+												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
+												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
+												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
+												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
+												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
+												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
+											}
+										},
+										{
+											"name": "Cube20",
+											"from": [ 2.4, 1.4, 1.8 ],
+											"to": [ 3.6, 1.5, 2.4 ],
+											"uv": [ 23.0, 27.0 ],
+											"rotationOrigin": [ 2.4, 1.4, 1.8 ],
+											"rotationZ": 14.0,
+											"faces": {
+												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
+												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
+												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
+												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
+												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
+												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
+											}
+										},
+										{
+											"name": "Cube21",
+											"from": [ 0.0, 1.4, 1.2 ],
+											"to": [ 1.2, 1.5, 1.8 ],
+											"uv": [ 23.0, 27.0 ],
+											"rotationOrigin": [ 0.0, 1.4, 1.2 ],
+											"rotationZ": 14.0,
+											"faces": {
+												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
+												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
+												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
+												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
+												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
+												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
+											}
+										},
+										{
+											"name": "Cube22",
+											"from": [ 2.4, 1.4, 0.0 ],
+											"to": [ 3.6, 1.5, 0.6 ],
+											"uv": [ 23.0, 27.0 ],
+											"rotationOrigin": [ 2.4, 1.4, 0.0 ],
+											"rotationZ": 14.0,
+											"faces": {
+												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
+												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 28.0, 26.0, 29.0 ], "autoUv": false },
+												"south": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 28.0, 28.0, 29.0 ], "autoUv": false },
+												"west": { "texture": "#tyrannosaurus-baby", "uv": [ 28.0, 28.0, 29.0, 29.0 ], "autoUv": false },
+												"up": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 27.0, 25.0, 28.0 ], "autoUv": false },
+												"down": { "texture": "#tyrannosaurus-baby", "uv": [ 25.0, 27.0, 27.0, 28.0 ], "autoUv": false }
+											}
+										}
+									]
+								}
+							]
+						},
+						{
 							"name": "Tail Main",
-							"from": [ 2.4978, 1.0373, 0.6821 ],
-							"to": [ 5.4613, 3.5515, 3.0529 ],
+							"from": [ 2.5, 0.8, 0.5 ],
+							"to": [ 5.5, 3.3, 2.9 ],
 							"autoUnwrap": false,
 							"uv": [ 326.0, 104.0 ],
-							"rotationOrigin": [ 2.4978, 1.9898, 1.9498 ],
+							"rotationOrigin": [ 2.5, 1.8, 1.7 ],
 							"rotationZ": -3.0,
 							"faces": {
 								"north": { "texture": "#tyrannosaurus-baby", "uv": [ 200.0, 126.0, 228.0, 144.0 ], "autoUv": false },
@@ -2295,11 +2295,11 @@
 							"children": [
 								{
 									"name": "Cube32",
-									"from": [ 0.0106, 2.3638, 0.1482 ],
-									"to": [ 2.9741, 2.6602, 2.2226 ],
+									"from": [ 0.0, 2.4, 0.1 ],
+									"to": [ 3.0, 2.7, 2.2 ],
 									"autoUnwrap": false,
 									"uv": [ 306.0, 168.0 ],
-									"rotationOrigin": [ 0.0, 2.3662, 0.1482 ],
+									"rotationOrigin": [ 0.0, 2.4, 0.1 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 200.0, 124.0, 228.0, 126.5 ], "rotation": 180, "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 190.0, 68.0, 208.0, 70.0 ], "autoUv": false },
@@ -2311,11 +2311,11 @@
 								},
 								{
 									"name": "Cube33",
-									"from": [ 0.0, 2.3402, 0.5927 ],
-									"to": [ 2.9635, 2.7847, 1.7782 ],
+									"from": [ 0.0, 2.3, 0.6 ],
+									"to": [ 3.0, 2.7, 1.8 ],
 									"autoUnwrap": false,
 									"uv": [ 346.0, 84.0 ],
-									"rotationOrigin": [ 0.0, 2.3378, 0.5927 ],
+									"rotationOrigin": [ 0.0, 2.3, 0.6 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 200.0, 122.0, 228.0, 126.0 ], "rotation": 180, "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 194.0, 64.0, 204.0, 68.0 ], "autoUv": false },
@@ -2327,11 +2327,11 @@
 								},
 								{
 									"name": "Cube34",
-									"from": [ 0.0, -0.8891, 0.1482 ],
-									"to": [ 1.4818, 0.1482, 2.2226 ],
+									"from": [ 0.0, -0.9, 0.1 ],
+									"to": [ 1.5, 0.1, 2.2 ],
 									"autoUnwrap": false,
 									"uv": [ 324.0, 186.0 ],
-									"rotationOrigin": [ 0.0, -0.8891, 0.1482 ],
+									"rotationOrigin": [ 0.0, -0.9, 0.1 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 202.0, 145.0, 216.0, 154.5 ], "rotation": 180, "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 190.0, 88.0, 208.0, 96.0 ], "autoUv": false },
@@ -2343,11 +2343,11 @@
 									"children": [
 										{
 											"name": "Cube35",
-											"from": [ 0.8891, 0.2964, 0.2964 ],
-											"to": [ 2.9635, 0.8891, 1.7782 ],
+											"from": [ 0.9, 0.3, 0.3 ],
+											"to": [ 3.0, 0.9, 1.8 ],
 											"autoUnwrap": false,
 											"uv": [ 294.0, 140.0 ],
-											"rotationOrigin": [ 0.8891, 0.2964, 0.2964 ],
+											"rotationOrigin": [ 0.9, 0.3, 0.3 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 210.0, 145.0, 229.5, 150.5 ], "rotation": 180, "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 192.0, 96.0, 206.0, 100.0 ], "autoUv": false },
@@ -2361,11 +2361,11 @@
 								},
 								{
 									"name": "Tail",
-									"from": [ 2.7518, 0.5292, 0.2964 ],
-									"to": [ 4.8263, 2.3074, 2.0744 ],
+									"from": [ 2.8, 0.5, 0.3 ],
+									"to": [ 5.9, 2.3, 2.1 ],
 									"autoUnwrap": false,
 									"uv": [ 314.0, 146.0 ],
-									"rotationOrigin": [ 2.7518, 1.3759, 1.1854 ],
+									"rotationOrigin": [ 2.8, 1.4, 1.2 ],
 									"rotationZ": -3.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 226.0, 126.0, 245.0, 142.0 ], "autoUv": false },
@@ -2378,11 +2378,11 @@
 									"children": [
 										{
 											"name": "FatTail",
-											"from": [ 0.0, -0.4445, 0.4445 ],
-											"to": [ 2.0744, 0.0, 1.3336 ],
+											"from": [ 0.0, -0.4, 0.4 ],
+											"to": [ 3.1, 0.0, 1.3 ],
 											"autoUnwrap": false,
 											"uv": [ 316.0, 172.0 ],
-											"rotationOrigin": [ 0.0, -0.4445, 0.4445 ],
+											"rotationOrigin": [ 0.0, -0.4, 0.4 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 226.0, 142.0, 245.5, 146.0 ], "rotation": 180, "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 230.0, 86.0, 238.0, 90.0 ], "autoUv": false },
@@ -2394,11 +2394,11 @@
 											"children": [
 												{
 													"name": "Cube38",
-													"from": [ 0.0, 2.2226, 0.0 ],
-													"to": [ 2.0744, 2.519, 0.8891 ],
+													"from": [ 0.0, 2.2, 0.0 ],
+													"to": [ 3.1, 2.5, 0.9 ],
 													"autoUnwrap": false,
 													"uv": [ 318.0, 158.0 ],
-													"rotationOrigin": [ 0.0, 2.2226, 0.0 ],
+													"rotationOrigin": [ 0.0, 2.2, 0.0 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 226.0, 122.0, 245.0, 124.0 ], "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 230.0, 66.0, 238.0, 68.0 ], "autoUv": false },
@@ -2410,11 +2410,11 @@
 												},
 												{
 													"name": "Cube37",
-													"from": [ 0.0011, 2.0744, -0.2964 ],
-													"to": [ 2.0755, 2.3708, 1.1854 ],
+													"from": [ 0.0, 2.1, -0.3 ],
+													"to": [ 3.1, 2.4, 1.2 ],
 													"autoUnwrap": false,
 													"uv": [ 350.0, 146.0 ],
-													"rotationOrigin": [ 0.0, 2.0744, -0.2964 ],
+													"rotationOrigin": [ 0.0, 2.1, -0.3 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 226.5, 123.5, 246.0, 126.0 ], "rotation": 180, "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 228.125, 68.75, 240.625, 70.3125 ], "autoUv": false },
@@ -2428,11 +2428,11 @@
 										},
 										{
 											"name": "Tail 1",
-											"from": [ 1.7782, 0.2964, 0.2964 ],
-											"to": [ 3.8526, 1.63, 1.4818 ],
+											"from": [ 2.9, 0.3, 0.3 ],
+											"to": [ 6.0, 1.6, 1.5 ],
 											"autoUnwrap": false,
 											"uv": [ 350.0, 130.0 ],
-											"rotationOrigin": [ 1.7782, 0.9314, 0.8256 ],
+											"rotationOrigin": [ 2.9, 0.9, 0.8 ],
 											"rotationZ": 3.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 242.0, 128.0, 261.0, 140.0 ], "autoUv": false },
@@ -2445,11 +2445,11 @@
 											"children": [
 												{
 													"name": "Cube43",
-													"from": [ 0.0, -0.4445, 0.2964 ],
-													"to": [ 2.0744, 0.5927, 0.8891 ],
+													"from": [ 0.0, -0.4, 0.3 ],
+													"to": [ 3.1, 0.6, 0.9 ],
 													"autoUnwrap": false,
 													"uv": [ 240.0, 216.0 ],
-													"rotationOrigin": [ 0.0, -0.4445, 0.4445 ],
+													"rotationOrigin": [ 0.0, -0.4, 0.4 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 243.0, 140.0, 262.5, 149.5 ], "rotation": 180, "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 252.6562, 80.3906, 257.5781, 88.5937 ], "autoUv": false },
@@ -2461,11 +2461,11 @@
 												},
 												{
 													"name": "Cube41",
-													"from": [ 0.0, 1.1854, 0.1482 ],
-													"to": [ 2.0744, 1.4818, 1.0373 ],
+													"from": [ 0.0, 1.2, 0.1 ],
+													"to": [ 3.1, 1.5, 1.0 ],
 													"autoUnwrap": false,
 													"uv": [ 326.0, 128.0 ],
-													"rotationOrigin": [ 0.0, 1.1854, 0.1482 ],
+													"rotationOrigin": [ 0.0, 1.2, 0.1 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 242.0, 126.0, 261.5, 128.5 ], "rotation": 180, "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 250.0, 70.0, 258.0, 72.0 ], "autoUv": false },
@@ -2477,11 +2477,11 @@
 												},
 												{
 													"name": "Cube42",
-													"from": [ 0.0, 1.4818, 0.2964 ],
-													"to": [ 2.0744, 1.63, 0.8891 ],
+													"from": [ 0.0, 1.5, 0.3 ],
+													"to": [ 3.1, 1.6, 0.9 ],
 													"autoUnwrap": false,
 													"uv": [ 312.0, 148.0 ],
-													"rotationOrigin": [ 0.0, 1.4818, 0.2964 ],
+													"rotationOrigin": [ 0.0, 1.5, 0.3 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 242.0, 124.0, 261.0, 125.0 ], "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 251.5625, 68.75, 256.25, 70.3125 ], "autoUv": false },
@@ -2493,11 +2493,11 @@
 												},
 												{
 													"name": "Tail 2",
-													"from": [ 1.63, 0.2964, 0.074 ],
-													"to": [ 3.408, 1.0373, 1.1113 ],
+													"from": [ 2.6, 0.3, 0.1 ],
+													"to": [ 4.4, 1.0, 1.1 ],
 													"autoUnwrap": false,
 													"uv": [ 308.0, 126.0 ],
-													"rotationOrigin": [ 1.63, 0.6139, 0.4974 ],
+													"rotationOrigin": [ 2.6, 0.6, 0.5 ],
 													"rotationZ": 3.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 256.0, 130.0, 272.0, 137.0 ], "autoUv": false },
@@ -2510,11 +2510,11 @@
 													"children": [
 														{
 															"name": "Cube45",
-															"from": [ 0.0, -0.2964, 0.2964 ],
-															"to": [ 1.7782, 0.1482, 0.7409 ],
+															"from": [ 0.0, -0.3, 0.3 ],
+															"to": [ 1.8, 0.1, 0.7 ],
 															"autoUnwrap": false,
 															"uv": [ 358.0, 134.0 ],
-															"rotationOrigin": [ 0.0, -0.2964, 0.2964 ],
+															"rotationOrigin": [ 0.0, -0.3, 0.3 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 256.0, 134.0, 272.0, 138.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 264.0, 82.0, 268.0, 86.0 ], "autoUv": false },
@@ -2526,11 +2526,11 @@
 														},
 														{
 															"name": "Cube46",
-															"from": [ 0.0, 0.5927, 0.074 ],
-															"to": [ 1.7782, 0.8891, 0.9631 ],
+															"from": [ 0.0, 0.6, 0.1 ],
+															"to": [ 1.8, 0.9, 1.0 ],
 															"autoUnwrap": false,
 															"uv": [ 354.0, 138.0 ],
-															"rotationOrigin": [ 0.0, 0.5927, 0.074 ],
+															"rotationOrigin": [ 0.0, 0.6, 0.1 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 257.0, 130.0, 273.0, 132.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 262.5, 73.4375, 270.3125, 75.0 ], "autoUv": false },
@@ -2542,11 +2542,11 @@
 														},
 														{
 															"name": "Cube47",
-															"from": [ 0.0, 0.8891, 0.2222 ],
-															"to": [ 1.7782, 1.0373, 0.8149 ],
+															"from": [ 0.0, 0.9, 0.2 ],
+															"to": [ 1.8, 1.0, 0.8 ],
 															"autoUnwrap": false,
 															"uv": [ 374.0, 144.0 ],
-															"rotationOrigin": [ 0.0, 0.8891, 0.2222 ],
+															"rotationOrigin": [ 0.0, 0.9, 0.2 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 256.0, 128.0, 272.0, 129.0 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 264.0, 72.0, 268.0, 74.0 ], "autoUv": false },
@@ -2558,11 +2558,11 @@
 														},
 														{
 															"name": "Tail 3",
-															"from": [ 1.4818, 0.0847, 0.1482 ],
-															"to": [ 2.9635, 0.6774, 0.8891 ],
+															"from": [ 1.5, 0.1, 0.1 ],
+															"to": [ 3.0, 0.7, 0.8 ],
 															"autoUnwrap": false,
 															"uv": [ 344.0, 182.0 ],
-															"rotationOrigin": [ 1.4818, 0.4022, 0.4657 ],
+															"rotationOrigin": [ 1.5, 0.4, 0.5 ],
 															"rotationZ": 1.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 270.0, 132.0, 284.0, 137.0 ], "autoUv": false },
@@ -2575,11 +2575,11 @@
 															"children": [
 																{
 																	"name": "Cube49",
-																	"from": [ 0.0, -0.1482, 0.2222 ],
-																	"to": [ 1.4818, 0.1482, 0.5186 ],
+																	"from": [ 0.0, -0.1, 0.2 ],
+																	"to": [ 1.5, 0.2, 0.5 ],
 																	"autoUnwrap": false,
 																	"uv": [ 348.0, 182.0 ],
-																	"rotationOrigin": [ 0.0, 0.0, 0.2222 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.2 ],
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 270.0, 136.0, 284.0, 138.0 ], "autoUv": false },
 																		"east": { "texture": "#tyrannosaurus-baby", "uv": [ 280.0, 82.0, 282.0, 84.0 ], "autoUv": false },
@@ -2591,11 +2591,11 @@
 																},
 																{
 																	"name": "Cube51",
-																	"from": [ 0.0, 0.5927, 0.1482 ],
-																	"to": [ 1.4818, 0.7409, 0.5927 ],
+																	"from": [ 0.0, 0.6, 0.1 ],
+																	"to": [ 1.5, 0.7, 0.5 ],
 																	"autoUnwrap": false,
 																	"uv": [ 310.0, 166.0 ],
-																	"rotationOrigin": [ 0.0, 0.5927, 0.1482 ],
+																	"rotationOrigin": [ 0.0, 0.6, 0.1 ],
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 270.0, 130.0, 284.0, 131.0 ], "autoUv": false },
 																		"east": { "texture": "#tyrannosaurus-baby", "uv": [ 278.0, 76.0, 282.0, 78.0 ], "autoUv": false },
@@ -2607,11 +2607,11 @@
 																},
 																{
 																	"name": "Tail 4",
-																	"from": [ 1.1854, 0.0847, 0.1482 ],
-																	"to": [ 2.2226, 0.5292, 0.5927 ],
+																	"from": [ 1.2, 0.1, 0.1 ],
+																	"to": [ 2.2, 0.5, 0.5 ],
 																	"autoUnwrap": false,
 																	"uv": [ 328.0, 162.0 ],
-																	"rotationOrigin": [ 1.1854, 0.307, 0.254 ],
+																	"rotationOrigin": [ 1.2, 0.3, 0.3 ],
 																	"rotationZ": -3.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 282.0, 132.0, 291.0, 136.0 ], "autoUv": false },
@@ -2624,11 +2624,11 @@
 																	"children": [
 																		{
 																			"name": "Tail tip",
-																			"from": [ 0.5927, 0.074, 0.074 ],
-																			"to": [ 1.63, 0.3704, 0.3704 ],
+																			"from": [ 0.6, 0.1, 0.1 ],
+																			"to": [ 1.6, 0.4, 0.4 ],
 																			"autoUnwrap": false,
 																			"uv": [ 308.0, 152.0 ],
-																			"rotationOrigin": [ 0.5927, 0.1799, 0.1799 ],
+																			"rotationOrigin": [ 0.6, 0.2, 0.2 ],
 																			"rotationZ": -3.0,
 																			"faces": {
 																				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 288.0, 134.0, 297.0, 136.0 ], "autoUv": false },
@@ -2641,11 +2641,11 @@
 																		},
 																		{
 																			"name": "Cube16",
-																			"from": [ 0.0, 0.1764, -1.176 ],
-																			"to": [ 2.94, 0.294, 1.764 ],
+																			"from": [ -1.0, 0.1, -1.2 ],
+																			"to": [ 5.0, 0.2, 2.0 ],
 																			"autoUnwrap": false,
 																			"uv": [ 22.0, 18.0 ],
-																			"rotationOrigin": [ 0.0, 0.1764, -1.176 ],
+																			"rotationOrigin": [ -1.0, 0.1, -1.2 ],
 																			"faces": {
 																				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 22.0, 23.0, 27.0, 24.0 ], "autoUv": false },
 																				"east": { "texture": "#tyrannosaurus-baby", "uv": [ 27.0, 23.0, 32.0, 24.0 ], "autoUv": false },
@@ -2659,10 +2659,10 @@
 																},
 																{
 																	"name": "Cube86",
-																	"from": [ -2.693, 1.2113, 0.2646 ],
-																	"to": [ -1.517, 1.2701, 0.8526 ],
+																	"from": [ -2.7, 1.2, 0.3 ],
+																	"to": [ -1.5, 1.3, 0.9 ],
 																	"uv": [ 23.0, 27.0 ],
-																	"rotationOrigin": [ -2.6873, 1.2136, 0.267 ],
+																	"rotationOrigin": [ -2.7, 1.2, 0.3 ],
 																	"rotationZ": 13.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -2675,10 +2675,10 @@
 																},
 																{
 																	"name": "Cube87",
-																	"from": [ -1.6346, 1.1525, 0.0294 ],
-																	"to": [ -0.4586, 1.2113, 0.6174 ],
+																	"from": [ -1.6, 1.2, 0.0 ],
+																	"to": [ -0.4, 1.3, 0.6 ],
 																	"uv": [ 23.0, 27.0 ],
-																	"rotationOrigin": [ -1.6289, 1.1548, 0.0318 ],
+																	"rotationOrigin": [ -1.6, 1.2, 0.0 ],
 																	"rotationZ": 13.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -2690,16 +2690,32 @@
 																	}
 																}
 															]
+														},
+														{
+															"name": "Cube88",
+															"from": [ 0.4, 0.3, -0.6 ],
+															"to": [ 2.0, 0.4, 1.8 ],
+															"autoUnwrap": false,
+															"uv": [ 21.0, 16.0 ],
+															"rotationOrigin": [ 0.4, 0.3, -0.1 ],
+															"faces": {
+																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 21.0, 20.0, 27.0, 21.0 ], "autoUv": false },
+																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 27.0, 20.0, 31.0, 21.0 ], "autoUv": false },
+																"south": { "texture": "#tyrannosaurus-baby", "uv": [ 31.0, 20.0, 37.0, 21.0 ], "autoUv": false },
+																"west": { "texture": "#tyrannosaurus-baby", "uv": [ 37.0, 20.0, 41.0, 21.0 ], "autoUv": false },
+																"up": { "texture": "#tyrannosaurus-baby", "uv": [ 30.0, 12.0, 57.0, 34.0 ], "autoUv": false },
+																"down": { "texture": "#tyrannosaurus-baby", "uv": [ 27.0, 16.0, 33.0, 20.0 ], "autoUv": false }
+															}
 														}
 													]
 												},
 												{
 													"name": "Cube13",
-													"from": [ 1.3465, 0.8526, -0.5351 ],
-													"to": [ 4.8745, 0.9702, 1.8169 ],
+													"from": [ -0.7, 0.7, -0.5 ],
+													"to": [ 3.2, 0.8, 1.9 ],
 													"autoUnwrap": false,
 													"uv": [ 21.0, 16.0 ],
-													"rotationOrigin": [ 1.3481, 0.8552, -0.0047 ],
+													"rotationOrigin": [ -0.7, 0.7, 0.0 ],
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 21.0, 20.0, 27.0, 21.0 ], "autoUv": false },
 														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 27.0, 20.0, 31.0, 21.0 ], "autoUv": false },
@@ -2711,10 +2727,10 @@
 												},
 												{
 													"name": "Cube84",
-													"from": [ -1.3054, 1.6876, -0.1 ],
-													"to": [ -0.1294, 1.7464, 0.488 ],
+													"from": [ -1.3, 1.7, -0.1 ],
+													"to": [ -0.1, 1.8, 0.5 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ -1.3019, 1.6896, -0.0988 ],
+													"rotationOrigin": [ -1.3, 1.7, -0.1 ],
 													"rotationZ": 17.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -2727,10 +2743,10 @@
 												},
 												{
 													"name": "Cube85",
-													"from": [ -0.8938, 1.6876, 0.5468 ],
-													"to": [ 0.2822, 1.7464, 1.1348 ],
+													"from": [ -0.9, 1.7, 0.5 ],
+													"to": [ 0.3, 1.8, 1.1 ],
 													"uv": [ 23.0, 27.0 ],
-													"rotationOrigin": [ -0.8903, 1.6896, 0.548 ],
+													"rotationOrigin": [ -0.9, 1.7, 0.5 ],
 													"rotationZ": 17.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -2745,11 +2761,11 @@
 										},
 										{
 											"name": "Cube83",
-											"from": [ -1.5758, 0.8274, -0.5904 ],
-											"to": [ 3.7162, 0.945, 2.6436 ],
+											"from": [ -1.6, 0.8, -0.6 ],
+											"to": [ 3.7, 0.9, 2.6 ],
 											"autoUnwrap": false,
 											"uv": [ 17.0, 15.0 ],
-											"rotationOrigin": [ -1.5778, 0.8274, -0.5904 ],
+											"rotationOrigin": [ -1.6, 0.8, -0.6 ],
 											"rotationZ": 3.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 17.0, 20.0, 26.0, 21.0 ], "autoUv": false },
@@ -2764,11 +2780,11 @@
 								},
 								{
 									"name": "Cube12",
-									"from": [ 0.588, 1.47, -0.294 ],
-									"to": [ 5.88, 1.5876, 2.94 ],
+									"from": [ 0.6, 1.5, -0.3 ],
+									"to": [ 5.9, 1.6, 2.9 ],
 									"autoUnwrap": false,
 									"uv": [ 17.0, 15.0 ],
-									"rotationOrigin": [ 0.588, 1.47, -0.294 ],
+									"rotationOrigin": [ 0.6, 1.5, -0.3 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 17.0, 20.0, 26.0, 21.0 ], "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 26.0, 20.0, 31.0, 21.0 ], "autoUv": false },
@@ -2780,10 +2796,10 @@
 								},
 								{
 									"name": "Cube79",
-									"from": [ 0.9349, 2.599, 0.1411 ],
-									"to": [ 2.1109, 2.6578, 0.7291 ],
+									"from": [ 0.9, 2.6, 0.1 ],
+									"to": [ 2.1, 2.7, 0.7 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.9368, 2.5984, 0.1411 ],
+									"rotationOrigin": [ 0.9, 2.6, 0.1 ],
 									"rotationZ": 17.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -2796,10 +2812,10 @@
 								},
 								{
 									"name": "Cube80",
-									"from": [ 1.8169, 2.599, 0.7879 ],
-									"to": [ 2.9929, 2.6578, 1.3759 ],
+									"from": [ 1.8, 2.6, 0.8 ],
+									"to": [ 3.0, 2.7, 1.4 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.8188, 2.5984, 0.7879 ],
+									"rotationOrigin": [ 1.8, 2.6, 0.8 ],
 									"rotationZ": 17.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -2812,10 +2828,10 @@
 								},
 								{
 									"name": "Cube81",
-									"from": [ 1.1113, 2.5402, 1.4935 ],
-									"to": [ 2.2873, 2.599, 2.0815 ],
+									"from": [ 1.1, 2.5, 1.5 ],
+									"to": [ 2.3, 2.6, 2.1 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.1132, 2.5396, 1.4935 ],
+									"rotationOrigin": [ 1.1, 2.5, 1.5 ],
 									"rotationZ": 17.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -2828,10 +2844,10 @@
 								},
 								{
 									"name": "Cube82",
-									"from": [ 0.9937, 2.6578, 0.7879 ],
-									"to": [ 2.1697, 2.7166, 1.3759 ],
+									"from": [ 1.0, 2.7, 0.8 ],
+									"to": [ 2.2, 2.8, 1.4 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.9956, 2.6572, 0.7879 ],
+									"rotationOrigin": [ 1.0, 2.7, 0.8 ],
 									"rotationZ": 17.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 23.0, 28.0, 25.0, 29.0 ], "autoUv": false },
@@ -2846,11 +2862,11 @@
 						},
 						{
 							"name": "LegR",
-							"from": [ 0.4939, -0.1646, -0.9878 ],
-							"to": [ 2.6342, 2.6342, 0.0 ],
+							"from": [ 2.5, -0.2, -0.3 ],
+							"to": [ 4.6, 2.6, 0.7 ],
 							"autoUnwrap": false,
 							"uv": [ 358.39, 68.17 ],
-							"rotationOrigin": [ 1.5523, 2.0698, 0.0706 ],
+							"rotationOrigin": [ 3.6, 2.1, 0.8 ],
 							"faces": {
 								"north": { "texture": "#tyrannosaurus-baby", "uv": [ 331.0, 116.0, 349.0, 139.0 ], "autoUv": false },
 								"east": { "texture": "#tyrannosaurus-baby", "uv": [ 350.0, 115.0, 358.0, 138.0 ], "autoUv": false },
@@ -2862,11 +2878,11 @@
 							"children": [
 								{
 									"name": "Cube3",
-									"from": [ 0.1646, 2.6342, 0.1646 ],
-									"to": [ 1.9757, 3.1282, 0.9878 ],
+									"from": [ 0.2, 2.6, 0.2 ],
+									"to": [ 2.0, 3.1, 1.0 ],
 									"autoUnwrap": false,
 									"uv": [ 346.1719, 85.3125 ],
-									"rotationOrigin": [ 0.1646, 2.6342, 0.1646 ],
+									"rotationOrigin": [ 0.2, 2.6, 0.2 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 333.0469, 116.4844, 347.8125, 119.7656 ], "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 324.8437, 111.5625, 331.4062, 114.8437 ], "autoUv": false },
@@ -2878,11 +2894,11 @@
 								},
 								{
 									"name": "Cube4",
-									"from": [ 0.1646, 0.1646, -0.1646 ],
-									"to": [ 1.9757, 2.6342, 0.0 ],
+									"from": [ 0.2, 0.2, -0.2 ],
+									"to": [ 2.0, 2.7, 0.0 ],
 									"autoUnwrap": false,
 									"uv": [ 370.7813, 70.5469 ],
-									"rotationOrigin": [ 0.1646, 0.1646, -0.1646 ],
+									"rotationOrigin": [ 0.2, 0.2, -0.2 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 333.0, 116.0, 348.0, 137.0 ], "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 351.0937, 116.4844, 352.7344, 136.1719 ], "autoUv": false },
@@ -2894,11 +2910,11 @@
 								},
 								{
 									"name": "ThighR",
-									"from": [ 0.1646, -0.9878, -0.0012 ],
-									"to": [ 1.6464, 0.4939, 0.9854 ],
+									"from": [ 0.2, -1.0, 0.0 ],
+									"to": [ 1.7, 0.5, 1.0 ],
 									"autoUnwrap": false,
 									"uv": [ 334.69, 75.47 ],
-									"rotationOrigin": [ 0.9878, 0.1646, 0.4939 ],
+									"rotationOrigin": [ 1.0, 0.2, 0.5 ],
 									"rotationZ": 30.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 335.0, 146.0, 347.5, 158.5 ], "rotation": 180, "autoUv": false },
@@ -2911,11 +2927,11 @@
 									"children": [
 										{
 											"name": "Cube5",
-											"from": [ 0.0012, -1.4818, 0.0811 ],
-											"to": [ 0.989, 1.1525, 0.9043 ],
+											"from": [ 0.0, -1.5, 0.1 ],
+											"to": [ 1.0, 1.1, 0.9 ],
 											"autoUnwrap": false,
 											"uv": [ 380.625, 90.2344 ],
-											"rotationOrigin": [ 0.0, -1.4818, 0.0823 ],
+											"rotationOrigin": [ 0.0, -1.5, 0.1 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 336.0, 166.0, 344.0, 188.0 ], "rotation": 180, "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 343.0, 166.0, 350.0, 188.0 ], "autoUv": false },
@@ -2927,11 +2943,11 @@
 										},
 										{
 											"name": "Cube10",
-											"from": [ 0.1646, -0.6586, 0.1176 ],
-											"to": [ 0.9878, 0.4939, 0.8585 ],
+											"from": [ 0.2, -0.7, 0.1 ],
+											"to": [ 1.0, 0.5, 0.8 ],
 											"autoUnwrap": false,
 											"uv": [ 383.9063, 108.2813 ],
-											"rotationOrigin": [ 0.1646, -0.6586, 0.1176 ],
+											"rotationOrigin": [ 0.2, -0.7, 0.1 ],
 											"rotationZ": -22.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 351.0937, 165.7031, 357.6562, 173.9062 ], "autoUv": false },
@@ -2944,11 +2960,11 @@
 										},
 										{
 											"name": "ChinR",
-											"from": [ -0.0823, -2.5284, 0.0823 ],
-											"to": [ 0.7409, -1.0466, 0.9055 ],
+											"from": [ -0.1, -2.5, 0.2 ],
+											"to": [ 0.7, -1.0, 0.8 ],
 											"autoUnwrap": false,
 											"uv": [ 351.0938, 80.3906 ],
-											"rotationOrigin": [ 0.3175, -1.2113, 0.4939 ],
+											"rotationOrigin": [ 0.3, -1.2, 0.6 ],
 											"rotationZ": -60.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 336.0, 194.0, 343.0, 206.5 ], "rotation": 180, "autoUv": false },
@@ -2961,11 +2977,11 @@
 											"children": [
 												{
 													"name": "FootR",
-													"from": [ -0.3646, -0.0941, -0.0823 ],
-													"to": [ 0.7879, 0.2352, 0.9055 ],
+													"from": [ -0.4, -0.1, -0.1 ],
+													"to": [ 0.8, 0.2, 0.9 ],
 													"autoUnwrap": false,
 													"uv": [ 365.8594, 146.0156 ],
-													"rotationOrigin": [ 0.294, 0.3998, 0.4116 ],
+													"rotationOrigin": [ 0.3, 0.4, 0.4 ],
 													"rotationZ": 30.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 336.0, 207.0, 345.5, 209.5 ], "rotation": 180, "autoUv": false },
@@ -2978,11 +2994,11 @@
 													"children": [
 														{
 															"name": "FootpadFrontR",
-															"from": [ -0.3293, -0.1529, 0.0823 ],
-															"to": [ 0.1646, 0.1764, 0.9055 ],
+															"from": [ -0.3, -0.2, 0.1 ],
+															"to": [ 0.2, 0.1, 0.9 ],
 															"unwrapMode": 4,
 															"uv": [ 369.1431, 216.5581 ],
-															"rotationOrigin": [ 0.0, 0.1764, 0.4116 ],
+															"rotationOrigin": [ 0.0, 0.2, 0.4 ],
 															"rotationZ": 17.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 369.1406, 219.8437, 372.4219, 221.4844 ], "autoUv": false },
@@ -2995,11 +3011,11 @@
 															"children": [
 																{
 																	"name": "Toe1",
-																	"from": [ -0.3293, 0.0823, 0.1646 ],
-																	"to": [ 0.3293, 0.4116, 0.5762 ],
+																	"from": [ -0.3, 0.1, 0.2 ],
+																	"to": [ 0.4, 0.4, 0.6 ],
 																	"unwrapMode": 3,
 																	"uv": [ 362.5781, 180.4688 ],
-																	"rotationOrigin": [ 0.1646, 0.247, 0.3293 ],
+																	"rotationOrigin": [ 0.2, 0.2, 0.3 ],
 																	"rotationZ": -17.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 374.0625, 185.3906, 378.9844, 187.0312 ], "autoUv": false },
@@ -3012,10 +3028,10 @@
 																	"children": [
 																		{
 																			"name": "Claw5",
-																			"from": [ -0.4939, 0.1646, 0.0823 ],
-																			"to": [ 0.0, 0.3293, 0.3293 ],
+																			"from": [ -0.5, 0.2, 0.1 ],
+																			"to": [ 0.0, 0.4, 0.3 ],
 																			"uv": [ 0.0, 100.0 ],
-																			"rotationOrigin": [ 0.0, 0.3293, 0.1764 ],
+																			"rotationOrigin": [ 0.0, 0.3, 0.2 ],
 																			"rotationZ": 36.0,
 																			"faces": {
 																				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 0.0, 101.7187, 3.2812, 103.3594 ], "autoUv": false },
@@ -3030,11 +3046,11 @@
 																},
 																{
 																	"name": "Toe2",
-																	"from": [ -0.3293, 0.0823, -0.247 ],
-																	"to": [ 0.3293, 0.4116, 0.1646 ],
+																	"from": [ -0.3, 0.1, -0.2 ],
+																	"to": [ 0.4, 0.4, 0.2 ],
 																	"unwrapMode": 3,
 																	"uv": [ 360.9413, 182.1056 ],
-																	"rotationOrigin": [ 0.1646, 0.247, -0.0823 ],
+																	"rotationOrigin": [ 0.2, 0.2, -0.1 ],
 																	"rotationY": -19.0,
 																	"rotationZ": -17.0,
 																	"faces": {
@@ -3048,10 +3064,10 @@
 																	"children": [
 																		{
 																			"name": "Claw 6",
-																			"from": [ -0.4939, 0.1646, 0.0941 ],
-																			"to": [ 0.0, 0.3293, 0.341 ],
+																			"from": [ -0.5, 0.2, 0.1 ],
+																			"to": [ 0.0, 0.4, 0.3 ],
 																			"uv": [ 0.0, 100.0 ],
-																			"rotationOrigin": [ 0.0, 0.3293, 0.1999 ],
+																			"rotationOrigin": [ 0.0, 0.3, 0.2 ],
 																			"rotationZ": 36.0,
 																			"faces": {
 																				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 0.0, 101.7187, 3.2812, 103.3594 ], "autoUv": false },
@@ -3066,11 +3082,11 @@
 																},
 																{
 																	"name": "Toe",
-																	"from": [ -0.3293, 0.0823, 0.6586 ],
-																	"to": [ 0.3293, 0.4116, 1.0702 ],
+																	"from": [ -0.3, 0.1, 0.7 ],
+																	"to": [ 0.4, 0.4, 1.1 ],
 																	"unwrapMode": 3,
 																	"uv": [ 362.5781, 180.4688 ],
-																	"rotationOrigin": [ 0.1646, 0.247, 0.8232 ],
+																	"rotationOrigin": [ 0.2, 0.2, 0.8 ],
 																	"rotationY": 19.0,
 																	"rotationZ": -17.0,
 																	"faces": {
@@ -3084,10 +3100,10 @@
 																	"children": [
 																		{
 																			"name": "Claw4",
-																			"from": [ -0.4939, 0.1646, 0.0823 ],
-																			"to": [ 0.0, 0.3293, 0.3293 ],
+																			"from": [ -0.5, 0.2, 0.1 ],
+																			"to": [ 0.0, 0.4, 0.3 ],
 																			"uv": [ 0.0, 100.0 ],
-																			"rotationOrigin": [ 0.0, 0.3293, 0.1764 ],
+																			"rotationOrigin": [ 0.0, 0.3, 0.2 ],
 																			"rotationZ": 36.0,
 																			"faces": {
 																				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 0.0, 101.7187, 3.2812, 103.3594 ], "autoUv": false },
@@ -3104,11 +3120,11 @@
 														},
 														{
 															"name": "Cube18",
-															"from": [ 0.0941, 0.1411, 0.047 ],
-															"to": [ 0.588, 0.4704, 0.9067 ],
+															"from": [ 0.1, 0.1, 0.0 ],
+															"to": [ 0.6, 0.4, 0.9 ],
 															"autoUnwrap": false,
 															"uv": [ 378.98, 214.92 ],
-															"rotationOrigin": [ 0.4822, 0.4704, 0.4586 ],
+															"rotationOrigin": [ 0.5, 0.5, 0.5 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 337.9687, 239.5312, 341.25, 241.1719 ], "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 342.8906, 239.5312, 349.4531, 241.1719 ], "autoUv": false },
@@ -3120,11 +3136,11 @@
 														},
 														{
 															"name": "Cube50",
-															"from": [ 0.2587, -0.1294, 0.047 ],
-															"to": [ 1.0819, 0.0353, 0.9067 ],
+															"from": [ 0.3, -0.1, 0.0 ],
+															"to": [ 1.1, 0.1, 0.9 ],
 															"autoUnwrap": false,
 															"uv": [ 375.7031, 196.875 ],
-															"rotationOrigin": [ 0.6468, 0.1882, 0.4586 ],
+															"rotationOrigin": [ 0.6, 0.2, 0.5 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 336.0, 225.0, 343.0, 226.0 ], "rotation": 180, "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 344.5312, 224.7656, 351.0937, 226.4062 ], "autoUv": false },
@@ -3138,29 +3154,29 @@
 												},
 												{
 													"name": "PinkieR",
-													"from": [ -0.3646, 1.129, 0.6586 ],
-													"to": [ 0.294, 1.3642, 0.9055 ],
+													"from": [ -0.4, 1.1, 0.5 ],
+													"to": [ 0.3, 1.3, 0.7 ],
 													"unwrapMode": 3,
 													"uv": [ 362.5825, 182.1106 ],
-													"rotationOrigin": [ 0.294, 1.2113, 0.8232 ],
+													"rotationOrigin": [ 0.3, 1.2, 0.6 ],
 													"rotationX": -19.7,
 													"rotationY": -4.6,
 													"rotationZ": 97.6,
 													"faces": {
-														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 374.0625, 185.3906, 378.9844, 187.0312 ], "autoUv": false },
-														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 370.7812, 185.3906, 372.4219, 187.0312 ], "autoUv": false },
-														"south": { "texture": "#tyrannosaurus-baby", "uv": [ 365.8594, 185.3906, 370.7812, 187.0312 ], "autoUv": false },
-														"west": { "texture": "#tyrannosaurus-baby", "uv": [ 362.5781, 185.3906, 364.2187, 187.0312 ], "autoUv": false },
-														"up": { "texture": "#tyrannosaurus-baby", "uv": [ 365.8594, 182.1094, 370.7812, 183.75 ], "autoUv": false },
-														"down": { "texture": "#tyrannosaurus-baby", "uv": [ 366.0, 187.0, 371.5, 189.0 ], "rotation": 180, "autoUv": false }
+														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 372.0, 184.0, 378.9844, 187.0312 ], "autoUv": false },
+														"east": { "texture": "#tyrannosaurus-baby", "uv": [ 370.5, 184.0, 372.4219, 187.0312 ], "autoUv": false },
+														"south": { "texture": "#tyrannosaurus-baby", "uv": [ 364.5, 184.0, 370.7812, 187.0312 ], "autoUv": false },
+														"west": { "texture": "#tyrannosaurus-baby", "uv": [ 362.5825, 184.0, 364.2187, 187.0312 ], "autoUv": false },
+														"up": { "texture": "#tyrannosaurus-baby", "uv": [ 364.5, 182.1106, 370.7812, 183.75 ], "autoUv": false },
+														"down": { "texture": "#tyrannosaurus-baby", "uv": [ 364.5, 187.0, 371.5, 189.0 ], "rotation": 180, "autoUv": false }
 													},
 													"children": [
 														{
 															"name": "Cube53",
-															"from": [ -0.3998, 0.0941, 0.047 ],
-															"to": [ 0.0118, 0.2587, 0.2117 ],
+															"from": [ -0.4, 0.1, 0.0 ],
+															"to": [ 0.0, 0.3, 0.2 ],
 															"uv": [ 0.0, 100.0 ],
-															"rotationOrigin": [ 0.0353, 0.2587, 0.1294 ],
+															"rotationOrigin": [ 0.0, 0.3, 0.1 ],
 															"rotationZ": 61.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 0.0, 101.7187, 3.2812, 103.3594 ], "autoUv": false },
@@ -3179,10 +3195,10 @@
 								},
 								{
 									"name": "Cube15",
-									"from": [ 0.588, 0.0, 0.588 ],
-									"to": [ 2.94, 2.94, 0.7056 ],
+									"from": [ 0.6, 0.0, 0.5 ],
+									"to": [ 3.0, 2.9, 0.6 ],
 									"uv": [ 5.0, 40.0 ],
-									"rotationOrigin": [ 0.588, 0.0, 0.588 ],
+									"rotationOrigin": [ 0.6, 0.0, 0.5 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 5.0, 41.0, 9.0, 46.0 ], "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 9.0, 41.0, 10.0, 46.0 ], "autoUv": false },
@@ -3194,10 +3210,10 @@
 								},
 								{
 									"name": "Cube62",
-									"from": [ 0.2117, 1.811, -0.0118 ],
-									"to": [ 1.3877, 1.8698, 0.5762 ],
+									"from": [ 0.2, 1.8, 0.0 ],
+									"to": [ 1.4, 1.9, 0.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.2141, 1.811, -0.0118 ],
+									"rotationOrigin": [ 0.2, 1.8, 0.0 ],
 									"rotationX": -94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3211,10 +3227,10 @@
 								},
 								{
 									"name": "Cube63",
-									"from": [ 0.2117, 0.5762, -0.0118 ],
-									"to": [ 1.3877, 0.635, 0.5762 ],
+									"from": [ 0.2, 0.6, 0.0 ],
+									"to": [ 1.4, 0.7, 0.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.2141, 0.5762, -0.0118 ],
+									"rotationOrigin": [ 0.2, 0.6, 0.0 ],
 									"rotationX": -94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3228,10 +3244,10 @@
 								},
 								{
 									"name": "Cube64",
-									"from": [ 1.0937, 1.223, -0.0118 ],
-									"to": [ 2.2697, 1.2818, 0.5762 ],
+									"from": [ 1.1, 1.2, 0.0 ],
+									"to": [ 2.3, 1.3, 0.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.0961, 1.223, -0.0118 ],
+									"rotationOrigin": [ 1.1, 1.2, 0.0 ],
 									"rotationX": -94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3245,10 +3261,10 @@
 								},
 								{
 									"name": "Cube65",
-									"from": [ 1.3877, 1.811, -0.0118 ],
-									"to": [ 2.5637, 1.8698, 0.5762 ],
+									"from": [ 1.4, 1.8, 0.0 ],
+									"to": [ 2.6, 1.9, 0.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.3901, 1.811, -0.0118 ],
+									"rotationOrigin": [ 1.4, 1.8, 0.0 ],
 									"rotationX": -94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3262,10 +3278,10 @@
 								},
 								{
 									"name": "Cube66",
-									"from": [ 1.3877, 0.4586, -0.0118 ],
-									"to": [ 2.5637, 0.5174, 0.5762 ],
+									"from": [ 1.4, 0.5, 0.0 ],
+									"to": [ 2.6, 0.6, 0.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.3901, 0.4586, -0.0118 ],
+									"rotationOrigin": [ 1.4, 0.5, 0.0 ],
 									"rotationX": -94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3281,11 +3297,11 @@
 						},
 						{
 							"name": "LegL",
-							"from": [ 0.4939, -0.1646, 3.6221 ],
-							"to": [ 2.6342, 2.6342, 4.6099 ],
+							"from": [ 2.5, -0.2, 2.5 ],
+							"to": [ 4.6, 2.6, 3.5 ],
 							"autoUnwrap": false,
 							"uv": [ 272.0, 248.0 ],
-							"rotationOrigin": [ 1.5523, 2.0698, 3.6221 ],
+							"rotationOrigin": [ 3.6, 2.1, 2.5 ],
 							"faces": {
 								"north": { "texture": "#tyrannosaurus-baby", "uv": [ 332.0, 116.0, 350.0, 139.5 ], "rotation": 180, "autoUv": false },
 								"east": { "texture": "#tyrannosaurus-baby", "uv": [ 350.0, 116.0, 358.0, 138.0 ], "autoUv": false },
@@ -3297,11 +3313,11 @@
 							"children": [
 								{
 									"name": "Cube54",
-									"from": [ 0.1646, 2.6342, 0.0 ],
-									"to": [ 1.9757, 3.1282, 0.8232 ],
+									"from": [ 0.2, 2.6, 0.0 ],
+									"to": [ 2.0, 3.1, 0.8 ],
 									"autoUnwrap": false,
 									"uv": [ 396.0, 94.0 ],
-									"rotationOrigin": [ 0.1646, 2.6342, 0.0 ],
+									"rotationOrigin": [ 0.2, 2.6, 0.0 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 334.0, 116.0, 348.0, 120.0 ], "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 350.0, 112.0, 356.0, 116.0 ], "autoUv": false },
@@ -3313,11 +3329,11 @@
 								},
 								{
 									"name": "Cube55",
-									"from": [ 0.1646, 0.1646, 0.9878 ],
-									"to": [ 1.9757, 2.6342, 1.1525 ],
+									"from": [ 0.2, 0.2, 1.0 ],
+									"to": [ 2.0, 2.7, 1.2 ],
 									"autoUnwrap": false,
 									"uv": [ 378.0, 170.0 ],
-									"rotationOrigin": [ 0.1646, 0.1646, 0.9878 ],
+									"rotationOrigin": [ 0.2, 0.2, 1.0 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 334.0, 116.0, 349.0, 137.0 ], "rotation": 180, "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 330.0, 116.0, 332.0, 136.0 ], "autoUv": false },
@@ -3329,11 +3345,11 @@
 								},
 								{
 									"name": "ThighL",
-									"from": [ 0.1646, -0.9878, 0.0012 ],
-									"to": [ 1.6464, 0.4939, 0.989 ],
+									"from": [ 0.2, -1.0, 0.0 ],
+									"to": [ 1.7, 0.5, 1.0 ],
 									"autoUnwrap": false,
 									"uv": [ 318.0, 192.0 ],
-									"rotationOrigin": [ 0.9878, 0.1646, 0.4939 ],
+									"rotationOrigin": [ 1.0, 0.2, 0.5 ],
 									"rotationZ": 30.0,
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 334.5, 146.0, 347.0, 158.5 ], "rotation": 180, "autoUv": false },
@@ -3346,11 +3362,11 @@
 									"children": [
 										{
 											"name": "Cube57",
-											"from": [ 0.0012, -1.4818, 0.0811 ],
-											"to": [ 0.989, 1.1525, 0.9043 ],
+											"from": [ 0.0, -1.5, 0.1 ],
+											"to": [ 1.0, 1.1, 0.9 ],
 											"autoUnwrap": false,
 											"uv": [ 340.0, 210.0 ],
-											"rotationOrigin": [ 0.0, -1.4818, 0.0823 ],
+											"rotationOrigin": [ 0.0, -1.5, 0.1 ],
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 336.0, 166.0, 344.0, 188.0 ], "rotation": 180, "autoUv": false },
 												"east": { "texture": "#tyrannosaurus-baby", "uv": [ 344.0, 166.0, 350.0, 188.0 ], "autoUv": false },
@@ -3362,11 +3378,11 @@
 										},
 										{
 											"name": "Cube58",
-											"from": [ 0.1646, -0.6586, 0.1176 ],
-											"to": [ 0.9878, 0.4939, 0.8585 ],
+											"from": [ 0.2, -0.7, 0.1 ],
+											"to": [ 1.0, 0.5, 0.8 ],
 											"autoUnwrap": false,
 											"uv": [ 377.3438, 116.4844 ],
-											"rotationOrigin": [ 0.1646, -0.6586, 0.1176 ],
+											"rotationOrigin": [ 0.2, -0.7, 0.1 ],
 											"rotationZ": -22.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 351.0, 165.5, 358.0, 175.0 ], "rotation": 180, "autoUv": false },
@@ -3379,11 +3395,11 @@
 										},
 										{
 											"name": "ChinL",
-											"from": [ -0.0823, -2.5284, 0.0823 ],
-											"to": [ 0.7409, -1.0466, 0.9055 ],
+											"from": [ -0.1, -2.5, 0.2 ],
+											"to": [ 0.7, -1.0, 0.8 ],
 											"autoUnwrap": false,
 											"uv": [ 408.0, 202.0 ],
-											"rotationOrigin": [ 0.3175, -1.2113, 0.4939 ],
+											"rotationOrigin": [ 0.3, -1.2, 0.6 ],
 											"rotationZ": -60.0,
 											"faces": {
 												"north": { "texture": "#tyrannosaurus-baby", "uv": [ 336.0, 194.0, 343.0, 206.5 ], "rotation": 180, "autoUv": false },
@@ -3396,11 +3412,11 @@
 											"children": [
 												{
 													"name": "FootL",
-													"from": [ -0.3646, -0.0941, -0.0823 ],
-													"to": [ 0.7879, 0.2352, 0.9055 ],
+													"from": [ -0.4, -0.1, -0.1 ],
+													"to": [ 0.8, 0.2, 0.9 ],
 													"autoUnwrap": false,
 													"uv": [ 414.0, 138.0 ],
-													"rotationOrigin": [ 0.294, 0.3998, 0.4116 ],
+													"rotationOrigin": [ 0.3, 0.4, 0.4 ],
 													"rotationZ": 30.0,
 													"faces": {
 														"north": { "texture": "#tyrannosaurus-baby", "uv": [ 336.0, 206.0, 345.5, 208.5 ], "rotation": 180, "autoUv": false },
@@ -3413,11 +3429,11 @@
 													"children": [
 														{
 															"name": "FootpadFrontL",
-															"from": [ -0.3293, -0.1529, 0.0823 ],
-															"to": [ 0.1646, 0.1764, 0.9055 ],
+															"from": [ -0.3, -0.2, 0.1 ],
+															"to": [ 0.2, 0.1, 0.9 ],
 															"unwrapMode": 4,
 															"uv": [ 369.1444, 216.56 ],
-															"rotationOrigin": [ 0.0, 0.1764, 0.4116 ],
+															"rotationOrigin": [ 0.0, 0.2, 0.4 ],
 															"rotationZ": 17.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 369.1406, 219.8437, 372.4219, 221.4844 ], "autoUv": false },
@@ -3430,11 +3446,11 @@
 															"children": [
 																{
 																	"name": "ToeLL",
-																	"from": [ -0.3293, 0.0823, 0.1646 ],
-																	"to": [ 0.3293, 0.4116, 0.5762 ],
+																	"from": [ -0.3, 0.1, 0.2 ],
+																	"to": [ 0.4, 0.4, 0.6 ],
 																	"unwrapMode": 3,
 																	"uv": [ 360.9413, 180.4725 ],
-																	"rotationOrigin": [ 0.1646, 0.247, 0.3293 ],
+																	"rotationOrigin": [ 0.2, 0.2, 0.3 ],
 																	"rotationZ": -17.0,
 																	"faces": {
 																		"north": { "texture": "#tyrannosaurus-baby", "uv": [ 374.0625, 185.3906, 378.9844, 187.0312 ], "autoUv": false },
@@ -3447,10 +3463,10 @@
 																	"children": [
 																		{
 																			"name": "Claw1",
-																			"from": [ -0.4939, 0.1646, 0.0823 ],
-																			"to": [ 0.0, 0.3293, 0.3293 ],
+																			"from": [ -0.5, 0.2, 0.1 ],
+																			"to": [ 0.0, 0.4, 0.3 ],
 																			"uv": [ 0.0, 100.0 ],
-																			"rotationOrigin": [ 0.0, 0.3293, 0.1764 ],
+																			"rotationOrigin": [ 0.0, 0.3, 0.2 ],
 																			"rotationZ": 36.0,
 																			"faces": {
 																				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 0.0, 101.7187, 3.2812, 103.3594 ], "autoUv": false },
@@ -3465,11 +3481,11 @@
 																},
 																{
 																	"name": "ToeMidL",
-																	"from": [ -0.3293, 0.0823, -0.247 ],
-																	"to": [ 0.3293, 0.4116, 0.1646 ],
+																	"from": [ -0.3, 0.1, -0.2 ],
+																	"to": [ 0.4, 0.4, 0.2 ],
 																	"unwrapMode": 3,
 																	"uv": [ 362.5781, 180.4688 ],
-																	"rotationOrigin": [ 0.1646, 0.247, -0.0823 ],
+																	"rotationOrigin": [ 0.2, 0.2, -0.1 ],
 																	"rotationY": -19.0,
 																	"rotationZ": -17.0,
 																	"faces": {
@@ -3483,10 +3499,10 @@
 																	"children": [
 																		{
 																			"name": "Claw2",
-																			"from": [ -0.4939, 0.1646, 0.0941 ],
-																			"to": [ 0.0, 0.3293, 0.341 ],
+																			"from": [ -0.5, 0.2, 0.1 ],
+																			"to": [ 0.0, 0.4, 0.3 ],
 																			"uv": [ 0.0, 100.0 ],
-																			"rotationOrigin": [ 0.0, 0.3293, 0.1999 ],
+																			"rotationOrigin": [ 0.0, 0.3, 0.2 ],
 																			"rotationZ": 36.0,
 																			"faces": {
 																				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 0.0, 101.7187, 3.2812, 103.3594 ], "autoUv": false },
@@ -3501,11 +3517,11 @@
 																},
 																{
 																	"name": "ToeRL",
-																	"from": [ -0.3293, 0.0823, 0.6586 ],
-																	"to": [ 0.3293, 0.4116, 1.0702 ],
+																	"from": [ -0.3, 0.1, 0.7 ],
+																	"to": [ 0.4, 0.4, 1.1 ],
 																	"unwrapMode": 3,
 																	"uv": [ 362.5681, 181.9544 ],
-																	"rotationOrigin": [ 0.1646, 0.247, 0.8232 ],
+																	"rotationOrigin": [ 0.2, 0.2, 0.8 ],
 																	"rotationY": 19.0,
 																	"rotationZ": -17.0,
 																	"faces": {
@@ -3519,10 +3535,10 @@
 																	"children": [
 																		{
 																			"name": "Claw3",
-																			"from": [ -0.4939, 0.1646, 0.0823 ],
-																			"to": [ 0.0, 0.3293, 0.3293 ],
+																			"from": [ -0.5, 0.2, 0.1 ],
+																			"to": [ 0.0, 0.4, 0.3 ],
 																			"uv": [ 0.0, 100.0 ],
-																			"rotationOrigin": [ 0.0, 0.3293, 0.1764 ],
+																			"rotationOrigin": [ 0.0, 0.3, 0.2 ],
 																			"rotationZ": 36.0,
 																			"faces": {
 																				"north": { "texture": "#tyrannosaurus-baby", "uv": [ 0.0, 101.7187, 3.2812, 103.3594 ], "autoUv": false },
@@ -3539,11 +3555,11 @@
 														},
 														{
 															"name": "FeetL2",
-															"from": [ 0.0941, 0.1411, 0.047 ],
-															"to": [ 0.588, 0.4704, 0.9067 ],
+															"from": [ 0.1, 0.1, 0.0 ],
+															"to": [ 0.6, 0.4, 0.9 ],
 															"autoUnwrap": false,
 															"uv": [ 406.0, 242.0 ],
-															"rotationOrigin": [ 0.4822, 0.4704, 0.4586 ],
+															"rotationOrigin": [ 0.5, 0.5, 0.5 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 338.0, 240.0, 342.0, 242.5 ], "rotation": 180, "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 344.0, 240.0, 350.0, 242.0 ], "autoUv": false },
@@ -3555,11 +3571,11 @@
 														},
 														{
 															"name": "Footpad",
-															"from": [ 0.2587, -0.1294, 0.047 ],
-															"to": [ 1.0819, 0.0353, 0.9067 ],
+															"from": [ 0.3, -0.1, 0.0 ],
+															"to": [ 1.1, 0.1, 0.9 ],
 															"autoUnwrap": false,
 															"uv": [ 412.0, 220.0 ],
-															"rotationOrigin": [ 0.6468, 0.1882, 0.4586 ],
+															"rotationOrigin": [ 0.6, 0.2, 0.5 ],
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 338.0, 224.0, 345.0, 225.0 ], "rotation": 180, "autoUv": false },
 																"east": { "texture": "#tyrannosaurus-baby", "uv": [ 346.0, 224.0, 352.0, 226.0 ], "autoUv": false },
@@ -3573,11 +3589,11 @@
 												},
 												{
 													"name": "PinkieL",
-													"from": [ -0.3646, 1.129, -0.0823 ],
-													"to": [ 0.294, 1.3642, 0.1646 ],
+													"from": [ -0.4, 1.1, -0.1 ],
+													"to": [ 0.3, 1.3, 0.1 ],
 													"unwrapMode": 3,
 													"uv": [ 362.5781, 182.1094 ],
-													"rotationOrigin": [ 0.294, 1.2113, 0.047 ],
+													"rotationOrigin": [ 0.3, 1.2, 0.0 ],
 													"rotationX": 19.7,
 													"rotationY": 4.6,
 													"rotationZ": 97.6,
@@ -3592,10 +3608,10 @@
 													"children": [
 														{
 															"name": "Claw",
-															"from": [ -0.3998, 0.0941, 0.047 ],
-															"to": [ 0.0118, 0.2587, 0.2117 ],
+															"from": [ -0.4, 0.1, 0.0 ],
+															"to": [ 0.0, 0.3, 0.2 ],
 															"uv": [ 0.0, 100.0 ],
-															"rotationOrigin": [ 0.0353, 0.2587, 0.1294 ],
+															"rotationOrigin": [ 0.0, 0.3, 0.1 ],
 															"rotationZ": 61.0,
 															"faces": {
 																"north": { "texture": "#tyrannosaurus-baby", "uv": [ 0.0, 101.7187, 3.2812, 103.3594 ], "autoUv": false },
@@ -3614,11 +3630,11 @@
 								},
 								{
 									"name": "Cube14",
-									"from": [ 0.588, 0.0, 0.588 ],
-									"to": [ 2.94, 2.94, 0.7056 ],
+									"from": [ 0.6, 0.0, 0.6 ],
+									"to": [ 3.0, 2.9, 0.7 ],
 									"autoUnwrap": false,
 									"uv": [ 5.0, 40.0 ],
-									"rotationOrigin": [ 0.588, 0.0, 0.588 ],
+									"rotationOrigin": [ 0.6, 0.0, 0.6 ],
 									"faces": {
 										"north": { "texture": "#tyrannosaurus-baby", "uv": [ 15.0, 9.0, 38.0, 26.0 ], "autoUv": false },
 										"east": { "texture": "#tyrannosaurus-baby", "uv": [ 9.0, 41.0, 10.0, 46.0 ], "autoUv": false },
@@ -3630,10 +3646,10 @@
 								},
 								{
 									"name": "Cube23",
-									"from": [ 0.6821, 1.9286, 1.0231 ],
-									"to": [ 1.8581, 1.9874, 1.6111 ],
+									"from": [ 0.7, 1.9, 1.0 ],
+									"to": [ 1.9, 2.0, 1.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.6845, 1.9286, 1.0231 ],
+									"rotationOrigin": [ 0.7, 1.9, 1.0 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3647,10 +3663,10 @@
 								},
 								{
 									"name": "Cube24",
-									"from": [ 1.2701, 2.8106, 1.0231 ],
-									"to": [ 2.4461, 2.8694, 1.6111 ],
+									"from": [ 1.3, 2.8, 1.0 ],
+									"to": [ 2.5, 2.9, 1.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.2725, 2.8106, 1.0231 ],
+									"rotationOrigin": [ 1.3, 2.8, 1.0 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3664,10 +3680,10 @@
 								},
 								{
 									"name": "Cube25",
-									"from": [ 0.0941, 1.0466, 1.0231 ],
-									"to": [ 1.2701, 1.1054, 1.6111 ],
+									"from": [ 0.1, 1.0, 1.0 ],
+									"to": [ 1.3, 1.1, 1.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.0965, 1.0466, 1.0231 ],
+									"rotationOrigin": [ 0.1, 1.0, 1.0 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3681,10 +3697,10 @@
 								},
 								{
 									"name": "Cube48",
-									"from": [ 0.0941, 2.8106, 1.0231 ],
-									"to": [ 1.2701, 2.8694, 1.6111 ],
+									"from": [ 0.1, 2.8, 1.0 ],
+									"to": [ 1.3, 2.9, 1.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 0.0965, 2.8106, 1.0231 ],
+									"rotationOrigin": [ 0.1, 2.8, 1.0 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3698,10 +3714,10 @@
 								},
 								{
 									"name": "Cube52",
-									"from": [ 1.2701, 1.0466, 1.0231 ],
-									"to": [ 2.4461, 1.1054, 1.6111 ],
+									"from": [ 1.3, 1.0, 1.0 ],
+									"to": [ 2.5, 1.1, 1.6 ],
 									"uv": [ 23.0, 27.0 ],
-									"rotationOrigin": [ 1.2725, 1.0466, 1.0231 ],
+									"rotationOrigin": [ 1.3, 1.0, 1.0 ],
 									"rotationX": 94.0,
 									"rotationZ": 14.0,
 									"faces": {
@@ -3717,11 +3733,11 @@
 						},
 						{
 							"name": "Belly",
-							"from": [ 0.0012, -0.3293, 0.6586 ],
-							"to": [ 3.1294, 0.3293, 2.9635 ],
+							"from": [ 0.0, -0.3, 0.5 ],
+							"to": [ 3.1, 0.4, 2.8 ],
 							"autoUnwrap": false,
 							"uv": [ 262.0, 134.0 ],
-							"rotationOrigin": [ 0.0, -0.3293, 0.6586 ],
+							"rotationOrigin": [ 0.0, -0.3, 0.5 ],
 							"faces": {
 								"north": { "texture": "#tyrannosaurus-baby", "uv": [ 176.5, 156.5, 203.0, 162.0 ], "rotation": 180, "autoUv": false },
 								"east": { "texture": "#tyrannosaurus-baby", "uv": [ 28.125, 140.625, 46.875, 145.3125 ], "autoUv": false },
@@ -4615,6 +4631,44 @@
 						"Torso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -19.0 },
 						"Neck": { "rotationX": 0.0, "rotationY": 14.0, "rotationZ": 14.0 },
 						"Head": { "rotationX": 4.5, "rotationY": 0.0, "rotationZ": -4.5 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Leap",
+			"code": "leap",
+			"quantityframes": 30,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Body": { "offsetX": -1.0, "offsetY": 3.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -36.0 },
+						"Neck": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
+						"ArmL": { "rotationX": -50.0, "rotationY": 6.0, "rotationZ": -22.0 },
+						"ArmR": { "rotationX": 50.0, "rotationY": -6.0, "rotationZ": -22.0 },
+						"ThighL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
+						"Cube5": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"ThighR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -39.0 },
+						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
+						"Tail 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
+						"LegR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"LegL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -39.0 }
+					}
+				},
+				{
+					"frame": 15,
+					"elements": {
+						"LegL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LegR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Body": { "offsetX": 0.0, "offsetY": 2.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -39.0 },
+						"Neck": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 53.0 },
+						"ArmL": { "rotationX": -50.0, "rotationY": 6.0, "rotationZ": -6.0 },
+						"ArmR": { "rotationX": 50.0, "rotationY": -6.0, "rotationZ": -33.0 }
 					}
 				}
 			]
