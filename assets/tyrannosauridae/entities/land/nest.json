@@ -170,6 +170,8 @@
 		],
 		"spawnconditions": {
             "worldgen": {
+				"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 },
+				"chanceByType": {"*-empty": 0.0},
 				"triesPerChunk": { "avg": 0.0, "var": 0},
                 "tryOnlySurface": true,
                 "insideBlockCodes": [
@@ -187,6 +189,7 @@
 
 			"runtime": {
 				"group": "neutral",
+				"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 },
 				"tryOnlySurface": true,
 				"chanceByType": {"*-incubating": 0.00001,"*": 0.0},
 				"TriesPerChunk": { "avg": 0.0, "var": 0 },
@@ -210,130 +213,130 @@
 			}
 		},
 		"spawnconditionsByType": {
-			"*-tyrannosaurus-*": {
-				"climate": {
-					"minTemp": 18,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-tarbosaurus-*": {
-				"climate": {
-					"minTemp": 20,
-					"maxTemp": 40,
-					"minRain": 0,
-					"maxRain": 0.6,
-					"minForestOrShrubs": 0,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-nanuqsaurus-*": {
-				"climate": {
-					"minTemp": -10,
-					"maxTemp": 15,
-					"minRain": 0,
-					"maxRain": 1,
-					"minForestOrShrubs": 0,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.2,
-					"maxY": 1.8
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-albertosaurus-*": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 28,
-					"minRain": 0.4,
-					"maxRain": 1,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.2,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-gorgosaurus-*": {
+			"*-tyrannosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
-					"maxTemp": 27,
-					"minRain": 0.5,
-					"maxRain": 1,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-alioramus-*": {
-				"climate": {
-					"minTemp": 22,
-					"maxTemp": 34,
-					"minRain": 0.3,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
-					"maxY": 1.4
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-alioramus-*": {
-				"climate": {
-					"minTemp": 20,
 					"maxTemp": 35,
 					"minRain": 0.4,
 					"maxRain": 0.9,
-					"minForestOrShrubs": 0.6,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.8,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.6
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0007, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
+			},
+			"*-tarbosaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 15,
+					"maxTemp": 40,
+					"minRain": 0.2,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 0.6,
+					"maxShrubs": 0.8,
+					"minY": 0.9,
+					"maxY": 1.7
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0007, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
+			},
+			"*-nanuqsaurus-nest-incubating": {
+				"climate": {
+					"minTemp": -10,
+					"maxTemp": 20,
+					"minRain": 0.0,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.0,
+					"maxForest": 0.9,
+					"maxShrubs": 0.6,
+					"minY": 1.0,
+					"maxY": 1.7
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0007, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
+			},
+			"*-albertosaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.8,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.6
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0007, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
+			},
+			"*-gorgosaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.8,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.6
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0007, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
+			},
+			"*-alioramus-nest-incubating": {
+				"climate": {
+					"minTemp": 15,
+					"maxTemp": 38,
+					"minRain": 0.2,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 0.5,
+					"maxShrubs": 0.8,
+					"minY": 0.9,
+					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0007, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+				}
+			},
+			"*-qianzhousaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 15,
+					"maxTemp": 38,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.7,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
 				"worldgen": {

@@ -8,7 +8,7 @@
     "value": {
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
-        "Torso": ["Neck", "Torso", "Body", "Tail Main", "Tail", "Tail 1", "Tail 2","Tail 3",],
+        "Torso": ["Neck","Neck2", "Torso", "Body", "Tail Main", "Tail", "Tail 1", "Tail 2","Tail 3","Tail 4", "Tail tip"],
         "Head": ["Head", "Top Jar", "Low Jar","Cheek", "Jaw Line", "Dome","Snout", "Lowerlip","Nose"],
         "Arm": ["ArmR","ArmL","WristL","WristR"],
         "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR", "Cube5","Cube57"],
@@ -26,7 +26,7 @@
     "value": {
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
-        "Torso": ["Neck", "Torso", "Body", "Tail Main", "Tail", "Tail 1", "Tail 2","Tail 3",],
+        "Torso": ["Neck","Neck2", "Torso", "Body", "Tail Main", "Tail", "Tail 1", "Tail 2","Tail 3","Tail 4", "Tail tip"],
         "Head": ["Head", "Top Jar", "Low Jar","Cheek", "Jaw Line", "Dome","Snout", "Lowerlip","Nose"],
         "Arm": ["ArmR","ArmL","WristL","WristR"],
         "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR", "Cube5","Cube57"],

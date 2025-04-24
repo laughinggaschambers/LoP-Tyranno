@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "patches": {
+    "float": {
+      "tyrannosauridae:entities/land/tyrannosauridae.json": {
+       "/server/behaviors/12/drops/0/quantityByType/*-tyrannosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-tyrannosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-tyrannosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-tyrannosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-tyrannosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-tyrannosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-tyrannosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-tyrannosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/2/quantityByType/*-tyrannosaurus-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/12/drops/0/quantityByType/*-tarbosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-tarbosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-tarbosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-tarbosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-tarbosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-tarbosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-tarbosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-tarbosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/2/quantityByType/*-tarbosaurus-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/12/drops/0/quantityByType/*-nanuqsaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-nanuqsaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-nanuqsaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-nanuqsaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-nanuqsaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-nanuqsaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-nanuqsaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-nanuqsaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/2/quantityByType/*-nanuqsaurus-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/12/drops/0/quantityByType/*-albertosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-albertosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-albertosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-albertosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-albertosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-albertosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-albertosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-albertosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/2/quantityByType/*-albertosaurus-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/12/drops/0/quantityByType/*-gorgosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-gorgosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-gorgosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-gorgosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-gorgosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-gorgosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-gorgosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-gorgosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/2/quantityByType/*-gorgosaurus-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/12/drops/0/quantityByType/*-alioramus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-alioramus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-alioramus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-alioramus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-alioramus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-alioramus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-alioramus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-alioramus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/2/quantityByType/*-alioramus-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/12/drops/0/quantityByType/*-qianzhousaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-qianzhousaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-qianzhousaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/0/quantityByType/*-qianzhousaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-qianzhousaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-qianzhousaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-qianzhousaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/1/quantityByType/*-qianzhousaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/12/drops/2/quantityByType/*-qianzhousaurus-adult-*/avg": "value * drop_multiplier",
+
+
+
+        "/server/spawnconditions/worldgen/triesPerChunk/avg": "worlgen",
+        "/server/spawnconditions/runtime/chanceByType/*-adult-*": "runtime",
+      }
+    }
+  },
+  "settings":[
+    {
+      "code": "drop_multiplier",
+      "type": "float",
+      "ingui": "setting-drop-multiplier",
+      "default": 1.0,
+      "range": {
+        "min": 0.00,
+        "max": 5.0,
+      }
+    },
+    {
+      "code": "worlgen",
+      "type": "float",
+      "ingui": "setting-worldgen-spawnrate",
+      "default": 0.001,
+      "range": {
+        "min": 0.00,
+        "max": 1.0,
+        "step":0.0001
+      }
+    },
+    {
+      "code": "runtime",
+      "type": "float",
+      "ingui": "setting-runtime-spawnrate",
+      "default": 0.00001,
+      "range": {
+        "min": 0.00,
+        "max": 1.0,
+        "step":0.00001
+      }
+    },
+  ]
+}

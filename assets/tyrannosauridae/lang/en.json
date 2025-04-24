@@ -8,6 +8,9 @@
   "itemdesc-tyrannowearable-bridle2": "Useful for long distance travel",
   "item-handbooktitle-tyrannowearable-bridle2": "How to Use",
   "item-handbooktext-tyrannowearable-bridle2": "When your mount is wearing a curb bit, you need only press forward once, rather than hold it down, to move.",
+  "setting-drop-multiplier":"Mob drop multiplier",
+  "setting-worldgen-spawnrate":"Worldgen spawnrate",
+  "setting-runtime-spawnrate":"Runtime spawnrate",
 
   "item-creature-tyrannosauridae-tyrannosaurus-adult-male": "Tyrannosaurus (Male)",
   "item-creature-tyrannosauridae-tyrannosaurus-adult-female": "Tyrannosaurus (Female)",
