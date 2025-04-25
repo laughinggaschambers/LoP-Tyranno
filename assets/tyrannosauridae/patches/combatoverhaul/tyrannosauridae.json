@@ -12,9 +12,10 @@
         "Head": ["Head", "Top Jar", "Low Jar","Cheek", "Jaw Line", "Dome","Snout", "Lowerlip","Nose"],
         "Arm": ["ArmR","ArmL","WristL","WristR"],
         "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR", "Cube5","Cube57"],
-        "Critical": ["EyeL", "EyeR"],
+        "Critical": ["EyeL", "EyeR","Brain","Heart","Lungs"],
         "Resistant": []
-      }
+      },
+      "defaultPenetrationResistance": 7,
     }
   },
   {
@@ -30,9 +31,10 @@
         "Head": ["Head", "Top Jar", "Low Jar","Cheek", "Jaw Line", "Dome","Snout", "Lowerlip","Nose"],
         "Arm": ["ArmR","ArmL","WristL","WristR"],
         "Leg": ["LegL", "ThighL", "ChinL","LegR", "ThighR", "ChinR", "Cube5","Cube57"],
-        "Critical": ["EyeL", "EyeR"],
+        "Critical": ["EyeL", "EyeR","Brain","Heart","Lungs"],
         "Resistant": []
-      }
+      },
+      "defaultPenetrationResistance": 7,
     }
   },
   {
@@ -46,9 +48,9 @@
       "damageModel": {
         "TorsoDamageMultiplier": 1,
         "LimbsDamageMultiplier": 0.75,
-        "HeadDamageMultiplier": 2.5,
-        "CriticalDamageMultiplier": 25,
-        "DefaultResists": {"BluntAttack": 8, "SlashingAttack": 6, "PiercingAttack": 0}
+        "HeadDamageMultiplier": 3,
+        "CriticalDamageMultiplier": 7,
+        "DefaultResists": {"BluntAttack": 8, "SlashingAttack": 4, "PiercingAttack": 0}
       }
     }
   },
@@ -63,9 +65,9 @@
       "damageModel": {
         "TorsoDamageMultiplier": 1,
         "LimbsDamageMultiplier": 0.75,
-        "HeadDamageMultiplier": 2.5,
-        "CriticalDamageMultiplier": 25,
-        "DefaultResists": {"BluntAttack": 8, "SlashingAttack": 6, "PiercingAttack": 0}
+        "HeadDamageMultiplier": 3,
+        "CriticalDamageMultiplier": 7,
+        "DefaultResists": {"BluntAttack": 8, "SlashingAttack": 4, "PiercingAttack": 0}
       }
     }
   }

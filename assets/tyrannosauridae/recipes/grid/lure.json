@@ -1,0 +1,13 @@
+[
+	{
+		"ingredientPattern": "MMM,MRM,MMM",
+		"ingredients": {
+			"R": { "type": "item", "code": "game:rot", "name": "rot", "quantity":10},
+			"M": { "type": "item", "code": "game:redmeat-raw", "name": "meat", "quantity":2},
+		},
+		"name": "lure",
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "tyrannosauridae:creature-tyrannosauridae-lure", "quantity": 1 }
+	},
+]

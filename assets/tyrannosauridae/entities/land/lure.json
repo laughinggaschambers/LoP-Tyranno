@@ -1,0 +1,66 @@
+{
+	"code": "tyrannosauridae",
+	"class": "EntityAgent",
+	"variantgroups": [
+		{"code": "type","states": ["lure"]},
+	],
+	"hitBoxSize": {	"x": 1,"y": 1},
+	"knockbackResistanceByType": {
+		"*": 100
+	},	
+	"eyeHeight": 0.6,
+	"weightByType": {
+		"*": 1000
+	},
+	"drops": [],
+	"attributes": {
+		"handbook": {
+			"groupcode": "creaturegroup-tyrannosauridae"
+		}
+	},
+	"client": {
+		"renderer": "Shape",
+		"shapeByType": {
+		"*": {"base": "item/lure"},},
+		"sizeByType": {
+			"*": 2
+		},
+		"behaviors": [
+			{"code": "controlledphysics","stepHeight": 0},
+			{"code": "interpolateposition" },
+			{"code": "floatupwhenstuck","onlyWhenDead": true}
+
+		],
+		"animations": [
+		]
+	},
+	"server": {
+		"attributes": {
+		},
+		"behaviors": [
+			{"code": "controlledphysics","stepHeight": 0},
+			{"code": "health","maxhealthByType": {"*": 50}},
+			{"code": "deaddecay","hoursToDecay": 0,"decayedBlock": "none"},
+			{"code": "floatupwhenstuck","onlyWhenDead": true},
+			{"code": "emotionstates","states": []},
+			{
+				"code": "taskai",
+				"aitasks": [
+					{
+						"code": "idle",
+						"priority": 0.9,
+						"minduration": 3000,
+						"maxduration": 3000,
+						"mincooldown": 0,
+						"maxcooldown": 0,
+						"stopOnNearbyEntityCodes": [ ],
+						"stopRange": 15,
+						"animation": "Idle",
+						"animationSpeed": 2.0,
+					}
+				]
+			}
+
+		],
+	}
+}

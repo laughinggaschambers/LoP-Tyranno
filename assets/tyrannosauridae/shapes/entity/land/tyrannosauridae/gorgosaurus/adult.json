@@ -767,11 +767,11 @@
 												},
 												{
 													"name": "Head",
-													"from": [ -7.1, 4.6, 0.4 ],
-													"to": [ 6.9, 20.0, 14.5 ],
+													"from": [ -7.1, 4.6, 0.8 ],
+													"to": [ 6.9, 20.0, 14.9 ],
 													"autoUnwrap": false,
 													"uv": [ 149.0, 40.0 ],
-													"rotationOrigin": [ 7.6, 13.1, 7.4 ],
+													"rotationOrigin": [ 7.6, 13.1, 7.8 ],
 													"rotationZ": 45.0,
 													"faces": {
 														"north": { "texture": "#adult", "uv": [ 132.0, 122.0, 146.0, 137.0 ] },
@@ -2320,6 +2320,15 @@
 																	}
 																}
 															]
+														},
+														{
+															"name": "Brain",
+															"from": [ 0.0, 13.0, 6.0 ],
+															"to": [ 7.0, 18.0, 11.0 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 13.0, 6.0 ],
+															"faces": {
+															}
 														}
 													],
 													"attachmentpoints": [
@@ -2565,6 +2574,24 @@
 											]
 										}
 									]
+								},
+								{
+									"name": "Heart",
+									"from": [ 11.0, 8.0, 10.0 ],
+									"to": [ 17.0, 15.0, 15.0 ],
+									"uv": [ 0.0, 0.0 ],
+									"rotationOrigin": [ 11.0, 8.0, 10.0 ],
+									"faces": {
+									}
+								},
+								{
+									"name": "Lungs",
+									"from": [ 1.0, 10.0, 7.0 ],
+									"to": [ 8.0, 21.0, 18.0 ],
+									"uv": [ 0.0, 0.0 ],
+									"rotationOrigin": [ 1.0, 10.0, 7.0 ],
+									"faces": {
+									}
 								}
 							],
 							"attachmentpoints": [

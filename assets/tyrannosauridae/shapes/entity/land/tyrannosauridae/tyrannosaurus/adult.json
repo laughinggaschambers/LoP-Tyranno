@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth,Root/Cube20,Root/Center/Body/Torso2/Torso3/Torso4,Root/Center/Body/Torso2/Torso3/Torso5,Root/Center/Body/Torso2/Neck2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth8,Root/Center/Body/Torso2/FatT2,Root/Body/Tail Main,Root/Center/Body/ArmR,Root/Center/Body/Cube2,Root/Center/Body/ArmL,Root/Low Jar,Root/Cube36,Root/Body/Torso/Neck/Head/Top Jar,Root/Cube34,Root/Cube31,Root/Body/Cube2,Root/Body,Root/Body/Torso/Neck,Root/Torso,Root/Center/Body/Torso/ArmR,Root/Cube39,Root/Center/Body/Torso/Neck/Neck2/FatN2,Root/Cube11/Cube12,Root/Torso/Neck,Root/Cube15/Cube16,Root/Top Jar/Cube20,Root/Center/Body/Torso/ArmL,Root/Tail Main/Tail/Cube44,Root/Center/Body/Torso2/Torso3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth17,Root/Cube48,Root/Cube44,Root/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Center/Body/Torso2,Root/Center/Body/Torso/Neck2,Root/Center/Body/Torso/Neck/Head,Root/Torso/Cube8,Root/Center/Body/LegL/ThighL/ChinL/FeetL/Cube68,Root/Tail Main,Root/Body/Torso,Root/Cube15,Root/Cube18/Cube20,Root/Cube16,Root/Head,Root/Cube11,Root/Cube12,Root/Cube53,Root/Cube18,Root/Center/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Cube5,Root/Top Jar,Root/Center/Body/Cube11,Root/Cube31/Cube34",
+		"collapsedPaths": ",Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth,Root/Cube20,Root/Center/Body/Torso2/Torso3/Torso4,Root/Center/Body/Torso2/Torso3/Torso5,Root/Center/Body/Torso2/Neck2,Root/Center/Body/LegL,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth8,Root/Center/Body/Torso2/FatT2,Root/Body/Tail Main,Root/Center/Body/Torso/Neck/Neck2/Head/Top Jar,Root/Center/Body/ArmR,Root/Center/Body/Cube2,Root/Center/Body/Tail Main,Root/Center/Body/ArmL,Root/Low Jar,Root/Cube36,Root/Body/Torso/Neck/Head/Top Jar,Root/Cube34,Root/Center/Body/Torso/Neck/Neck2/Head/Low Jar,Root/Cube31,Root/Body/Cube2,Root/Body,Root/Center/Body/LegL/ThighL/ChinL,Root/Body/Torso/Neck,Root/Torso,Root/Center/Body/Torso/ArmR,Root/Cube39,Root/Center/Body/Torso/Neck/Neck2/FatN2,Root/Cube11/Cube12,Root/Torso/Neck,Root/Cube15/Cube16,Root/Top Jar/Cube20,Root/Center/Body/Torso/ArmL,Root/Center/Body/LegR,Root/Tail Main/Tail/Cube44,Root/Center/Body/Torso2/Torso3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth17,Root/Cube48,Root/Cube44,Root/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Center/Body/Torso2,Root/Center/Body/Torso/Neck2,Root/Center/Body/Torso/FatT,Root/Center/Body/Torso/Neck/Head,Root/Torso/Cube8,Root/Center/Body/LegL/ThighL/ChinL/FeetL/Cube68,Root/Tail Main,Root/Body/Torso,Root/Cube15,Root/Cube18/Cube20,Root/Cube16,Root/Head,Root/Cube11,Root/Center/Body/Torso/Neck/Neck2/Head,Root/Cube12,Root/Cube53,Root/Cube18,Root/Center/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Cube5,Root/Top Jar,Root/Center/Body/Cube11,Root/Center/Body/FatB,Root/Center/Body/Torso/Neck/Neck2/Head/Dome,Root/Cube31/Cube34",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -1588,6 +1588,15 @@
 																	}
 																}
 															]
+														},
+														{
+															"name": "Brain",
+															"from": [ 0.0, 13.0, 6.0 ],
+															"to": [ 7.0, 18.0, 11.0 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 13.0, 6.0 ],
+															"faces": {
+															}
 														}
 													],
 													"attachmentpoints": [
@@ -1833,6 +1842,24 @@
 											]
 										}
 									]
+								},
+								{
+									"name": "Heart",
+									"from": [ 11.0, 8.0, 10.0 ],
+									"to": [ 17.0, 15.0, 15.0 ],
+									"uv": [ 0.0, 0.0 ],
+									"rotationOrigin": [ 11.0, 8.0, 10.0 ],
+									"faces": {
+									}
+								},
+								{
+									"name": "Lungs",
+									"from": [ 1.0, 10.0, 7.0 ],
+									"to": [ 8.0, 21.0, 18.0 ],
+									"uv": [ 0.0, 0.0 ],
+									"rotationOrigin": [ 1.0, 10.0, 7.0 ],
+									"faces": {
+									}
 								}
 							]
 						},
