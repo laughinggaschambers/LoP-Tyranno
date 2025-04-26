@@ -73,7 +73,25 @@
 										"west": { "texture": "#adult", "uv": [ 160.0, 58.0, 174.5, 70.5 ] },
 										"up": { "texture": "#adult", "uv": [ 176.0, 182.0, 202.5, 196.5 ] },
 										"down": { "texture": "#adult", "uv": [ 356.0, 0.0, 382.5, 14.5 ] }
-									}
+									},
+									"children": [
+										{
+											"name": "BackStorage1",
+											"from": [ 0.0, 12.6, 1.6 ],
+											"to": [ 14.0, 26.6, 15.6 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 12.6, 1.6 ],
+											"faces": {
+											},
+											"attachmentpoints": [
+												{
+													"code": "BStore1AP",
+													"posX": "0.0","posY": "0.0","posZ": "0.0",
+													"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+												}
+											]
+										}
+									]
 								}
 							]
 						},

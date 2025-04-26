@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"backDropShape": "entity/land/tyrannosauridae/tyrannosaurus/adult",
-		"collapsedPaths": "Root/Leather square center,Root/Center/Strap Main2/Main strap top R2,Root/Main Saddle bottom,Root/Mainstrap  bulge  L,Root/Leather square center2,Root,Root/Strap Main/Main strap top L,Root/Center/Strap Main/Main strap top L/Ring L,Root/Strap Main/Main strap top R,Root/Strap Main2,Root/Strap Main2/Main strap top L2,Root/Strap Main,Root/Leather square center/Leather square center L,Root/Center/Bar,Root/Center/Cube2,Root/Ring L,Root/Center/Strap Main2/Main strap top L2,Root/Ring R,Root/Main strap bottom L2,Root/Main strap top R,Root/Leather square center/Leather square center L9,Root/Main strap bottom L,Root/Main strap top L,Root/Leather square center2/Leather square center L3,Root/Center/Strap Main/Main strap top L6,Root/Center/Strap Main/Main strap top L2,Root/Center/Cube12,Root/Center/Cube15,Root/Center/Cube18,Root/Main Saddle bottom/Saddle Back In",
+		"collapsedPaths": "Root/Leather square center,Root/Leather square center/Leather square center L,Root/Center/Bar,Root/Center/Strap Main2/Main strap top R2,Root/Center/Cube2,Root/Ring L,Root/Center/Strap Main2/Main strap top L2,Root/Ring R,Root/Main Saddle bottom,Root/Mainstrap  bulge  L,Root/Main strap bottom L2,Root/Leather square center2,Root/Main strap top R,Root/Leather square center/Leather square center L9,Root/Main strap bottom L,Root,Root/Strap Main/Main strap top L,Root/Center/Strap Main/Main strap top L/Ring L,Root/Main strap top L,Root/Leather square center2/Leather square center L3,Root/Center/Strap Main/Main strap top L6,Root/Strap Main/Main strap top R,Root/Center/Strap Main/Main strap top L2,Root/Center/Cube12,Root/Center/Cube15,Root/Strap Main2,Root/Center/Cube18,Root/Strap Main2/Main strap top L2,Root/Main Saddle bottom/Saddle Back In,Root/Strap Main",
 		"allAngles": true,
 		"entityTextureMode": false
 	},
@@ -13,7 +13,7 @@
 	},
 	"elements": [
 		{
-			"name": "Center",
+			"name": "main",
 			"stepParentName": "Head",
 			"from": [ 45.0, -55.0, -0.6 ],
 			"to": [ 45.0, -55.0, -0.6 ],

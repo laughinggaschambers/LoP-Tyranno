@@ -1,7 +1,7 @@
 {
 	"editor": {
-		"backDropShape": "entity/land/tyrannosauridae/tyrannosaurus/adult",
-		"collapsedPaths": "Root/Leather square center,Root/Center,Root/Main Saddle bottom,Root/Mainstrap  bulge  L,Root/Leather square center2,Root,Root/Strap Main/Main strap top L,Root/Strap Main/Main strap top R,Root/Strap Main2,Root/Strap Main2/Main strap top L2,Root/Strap Main,Root/Leather square center/Leather square center L,Root/Ring L,Root/Ring R,Root/Main strap bottom L2,Root/Main strap top R,Root/Leather square center/Leather square center L9,Root/Main strap bottom L,Root/Main strap top L,Root/Leather square center2/Leather square center L3,Root/Main Saddle bottom/Saddle Back In",
+		"backDropShape": "/home/tiger/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Mods/LoP-Tyranno/assets/tyrannosauridae/shapes/entity/land/tyrannosauridae/tyrannosaurus/adult",
+		"collapsedPaths": "Root/Leather square center,Root/Leather square center/Leather square center L,Root/Center/Main Saddle bottom,Root/Ring L,Root/Center/Leather square center,Root/Ring R,Root/Main Saddle bottom,Root/Center/Leather square center2,Root/Mainstrap  bulge  L,Root/Main strap bottom L2,Root/Leather square center2,Root/Main strap top R,Root/Leather square center/Leather square center L9,Root/Main strap bottom L,Root,Root/Strap Main/Main strap top L,Root/Center/Strap Main2,Root/Main strap top L,Root/Leather square center2/Leather square center L3,Root/Strap Main/Main strap top R,Root/Strap Main2,Root/Center/Strap Main,Root/Strap Main2/Main strap top L2,Root/Main Saddle bottom/Saddle Back In,Root/Strap Main",
 		"allAngles": true,
 		"entityTextureMode": false
 	},
@@ -13,7 +13,7 @@
 	},
 	"elements": [
 		{
-			"name": "Center",
+			"name": "main",
 			"stepParentName": "Torso",
 			"from": [ 24.0, -37.0, 4.0 ],
 			"to": [ 24.0, -37.0, 4.0 ],

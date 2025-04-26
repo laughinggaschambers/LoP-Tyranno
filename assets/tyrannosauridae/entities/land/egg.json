@@ -2,7 +2,7 @@
 	"code": "tyrannosauridae",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus"]},
+		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus","zhuchengtyrannus","bistahieversor","thanatotheristes","teratophoneus","dynamoterror",]},
 		{"code": "age", "states": ["egg"] },
 		{"code": "state", "states": ["raw"] }
 	],

@@ -43,6 +43,38 @@
           "eastern paleartic",
         ]
       },
+      "*-zhuchengtyrannus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+      "*-bistahieversor-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+      "*-thanatotheristes-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+      "*-teratophoneus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+      "*-dynamoterror-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
     },
     "dependsOn": [
       {
@@ -94,6 +126,38 @@
           "eastern paleartic",
         ]
       },
+      "*-zhuchengtyrannus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+      "*-bistahieversor-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+      "*-thanatotheristes-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+      "*-teratophoneus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+      "*-dynamoterror-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
     },
     "dependsOn": [
       {

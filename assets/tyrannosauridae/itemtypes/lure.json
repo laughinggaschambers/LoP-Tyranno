@@ -3,12 +3,13 @@
 	"class": "ItemCreature",
 	"maxstacksize": 1,
 	"variantgroups": [
-		{"code": "family","states": ["tyrannosauridae"]},
 		{"code": "type","states": ["lure"]},
+		{"code": "size","states": ["big","small"]},
 	],
 
 	"shapeByType": {
-		"*": {"base": "item/lure"},
+			"*-big": {"base": "item/lure-big"},
+			"*-small": {"base": "item/lure-small"},
 	},
 	
 	
@@ -16,13 +17,22 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
 
 	"guiTransformByType": {
-		"*": {
+		"*-big": {
 			"rotate": true,
 			"translation": { "x": 3, "y": 0, "z": 0 },
 			"rotation": { "x": -11, "y": -52, "z": -180 },
 			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
 			"scale": 3
-		}},	
+		},
+		"*-small": {
+			"rotate": true,
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
+			"scale": 2
+		},
+
+	},
 
 	"tpHandTransformByType": {
 		"*": {
@@ -34,17 +44,23 @@
 	},
 
 	"groundTransformByType":{
-		"*":{
+		"*-big":{
 			"translation": {"x": 0,"y": 0,"z": 0},
-			"rotation": {"x": -90,"y": 0,"z": 0},
-			"origin": {"x": 0.5,"y": 0.1,"z": 0.4},
-			"scale": 3
+			"rotation": {"x": 0,"y": 0,"z": 0},
+			"origin": {"x": 0.5,"y": 0,"z": 0.4},
+			"scale": 9
+		},
+		"*-small":{
+			"translation": {"x": 0,"y": 0,"z": 0},
+			"rotation": {"x": 0,"y": 0,"z": 0},
+			"origin": {"x": 0.5,"y": 0,"z": 0.4},
+			"scale": 5
 		},
 	},
 
 	"transitionableProps": [{
 		"type": "Perish",
-		"freshHours": { "avg": 720 },
+		"freshHours": { "avg": 120 },
 		"transitionHours": { "avg": 24 },
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 0.5

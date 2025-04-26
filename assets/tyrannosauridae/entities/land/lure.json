@@ -1,10 +1,10 @@
 {
-	"code": "tyrannosauridae",
+	"code": "lure",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["lure"]},
+		{"code": "size","states": ["big","small"]},
 	],
-	"hitBoxSize": {	"x": 1,"y": 1},
+	"hitBoxSize": {	"x":1,"y": 1},
 	"knockbackResistanceByType": {
 		"*": 100
 	},	
@@ -13,17 +13,15 @@
 		"*": 1000
 	},
 	"drops": [],
-	"attributes": {
-		"handbook": {
-			"groupcode": "creaturegroup-tyrannosauridae"
-		}
-	},
 	"client": {
 		"renderer": "Shape",
 		"shapeByType": {
-		"*": {"base": "item/lure"},},
+			"*-big": {"base": "item/lure-big"},
+			"*-small": {"base": "item/lure-small"},
+		},
 		"sizeByType": {
-			"*": 2
+			"*-big": 2,
+			"*-small": 1,
 		},
 		"behaviors": [
 			{"code": "controlledphysics","stepHeight": 0},
@@ -39,7 +37,11 @@
 		},
 		"behaviors": [
 			{"code": "controlledphysics","stepHeight": 0},
-			{"code": "health","maxhealthByType": {"*": 50}},
+			{"code": "health","maxhealthByType": {
+				"*-big": 50,
+				"*-small": 10,
+				}
+			},
 			{"code": "deaddecay","hoursToDecay": 0,"decayedBlock": "none"},
 			{"code": "floatupwhenstuck","onlyWhenDead": true},
 			{"code": "emotionstates","states": []},
