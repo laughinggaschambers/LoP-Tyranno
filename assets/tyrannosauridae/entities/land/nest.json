@@ -143,6 +143,7 @@
 						"spawnMobs": [
 							"tyrannosauridae:tyrannosauridae-{type}-adult-female",
 						],
+						"stopOnNearbyEntityCodes": ["tyrannosauridae:tyrannosauridae-{type}-adult-female"],
 						"spawnMaxQuantity": 1,
 						"spawnIntervalMsMin": 10000,
 						"spawnIntervalMsMax": 300000,
