@@ -593,7 +593,7 @@
 								[
 									"player", "bear-*","chicken-*", "deer-*","drifter-*", "fox-*", "gazelle-*", "goat-*","hare-*","hyena-*", "moose-*", "pig-*", "raccoon-*", "sheep-*","tameddeer-*", "wolf-*",
 
-									"lure-*",
+									"lure-*", "hitch",
 
 									"ceratopsidae-*","spinosauridae-*","ankylosauria-*", "macronaria-*","dromaeosauridae-*","hadrosauroidea-*", "abelisauridae-*",
 
@@ -1180,12 +1180,87 @@
 						"animation": "Run",
 						"priority": 1.4,
 						"entityCodeByType": {
-							"*-baby-*": "tyrannosauridae-{type}-adult-female"},
-						"movespeedByType": {"*-adult-*":0.05,"*-baby-*":0.035},
-						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.5},
+							"*-baby-*": "tyrannosauridae-{type}-adult-female",
+							},
+						"movespeedByType": {
+							"*-baby-*":0.008,
+							"*-tyrannosaurus-adult-*":0.03,
+							"*-tarbosaurus-adult-*": 0.025,
+							"*-nanuqsaurus-adult-*": 0.019,
+							"*-albertosaurus-adult-*": 0.023,
+							"*-gorgosaurus-adult-*": 0.021,
+							"*-alioramus-adult-*": 0.017,
+							"*-qianzhousaurus-adult-*": 0.023,
+							"*-zhuchengtyrannus-adult-*":0.025,
+							"*-bistahieversor-adult-*":0.023,
+							"*-thanatotheristes-adult-*":0.021,
+							"*-teratophoneus-adult-*":0.019,
+							"*-dynamoterror-adult-*":0.019,
+						},
+						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.25},
 						"maxDistance": 12,
 						"searchRange": 30,
 
+					},
+					{
+						"code": "stayclosetoentity",
+						"animation": "Run",
+						"priority": 2,
+						"entityCodeByType": {
+							"*-adult-*": "hitch"
+							},
+						"movespeedByType": {
+							"*-baby-*":0.008,
+							"*-tyrannosaurus-adult-*":0.03,
+							"*-tarbosaurus-adult-*": 0.025,
+							"*-nanuqsaurus-adult-*": 0.019,
+							"*-albertosaurus-adult-*": 0.023,
+							"*-gorgosaurus-adult-*": 0.021,
+							"*-alioramus-adult-*": 0.017,
+							"*-qianzhousaurus-adult-*": 0.023,
+							"*-zhuchengtyrannus-adult-*":0.025,
+							"*-bistahieversor-adult-*":0.023,
+							"*-thanatotheristes-adult-*":0.021,
+							"*-teratophoneus-adult-*":0.019,
+							"*-dynamoterror-adult-*":0.019,
+						},
+						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.25},
+						"maxDistance": 6,
+						"searchRange": 10,
+
+					},
+					{
+						"code": "seekentity",
+						"animation": "Run",
+						"entityCodesByType": {"*-adult-*":["hitch"],},
+						"priority": 1.85,
+						"seekingRange": 50,
+						"belowTempSeekingRange": 10,
+						"movespeedByType": {
+							"*-baby-*":0.035,
+							"*-tyrannosaurus-adult-*":0.065,
+							"*-tarbosaurus-adult-*": 0.07,
+							"*-nanuqsaurus-adult-*": 0.085,
+							"*-albertosaurus-adult-*": 0.075,
+							"*-gorgosaurus-adult-*": 0.08,
+							"*-alioramus-adult-*": 0.09,
+							"*-qianzhousaurus-adult-*": 0.08,
+						},
+						"animationSpeedByType": {
+							"*-baby-*":2.5,
+							"*-tyrannosaurus-adult-*":1.7,
+							"*-tarbosaurus-adult-*": 1.8,
+							"*-nanuqsaurus-adult-*": 1.95,
+							"*-albertosaurus-adult-*": 1.9,
+							"*-gorgosaurus-adult-*": 1.85,
+							"*-alioramus-adult-*": 2,
+							"*-qianzhousaurus-adult-*": 1.85,
+						},
+						"leapAtTargetByType":{
+							"*-baby-*":true,
+							"*-adult-*":false,
+                        },
+						"leapAnimation":"Leap",
 					},
 
 				]

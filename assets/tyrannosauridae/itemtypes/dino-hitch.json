@@ -1,0 +1,56 @@
+{
+	"code": "creature",
+	"class": "ItemCreature",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{"code": "type","states": ["hitch"]},
+	],
+
+	"shapeByType": {
+			"*": {"base": "item/hitch"},
+	},
+	
+	
+	
+	"creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
+
+	"guiTransformByType": {
+		"*": {
+			"rotate": true,
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
+			"scale": 1
+		},
+
+	},
+
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": -0.6, "z": 0.5},
+			"rotation": { "x": -180, "y": 0, "z": -100 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.5
+		},
+	},
+
+	"groundTransformByType":{
+		"*":{
+			"translation": {"x": 0,"y": 0,"z": 0},
+			"rotation": {"x": 0,"y": 0,"z": 0},
+			"origin": {"x": 0.5,"y": 0,"z": 0.4},
+			"scale": 3
+		},
+	},
+
+}
+	
+
+	
+	
+	
+	
+
+
+
+
