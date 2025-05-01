@@ -67,7 +67,7 @@
 			{
 				"code": "health",
 				"maxhealthByType": {
-					"*": 100
+					"*": 20
 				}
 			},
 			{

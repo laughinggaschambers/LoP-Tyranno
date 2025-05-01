@@ -1,0 +1,15 @@
+[
+	{
+		"ingredientPattern": "PPP,P_P,SNH",
+		"ingredients": {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"P": { type: "item", code: "game:plank-*", name: "wood" },
+			"N": { type: "item", code: "game:metalnailsandstrips-*", name: "nail", quantity:1},
+		},
+		"name": "lure",
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "creature-hitch", "quantity": 1 }
+	},
+]
