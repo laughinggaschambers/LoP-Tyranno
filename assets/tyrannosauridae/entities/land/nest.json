@@ -136,27 +136,6 @@
 						"animationSpeed": 2.0
 					},
 					{
-						"code": "bellalarm",
-						"animation": "Idle",
-						"enabledByType": {"*-incubating": true,"*": false},
-						"onNearbyEntityCodes": ["player"],
-						"spawnMobs": [
-							"tyrannosauridae:tyrannosauridae-{type}-adult-female",
-						],
-						"stopOnNearbyEntityCodes": ["tyrannosauridae:tyrannosauridae-{type}-adult-female"],
-						"spawnMaxQuantity": 1,
-						"spawnIntervalMsMin": 10000,
-						"spawnIntervalMsMax": 300000,
-						"spawnRange": 12,
-						"seekingRange": 50,
-						"priority": 1.9,
-						"minduration": 2000,
-						"maxduration": 8000,
-						"mincooldown": 6000,
-						"maxcooldown": 12000,
-						"animationSpeed": 2.0
-					},
-					{
 						"code": "idle",
 						"animation": "Idle",
 						"priority": 0.5,
