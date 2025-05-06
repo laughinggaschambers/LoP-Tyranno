@@ -233,8 +233,8 @@
 			},
 			"*-nanuqsaurus-nest-incubating": {
 				"climate": {
-					"minTemp": -10,
-					"maxTemp": 20,
+					"minTemp": -20,
+					"maxTemp": 15,
 					"minRain": 0.0,
 					"maxRain": 1,
 					"minForestOrShrubs": 0.0,

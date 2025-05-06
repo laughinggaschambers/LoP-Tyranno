@@ -626,7 +626,7 @@
 							"*-dynamoterror-adult-male": 22.0,"*-dynamoterror-adult-female": 21,"*-dynamoterror-baby-*": 2.5,
 
                         },
-                        "damageType": "PiercingAttack",
+                        "damageType": "SlashingAttack",
                         "knockbackStrengthByType": {
 							"*-baby-*":1,
 							"*-adult-*": 2,
@@ -1308,7 +1308,6 @@
 			"companionsByType":{
 				"*-adult-male":["tyrannosauridae:tyrannosauridae-{type}-adult-male"],
 				"*-adult-female":["tyrannosauridae:tyrannosauridae-{type}-adult-male", "tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male","tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male"],
-				"*-baby-*":["tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male","tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-male"],
 			},
 
 		},
@@ -1322,7 +1321,7 @@
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
-			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
+			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-*","game:soil-*"],
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 2,"var": 3},
 				"*-adult-female":{ "dist": "uniform","avg": 3,"var": 3},
@@ -1363,8 +1362,8 @@
 			},
 			"*-nanuqsaurus-adult-*": {
 				"climate": {
-					"minTemp": -10,
-					"maxTemp": 20,
+					"minTemp": -20,
+					"maxTemp": 15,
 					"minRain": 0.0,
 					"maxRain": 1,
 					"minForestOrShrubs": 0.0,
