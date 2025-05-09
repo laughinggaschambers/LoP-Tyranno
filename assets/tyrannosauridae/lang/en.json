@@ -17,7 +17,8 @@
   "itemdesc-creature-lure-big": "High probability of luring a carnivorous dinosaur up to 100 blocks away",
   "itemdesc-creature-lure-small": "Good probability of luring a carnivorous dinosaur up to 30 blocks away",
   "item-creature-hitch": "Dinosaur Hitching Post",
-  "itemdesc-creature-lure-big": "Domesticated adult dinosaur(s) will stay put where the hitch placed",
+  "itemdesc-creature-hitch": "Domesticated adult dinosaur(s) will stay put where the hitch placed",
+
 
   "item-creature-tyrannosauridae-tyrannosaurus-adult-male": "Tyrannosaurus (Male)",
   "item-creature-tyrannosauridae-tyrannosaurus-adult-female": "Tyrannosaurus (Female)",
@@ -44,6 +45,22 @@
   "game:prefixandcreature-tyrannosauridaetyrannosaurusnestmature": "a tyrannosaurus nest",
   "game:prefixandcreature-tyrannosauridaetyrannosaurusnestempty": "an empty tyrannosaurus nest",
   "game:prefixandcreature-tyrannosauridaetyrannosaurusegg": "a tyrannosaurus egg",
+
+  "item-egg-tyrannosaurus": "Tyrannosaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-tyrannosaurus": "Cracked Tyrannosaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-tyrannosaurus": "Tyrannosaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-tyrannosaurus": "tyrannosaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-tyrannosaurus-insturmentalcase": "tyrannosaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-tyrannosaurus": "tyrannosaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-tyrannosaurus": "tyrannosaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-tyrannosaurus": "Liquid tyrannosaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-tyrannosaurus": "liquid tyrannosaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-tyrannosaurus-insturmentalcase": "liquid tyrannosaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-tyrannosaurus": "Liquid tyrannosaurusegg",
+  "game:incontainer-item-eggyolkfullportion-tyrannosaurus": "Liquid tyrannosaurus egg",
+
   "item-creature-tyrannosauridae-tarbosaurus-adult-male": "Tarbosaurus (Male)",
   "item-creature-tyrannosauridae-tarbosaurus-adult-female": "Tarbosaurus (Female)",
   "item-creature-tyrannosauridae-tarbosaurus-baby-male": "Tarbosaurus (Juvenile Male)",
@@ -69,6 +86,22 @@
   "game:prefixandcreature-tyrannosauridaetarbosaurusnestmature": "a tarbosaurus nest",
   "game:prefixandcreature-tyrannosauridaetarbosaurusnestempty": "an empty tarbosaurus nest",
   "game:prefixandcreature-tyrannosauridaetarbosaurusegg": "a tarbosaurus egg",
+
+  "item-egg-tarbosaurus": "Tarbosaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-tarbosaurus": "Cracked Tarbosaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-tarbosaurus": "Tarbosaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-tarbosaurus": "tarbosaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-tarbosaurus-insturmentalcase": "tarbosaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-tarbosaurus": "tarbosaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-tarbosaurus": "tarbosaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-tarbosaurus": "Liquid tarbosaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-tarbosaurus": "liquid tarbosaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-tarbosaurus-insturmentalcase": "liquid tarbosaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-tarbosaurus": "Liquid tarbosaurusegg",
+  "game:incontainer-item-eggyolkfullportion-tarbosaurus": "Liquid tarbosaurus egg",
+
   "item-creature-tyrannosauridae-nanuqsaurus-adult-male": "Nanuqsaurus (Male)",
   "item-creature-tyrannosauridae-nanuqsaurus-adult-female": "Nanuqsaurus (Female)",
   "item-creature-tyrannosauridae-nanuqsaurus-baby-male": "Nanuqsaurus (Juvenile Male)",
@@ -94,6 +127,22 @@
   "game:prefixandcreature-tyrannosauridaenanuqsaurusnestmature": "a nanuqsaurus nest",
   "game:prefixandcreature-tyrannosauridaenanuqsaurusnestempty": "an empty nanuqsaurus nest",
   "game:prefixandcreature-tyrannosauridaenanuqsaurusegg": "a nanuqsaurus egg",
+
+  "item-egg-nanuqsaurus": "Nanuqsaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-nanuqsaurus": "Cracked Nanuqsaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-nanuqsaurus": "Nanuqsaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-nanuqsaurus": "nanuqsaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-nanuqsaurus-insturmentalcase": "nanuqsaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-nanuqsaurus": "nanuqsaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-nanuqsaurus": "nanuqsaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-nanuqsaurus": "Liquid nanuqsaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-nanuqsaurus": "liquid nanuqsaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-nanuqsaurus-insturmentalcase": "liquid nanuqsaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-nanuqsaurus": "Liquid nanuqsaurusegg",
+  "game:incontainer-item-eggyolkfullportion-nanuqsaurus": "Liquid nanuqsaurus egg",
+
   "item-creature-tyrannosauridae-albertosaurus-adult-male": "Albertosaurus (Male)",
   "item-creature-tyrannosauridae-albertosaurus-adult-female": "Albertosaurus (Female)",
   "item-creature-tyrannosauridae-albertosaurus-baby-male": "Albertosaurus (Juvenile Male)",
@@ -119,6 +168,22 @@
   "game:prefixandcreature-tyrannosauridaealbertosaurusnestmature": "a albertosaurus nest",
   "game:prefixandcreature-tyrannosauridaealbertosaurusnestempty": "an empty albertosaurus nest",
   "game:prefixandcreature-tyrannosauridaealbertosaurusegg": "a albertosaurus egg",
+
+  "item-egg-albertosaurus": "Albertosaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-albertosaurus": "Cracked Albertosaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-albertosaurus": "Albertosaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-albertosaurus": "albertosaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-albertosaurus-insturmentalcase": "albertosaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-albertosaurus": "albertosaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-albertosaurus": "albertosaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-albertosaurus": "Liquid albertosaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-albertosaurus": "liquid albertosaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-albertosaurus-insturmentalcase": "liquid albertosaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-albertosaurus": "Liquid albertosaurusegg",
+  "game:incontainer-item-eggyolkfullportion-albertosaurus": "Liquid albertosaurus egg",
+
   "item-creature-tyrannosauridae-gorgosaurus-adult-male": "Gorgosaurus (Male)",
   "item-creature-tyrannosauridae-gorgosaurus-adult-female": "Gorgosaurus (Female)",
   "item-creature-tyrannosauridae-gorgosaurus-baby-male": "Gorgosaurus (Juvenile Male)",
@@ -144,6 +209,22 @@
   "game:prefixandcreature-tyrannosauridaegorgosaurusnestmature": "a gorgosaurus nest",
   "game:prefixandcreature-tyrannosauridaegorgosaurusnestempty": "an empty gorgosaurus nest",
   "game:prefixandcreature-tyrannosauridaegorgosaurusegg": "a gorgosaurus egg",
+
+  "item-egg-gorgosaurus": "Gorgosaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-gorgosaurus": "Cracked Gorgosaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-gorgosaurus": "Gorgosaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-gorgosaurus": "gorgosaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-gorgosaurus-insturmentalcase": "gorgosaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-gorgosaurus": "gorgosaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-gorgosaurus": "gorgosaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-gorgosaurus": "Liquid gorgosaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-gorgosaurus": "liquid gorgosaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-gorgosaurus-insturmentalcase": "liquid gorgosaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-gorgosaurus": "Liquid gorgosaurusegg",
+  "game:incontainer-item-eggyolkfullportion-gorgosaurus": "Liquid gorgosaurus egg",
+
   "item-creature-tyrannosauridae-alioramus-adult-male": "Alioramus (Male)",
   "item-creature-tyrannosauridae-alioramus-adult-female": "Alioramus (Female)",
   "item-creature-tyrannosauridae-alioramus-baby-male": "Alioramus (Juvenile Male)",
@@ -169,6 +250,22 @@
   "game:prefixandcreature-tyrannosauridaealioramusnestmature": "a alioramus nest",
   "game:prefixandcreature-tyrannosauridaealioramusnestempty": "an empty alioramus nest",
   "game:prefixandcreature-tyrannosauridaealioramusegg": "a alioramus egg",
+
+  "item-egg-alioramus": "Alioramus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-alioramus": "Cracked Alioramus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-alioramus": "Alioramus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-alioramus": "alioramus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-alioramus-insturmentalcase": "alioramus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-alioramus": "alioramus egg yolk",
+  "game:incontainer-item-eggyolkportion-alioramus": "alioramus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-alioramus": "Liquid alioramus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-alioramus": "liquid alioramus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-alioramus-insturmentalcase": "liquid alioramus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-alioramus": "Liquid alioramusegg",
+  "game:incontainer-item-eggyolkfullportion-alioramus": "Liquid alioramus egg",
+
   "item-creature-tyrannosauridae-qianzhousaurus-adult-male": "Qianzhousaurus (Male)",
   "item-creature-tyrannosauridae-qianzhousaurus-adult-female": "Qianzhousaurus (Female)",
   "item-creature-tyrannosauridae-qianzhousaurus-baby-male": "Qianzhousaurus (Juvenile Male)",
@@ -194,7 +291,23 @@
   "game:prefixandcreature-tyrannosauridaeqianzhousaurusnestmature": "a qianzhousaurus nest",
   "game:prefixandcreature-tyrannosauridaeqianzhousaurusnestempty": "an empty qianzhousaurus nest",
   "game:prefixandcreature-tyrannosauridaeqianzhousaurusegg": "a qianzhousaurus egg",
-    "item-creature-tyrannosauridae-zhuchengtyrannus-adult-male": "Zhuchengtyrannus (Male)",
+
+  "item-egg-qianzhousaurus": "Qianzhousaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-qianzhousaurus": "Cracked Qianzhousaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-qianzhousaurus": "Qianzhousaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-qianzhousaurus": "qianzhousaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-qianzhousaurus-insturmentalcase": "qianzhousaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-qianzhousaurus": "qianzhousaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-qianzhousaurus": "qianzhousaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-qianzhousaurus": "Liquid qianzhousaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-qianzhousaurus": "liquid qianzhousaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-qianzhousaurus-insturmentalcase": "liquid qianzhousaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-qianzhousaurus": "Liquid qianzhousaurusegg",
+  "game:incontainer-item-eggyolkfullportion-qianzhousaurus": "Liquid qianzhousaurus egg",
+
+  "item-creature-tyrannosauridae-zhuchengtyrannus-adult-male": "Zhuchengtyrannus (Male)",
   "item-creature-tyrannosauridae-zhuchengtyrannus-adult-female": "Zhuchengtyrannus (Female)",
   "item-creature-tyrannosauridae-zhuchengtyrannus-baby-male": "Zhuchengtyrannus (Juvenile Male)",
   "item-creature-tyrannosauridae-zhuchengtyrannus-baby-female": "Zhuchengtyrannus (Juvenile Female)",
@@ -219,6 +332,21 @@
   "game:prefixandcreature-tyrannosauridaezhuchengtyrannusnestmature": "a zhuchengtyrannus nest",
   "game:prefixandcreature-tyrannosauridaezhuchengtyrannusnestempty": "an empty zhuchengtyrannus nest",
   "game:prefixandcreature-tyrannosauridaezhuchengtyrannusegg": "a zhuchengtyrannus egg",
+
+  "item-egg-zhuchengtyrannus": "Zhuchengtyrannus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-zhuchengtyrannus": "Cracked Zhuchengtyrannus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-zhuchengtyrannus": "Zhuchengtyrannus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-zhuchengtyrannus": "zhuchengtyrannus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-zhuchengtyrannus-insturmentalcase": "zhuchengtyrannus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-zhuchengtyrannus": "zhuchengtyrannus egg yolk",
+  "game:incontainer-item-eggyolkportion-zhuchengtyrannus": "zhuchengtyrannus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-zhuchengtyrannus": "Liquid zhuchengtyrannus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-zhuchengtyrannus": "liquid zhuchengtyrannus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-zhuchengtyrannus-insturmentalcase": "liquid zhuchengtyrannus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-zhuchengtyrannus": "Liquid zhuchengtyrannusegg",
+  "game:incontainer-item-eggyolkfullportion-zhuchengtyrannus": "Liquid zhuchengtyrannus egg",
 
   "item-creature-tyrannosauridae-bistahieversor-adult-male": "Bistahieversor (Male)",
   "item-creature-tyrannosauridae-bistahieversor-adult-female": "Bistahieversor (Female)",
@@ -246,6 +374,21 @@
   "game:prefixandcreature-tyrannosauridaebistahieversornestempty": "an empty bistahieversor nest",
   "game:prefixandcreature-tyrannosauridaebistahieversoregg": "a bistahieversor egg",
 
+  "item-egg-bistahieversor": "Bistahieversor Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-bistahieversor": "Cracked Bistahieversor Egg",
+
+  "aculinaryartillery:item-eggyolkportion-bistahieversor": "Bistahieversor egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-bistahieversor": "bistahieversor egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-bistahieversor-insturmentalcase": "bistahieversor egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-bistahieversor": "bistahieversor egg yolk",
+  "game:incontainer-item-eggyolkportion-bistahieversor": "bistahieversor egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-bistahieversor": "Liquid bistahieversor egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-bistahieversor": "liquid bistahieversor egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-bistahieversor-insturmentalcase": "liquid bistahieversor egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-bistahieversor": "Liquid bistahieversoregg",
+  "game:incontainer-item-eggyolkfullportion-bistahieversor": "Liquid bistahieversor egg",
+
   "item-creature-tyrannosauridae-thanatotheristes-adult-male": "Thanatotheristes (Male)",
   "item-creature-tyrannosauridae-thanatotheristes-adult-female": "Thanatotheristes (Female)",
   "item-creature-tyrannosauridae-thanatotheristes-baby-male": "Thanatotheristes (Juvenile Male)",
@@ -271,6 +414,21 @@
   "game:prefixandcreature-tyrannosauridaethanatotheristesnestmature": "a thanatotheristes nest",
   "game:prefixandcreature-tyrannosauridaethanatotheristesnestempty": "an empty thanatotheristes nest",
   "game:prefixandcreature-tyrannosauridaethanatotheristesegg": "a thanatotheristes egg",
+
+  "item-egg-thanatotheristes": "Thanatotheristes Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-thanatotheristes": "Cracked Thanatotheristes Egg",
+
+  "aculinaryartillery:item-eggyolkportion-thanatotheristes": "Thanatotheristes egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-thanatotheristes": "thanatotheristes egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-thanatotheristes-insturmentalcase": "thanatotheristes egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-thanatotheristes": "thanatotheristes egg yolk",
+  "game:incontainer-item-eggyolkportion-thanatotheristes": "thanatotheristes egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-thanatotheristes": "Liquid thanatotheristes egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-thanatotheristes": "liquid thanatotheristes egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-thanatotheristes-insturmentalcase": "liquid thanatotheristes egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-thanatotheristes": "Liquid thanatotheristesegg",
+  "game:incontainer-item-eggyolkfullportion-thanatotheristes": "Liquid thanatotheristes egg",
 
   "item-creature-tyrannosauridae-teratophoneus-adult-male": "Teratophoneus (Male)",
   "item-creature-tyrannosauridae-teratophoneus-adult-female": "Teratophoneus (Female)",
@@ -298,6 +456,21 @@
   "game:prefixandcreature-tyrannosauridaeteratophoneusnestempty": "an empty teratophoneus nest",
   "game:prefixandcreature-tyrannosauridaeteratophoneusegg": "a teratophoneus egg",
 
+  "item-egg-teratophoneus": "Teratophoneus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-teratophoneus": "Cracked Teratophoneus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-teratophoneus": "Teratophoneus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-teratophoneus": "teratophoneus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-teratophoneus-insturmentalcase": "teratophoneus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-teratophoneus": "teratophoneus egg yolk",
+  "game:incontainer-item-eggyolkportion-teratophoneus": "teratophoneus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-teratophoneus": "Liquid teratophoneus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-teratophoneus": "liquid teratophoneus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-teratophoneus-insturmentalcase": "liquid teratophoneus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-teratophoneus": "Liquid teratophoneusegg",
+  "game:incontainer-item-eggyolkfullportion-teratophoneus": "Liquid teratophoneus egg",
+
   "item-creature-tyrannosauridae-dynamoterror-adult-male": "Dynamoterror (Male)",
   "item-creature-tyrannosauridae-dynamoterror-adult-female": "Dynamoterror (Female)",
   "item-creature-tyrannosauridae-dynamoterror-baby-male": "Dynamoterror (Juvenile Male)",
@@ -323,6 +496,27 @@
   "game:prefixandcreature-tyrannosauridaedynamoterrornestmature": "a dynamoterror nest",
   "game:prefixandcreature-tyrannosauridaedynamoterrornestempty": "an empty dynamoterror nest",
   "game:prefixandcreature-tyrannosauridaedynamoterroregg": "a dynamoterror egg",
+
+  "item-egg-dynamoterror": "Dynamoterror Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-dynamoterror": "Cracked Dynamoterror Egg",
+
+  "aculinaryartillery:item-eggyolkportion-dynamoterror": "Dynamoterror egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-dynamoterror": "dynamoterror egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-dynamoterror-insturmentalcase": "dynamoterror egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-dynamoterror": "dynamoterror egg yolk",
+  "game:incontainer-item-eggyolkportion-dynamoterror": "dynamoterror egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-dynamoterror": "Liquid dynamoterror egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-dynamoterror": "liquid dynamoterror egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-dynamoterror-insturmentalcase": "liquid dynamoterror egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-dynamoterror": "Liquid dynamoterroregg",
+  "game:incontainer-item-eggyolkfullportion-dynamoterror": "Liquid dynamoterror egg",
+
+
+
+
+
+
 
 
 }

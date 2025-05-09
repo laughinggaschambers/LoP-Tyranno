@@ -62,7 +62,7 @@
 			{ 
 				"code": "grow", 
 				"hoursToGrow": 160,
-				"adultEntityCodesByType": {"*": ["tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-female"]}
+				"adultEntityCodesByType": {"*": ["tyrannosauridae:tyrannosauridae-{type}-baby-male","tyrannosauridae:tyrannosauridae-{type}-baby-female"]}
 				},
 			{
 				"code": "taskai",

@@ -1,0 +1,439 @@
+ [
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "file": "tyrannosauridae:itemtypes/egg_food.json",
+    "value":true,
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+
+
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolkfull.json",
+    "value": ["tyrannosaurus", "tarbosaurus", "nanuqsaurus", "albertosaurus", "gorgosaurus", "alioramus", "qianzhousaurus", "zhuchengtyrannus", "bistahieversor", "thanatotheristes", "teratophoneus", "dynamoterror"],
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolkfull.json",
+    "value": {
+      "@*-(tyrannosaurus|tarbosaurus|nanuqsaurus|albertosaurus|gorgosaurus|alioramus|qianzhousaurus|zhuchengtyrannus|bistahieversor|thanatotheristes|teratophoneus|dynamoterror)": {
+				"saturation": 300,
+				"foodcategory": "Protein"
+			},
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/nutritionPropsWhenInPieByType",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolkfull.json",
+    "value": {
+      "@*-(tyrannosaurus|tarbosaurus|nanuqsaurus|albertosaurus|gorgosaurus|alioramus|qianzhousaurus|zhuchengtyrannus|bistahieversor|thanatotheristes|teratophoneus|dynamoterror)": {
+				"saturation": 300,
+				"foodcategory": "Protein"
+			},
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/waterTightContainerProps",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolkfull.json",
+    "value": {
+      "textureByType": {
+      "@*-(tyrannosaurus|tarbosaurus|nanuqsaurus|albertosaurus|gorgosaurus|alioramus|qianzhousaurus|zhuchengtyrannus|bistahieversor|thanatotheristes|teratophoneus|dynamoterror)":{ "base": "game:item/liquid/eggyolkfull/chicken"}},
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textureByType",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolkfull.json",
+    "value": {
+      "@*-(tyrannosaurus|tarbosaurus|nanuqsaurus|albertosaurus|gorgosaurus|alioramus|qianzhousaurus|zhuchengtyrannus|bistahieversor|thanatotheristes|teratophoneus|dynamoterror)":{ "base": "game:item/liquid/eggyolkfull/chicken"},
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolk.json",
+    "value": ["tyrannosaurus", "tarbosaurus", "nanuqsaurus", "albertosaurus", "gorgosaurus", "alioramus", "qianzhousaurus", "zhuchengtyrannus", "bistahieversor", "thanatotheristes", "teratophoneus", "dynamoterror"],
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolk.json",
+    "value": {
+      "@*-(tyrannosaurus|tarbosaurus|nanuqsaurus|albertosaurus|gorgosaurus|alioramus|qianzhousaurus|zhuchengtyrannus|bistahieversor|thanatotheristes|teratophoneus|dynamoterror)": {
+				"saturation": 275,
+				"foodcategory": "Protein"
+			},
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/waterTightContainerProps",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolk.json",
+    "value": {
+      "textureByType": {
+      "@*-(tyrannosaurus|tarbosaurus|nanuqsaurus|albertosaurus|gorgosaurus|alioramus|qianzhousaurus|zhuchengtyrannus|bistahieversor|thanatotheristes|teratophoneus|dynamoterror)":{ "base": "game:item/liquid/eggyolk/chicken"}},
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textureByType",
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolk.json",
+    "value": {
+      "@*-(tyrannosaurus|tarbosaurus|nanuqsaurus|albertosaurus|gorgosaurus|alioramus|qianzhousaurus|zhuchengtyrannus|bistahieversor|thanatotheristes|teratophoneus|dynamoterror)":{ "base": "game:item/liquid/eggyolk/chicken"},
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+
+
+
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "file": "aculinaryartillery:itemtypes/food/eggyolk.json",
+    "value": ["tyrannosaurus", "tarbosaurus", "nanuqsaurus", "albertosaurus", "gorgosaurus", "alioramus", "qianzhousaurus", "zhuchengtyrannus", "bistahieversor", "thanatotheristes", "teratophoneus", "dynamoterror"],
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "file": "aculinaryartillery:itemtypes/food/eggyolk.json",
+    "value": {
+        "@*-(tyrannosaurus|tarbosaurus|nanuqsaurus|albertosaurus|gorgosaurus|alioramus|qianzhousaurus|zhuchengtyrannus|bistahieversor|thanatotheristes|teratophoneus|dynamoterror)":{
+            "egg": { "base": "game:block/wood/henbox/egg" },
+            "yolk": { base: "game:item/liquid/eggyolk/chicken" },
+        },
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+
+
+    {
+    "op": "add",
+    "path": "/0",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-tyrannosaurus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-tyrannosaurus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/1",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-tarbosaurus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-tarbosaurus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/2",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-nanuqsaurus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-nanuqsaurus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/3",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-albertosaurus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-albertosaurus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/4",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-gorgosaurus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-gorgosaurus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/5",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-alioramus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-alioramus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/6",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-qianzhousaurus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-qianzhousaurus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/7",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-zhuchengtyrannus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-zhuchengtyrannus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/8",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-bistahieversor-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-bistahieversor", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/9",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-thanatotheristes-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-thanatotheristes", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/10",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-teratophoneus-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-teratophoneus", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+
+    {
+    "op": "add",
+    "path": "/11",
+    "file": "tyrannosauridae:recipes/grid/egg_convert.json",
+    "value":{
+		"ingredientPattern": "E",
+		"ingredients": {
+			"E":{ "type": "item", "code": "creature-tyrannosauridae-dynamoterror-egg-raw", "name": "egg", "quantity": 1 },
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "tyrannosauridae:egg-dynamoterror", "quantity": 1  }
+    },
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery",
+      }
+    ]
+    },
+
+
+]
