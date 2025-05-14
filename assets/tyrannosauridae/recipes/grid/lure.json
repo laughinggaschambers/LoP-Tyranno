@@ -8,7 +8,7 @@
 		"name": "lure",
 		"width": 3,
 		"height": 3,
-		"output": { "type": "item", "code": "creature-lure-big", "quantity": 1 }
+		"output": { "type": "item", "code": "creature-lure-big-redmeat", "quantity": 1 }
 	},
 	{
 		"ingredientPattern": "M,S",
@@ -19,6 +19,29 @@
 		"name": "lure",
 		"width": 1,
 		"height": 2,
-		"output": { "type": "item", "code": "creature-lure-small", "quantity": 1 }
+		"output": { "type": "item", "code": "creature-lure-small-redmeat", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "MMM,MRM,MMM",
+		"ingredients": {
+			"R": { "type": "item", "code": "game:rot", "name": "rot", "quantity":10},
+			"M": { "type": "item", "code": "game:bushmeat-raw", "name": "meat", "quantity":2},
+		},
+		"name": "lure",
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "creature-lure-big-bushmeat", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "M,S",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick", "name": "stick", "quantity":1},
+			"M": { "type": "item", "code": "game:bushmeat-raw", "name": "meat", "quantity":5},
+		},
+		"name": "lure",
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "creature-lure-small-bushmeat", "quantity": 1 }
 	},
 ]

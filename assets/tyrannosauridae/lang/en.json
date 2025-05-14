@@ -12,12 +12,13 @@
   "setting-worldgen-spawnrate":"Worldgen spawnrate",
   "setting-runtime-spawnrate":"Runtime spawnrate",
   "setting-runtime-ridable":"Ridable toggle",
-  "item-creature-lure-big": "Big Dinosaur Lure",
-  "item-creature-lure-small": "Small Dinosaur Lure",
-  "itemdesc-creature-lure-big": "High probability of luring a carnivorous dinosaur up to 100 blocks away",
-  "itemdesc-creature-lure-small": "Good probability of luring a carnivorous dinosaur up to 30 blocks away",
+  "item-creature-lure-big-*": "Big Dinosaur Lure",
+  "item-creature-lure-small-*": "Small Dinosaur Lure",
+  "itemdesc-creature-lure-big-*": "High probability of luring a carnivorous dinosaur up to 100 blocks away",
+  "itemdesc-creature-lure-small-*": "Good probability of luring a carnivorous dinosaur up to 30 blocks away",
   "item-creature-hitch": "Dinosaur Hitching Post",
   "itemdesc-creature-hitch": "Domesticated adult dinosaur(s) will stay put where the hitch placed",
+  "itemdesc-creature-tyrannosauridae-*-egg-raw": "Can be placed to hatch or cooked in cooking pot",
 
 
   "item-creature-tyrannosauridae-tyrannosaurus-adult-male": "Tyrannosaurus (Male)",

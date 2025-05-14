@@ -5,11 +5,14 @@
 	"variantgroups": [
 		{"code": "type","states": ["lure"]},
 		{"code": "size","states": ["big","small"]},
+		{"code": "source","states": ["redmeat","bushmeat"]},
 	],
 
 	"shapeByType": {
-			"*-big": {"base": "item/lure-big"},
-			"*-small": {"base": "item/lure-small"},
+			"*-big-redmeat": {"base": "item/lure-big-redmeat"},
+			"*-small-redmeat": {"base": "item/lure-small-redmeat"},
+			"*-big-bushmeat": {"base": "item/lure-big-bushmeat"},
+			"*-small-bushmeat": {"base": "item/lure-small-bushmeat"},
 	},
 	
 	
@@ -17,14 +20,14 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
 
 	"guiTransformByType": {
-		"*-big": {
+		"*-big-*": {
 			"rotate": true,
 			"translation": { "x": 3, "y": 0, "z": 0 },
 			"rotation": { "x": -11, "y": -52, "z": -180 },
 			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
 			"scale": 3
 		},
-		"*-small": {
+		"*-small-*": {
 			"rotate": true,
 			"translation": { "x": 3, "y": 0, "z": 0 },
 			"rotation": { "x": -11, "y": -52, "z": -180 },
@@ -44,13 +47,13 @@
 	},
 
 	"groundTransformByType":{
-		"*-big":{
+		"*-big-*":{
 			"translation": {"x": 0,"y": 0,"z": 0},
 			"rotation": {"x": 0,"y": 0,"z": 0},
 			"origin": {"x": 0.5,"y": 0,"z": 0.4},
 			"scale": 9
 		},
-		"*-small":{
+		"*-small-*":{
 			"translation": {"x": 0,"y": 0,"z": 0},
 			"rotation": {"x": 0,"y": 0,"z": 0},
 			"origin": {"x": 0.5,"y": 0,"z": 0.4},

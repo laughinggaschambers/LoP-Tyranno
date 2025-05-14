@@ -3,6 +3,7 @@
 	"class": "EntityAgent",
 	"variantgroups": [
 		{"code": "size","states": ["big","small"]},
+		{"code": "source","states": ["redmeat","bushmeat"]},
 	],
 	"hitBoxSize": {	"x":1,"y": 1},
 	"knockbackResistanceByType": {
@@ -16,12 +17,14 @@
 	"client": {
 		"renderer": "Shape",
 		"shapeByType": {
-			"*-big": {"base": "item/lure-big"},
-			"*-small": {"base": "item/lure-small"},
+			"*-big-redmeat": {"base": "item/lure-big-redmeat"},
+			"*-small-redmeat": {"base": "item/lure-small-redmeat"},
+			"*-big-bushmeat": {"base": "item/lure-big-bushmeat"},
+			"*-small-bushmeat": {"base": "item/lure-small-bushmeat"},
 		},
 		"sizeByType": {
-			"*-big": 2,
-			"*-small": 1,
+			"*-big-*": 2,
+			"*-small-*": 1,
 		},
 		"behaviors": [
 			{"code": "controlledphysics","stepHeight": 0},
