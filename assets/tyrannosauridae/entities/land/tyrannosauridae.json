@@ -390,7 +390,7 @@
         ]
     },
     "server": {
-		"attributes": {"pathfinder": {"minTurnAnglePerSec": 15,"maxTurnAnglePerSec": 60}},
+		"attributes": {"pathfinder": {"minTurnAnglePerSec": 60,"maxTurnAnglePerSec": 120}},
         "behaviors": [
 			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
@@ -419,18 +419,18 @@
             {"code": "breathe"},
             {"code": "health",
                     "maxhealthByType": {
-                        "*-tyrannosaurus-adult-male": 250,"*-tyrannosaurus-adult-female": 240,"*-tyrannosaurus-baby-*": 10,
-                        "*-tarbosaurus-adult-male": 230,"*-tarbosaurus-adult-female": 220,"*-tarbosaurus-baby-*": 9,
-                        "*-nanuqsaurus-adult-male": 175,"*-nanuqsaurus-adult-female": 165,"*-nanuqsaurus-baby-*": 5,
-                        "*-albertosaurus-adult-male": 220,"*-albertosaurus-adult-female": 210,"*-albertosaurus-baby-*": 8.5,
-                        "*-gorgosaurus-adult-male": 210,"*-gorgosaurus-adult-female": 200,"*-gorgosaurus-baby-*": 8,
-                        "*-alioramus-adult-male": 165,"*-alioramus-adult-female": 155,"*-alioramus-baby-*": 4.5,
-                        "*-qianzhousaurus-adult-male": 210,"*-qianzhousaurus-adult-female": 200,"*-qianzhousaurus-baby-*": 8,
-						"*-zhuchengtyrannus-adult-male": 230.0,"*-zhuchengtyrannus-adult-female": 220.0,"*-zhuchengtyrannus-baby-*": 9,
-						"*-bistahieversor-adult-male": 220.0,"*-bistahieversor-adult-female": 210.0,"*-bistahieversor-baby-*": 8.5,
-						"*-thanatotheristes-adult-male": 210.0,"*-thanatotheristes-adult-female": 200.0,"*-thanatotheristes-baby-*": 8,
-						"*-teratophoneus-adult-male": 175.0,"*-teratophoneus-adult-female": 165.0,"*-teratophoneus-baby-*": 5,
-						"*-dynamoterror-adult-male": 175.0,"*-dynamoterror-adult-female": 165.0,"*-dynamoterror-baby-*": 5,
+                        "*-tyrannosaurus-adult-male": 250,"*-tyrannosaurus-adult-female": 240,"*-tyrannosaurus-baby-*": 15,
+                        "*-tarbosaurus-adult-male": 230,"*-tarbosaurus-adult-female": 220,"*-tarbosaurus-baby-*": 14,
+                        "*-nanuqsaurus-adult-male": 175,"*-nanuqsaurus-adult-female": 165,"*-nanuqsaurus-baby-*": 10,
+                        "*-albertosaurus-adult-male": 220,"*-albertosaurus-adult-female": 210,"*-albertosaurus-baby-*": 13.5,
+                        "*-gorgosaurus-adult-male": 210,"*-gorgosaurus-adult-female": 200,"*-gorgosaurus-baby-*": 13,
+                        "*-alioramus-adult-male": 165,"*-alioramus-adult-female": 155,"*-alioramus-baby-*": 9.5,
+                        "*-qianzhousaurus-adult-male": 210,"*-qianzhousaurus-adult-female": 200,"*-qianzhousaurus-baby-*":13,
+						"*-zhuchengtyrannus-adult-male": 230.0,"*-zhuchengtyrannus-adult-female": 220.0,"*-zhuchengtyrannus-baby-*": 14,
+						"*-bistahieversor-adult-male": 220.0,"*-bistahieversor-adult-female": 210.0,"*-bistahieversor-baby-*": 13.5,
+						"*-thanatotheristes-adult-male": 210.0,"*-thanatotheristes-adult-female": 200.0,"*-thanatotheristes-baby-*": 13,
+						"*-teratophoneus-adult-male": 175.0,"*-teratophoneus-adult-female": 165.0,"*-teratophoneus-baby-*": 9,
+						"*-dynamoterror-adult-male": 175.0,"*-dynamoterror-adult-female": 165.0,"*-dynamoterror-baby-*": 9,
                     }
 			},
             {"code": "deaddecay","hoursToDecay": 96,"decayedBlockByType": {"*-adult-*": "carcass-large","*-baby-*": "carcass-small"}},
@@ -615,17 +615,17 @@
                         "slot": 1,
                         "damageByType": {
 							"*-tyrannosaurus-adult-male": 30,"*-tyrannosaurus-adult-female": 29,"*-tyrannosaurus-baby-*": 5,
-							"*-tarbosaurus-adult-male": 28,"*-tarbosaurus-adult-": 27,"*-tarbosaurus-baby-*": 4,
-							"*-nanuqsaurus-adult-male": 22,"*-nanuqsaurus-adult-female": 21,"*-nanuqsaurus-baby-*": 2.5,
+							"*-tarbosaurus-adult-male": 28,"*-tarbosaurus-adult-female": 27,"*-tarbosaurus-baby-*": 4,
+							"*-nanuqsaurus-adult-male": 22,"*-nanuqsaurus-adult-female": 21,"*-nanuqsaurus-baby-*": 3,
 							"*-albertosaurus-adult-male": 26,"*-albertosaurus-adult-female": 25,"*-albertosaurus-baby-*": 3,
 							"*-gorgosaurus-adult-male": 24,"*-gorgosaurus-adult-female": 23,"*-gorgosaurus-baby-*": 3,
 							"*-alioramus-adult-male": 20,"*-alioramus-adult-female": 19,"*-alioramus-baby-*": 2,
 							"*-qianzhousaurus-adult-male": 24,"*-qianzhousaurus-adult-female": 23,"*-qianzhousaurus-baby-*": 3,
 							"*-zhuchengtyrannus-adult-male": 28.0,"*-zhuchengtyrannus-adult-female": 27,"*-zhuchengtyrannus-baby-*": 4,
-							"*-bistahieversor-adult-male": 26.0,"*-bistahieversor-adult-female": 25,"*-bistahieversor-baby-*": 3,
-							"*-thanatotheristes-adult-male": 24.0,"*-thanatotheristes-adult-female": 23,"*-thanatotheristes-baby-*": 3,
-							"*-teratophoneus-adult-male": 22.0,"*-teratophoneus-adult-female": 21,"*-teratophoneus-baby-*": 2.5,
-							"*-dynamoterror-adult-male": 22.0,"*-dynamoterror-adult-female": 21,"*-dynamoterror-baby-*": 2.5,
+							"*-bistahieversor-adult-male": 26.0,"*-bistahieversor-adult-female": 25,"*-bistahieversor-baby-*": 3.5,
+							"*-thanatotheristes-adult-male": 24.0,"*-thanatotheristes-adult-female": 23,"*-thanatotheristes-baby-*": 3.5,
+							"*-teratophoneus-adult-male": 22.0,"*-teratophoneus-adult-female": 21,"*-teratophoneus-baby-*": 3,
+							"*-dynamoterror-adult-male": 22.0,"*-dynamoterror-adult-female": 21,"*-dynamoterror-baby-*": 3,
 
                         },
                         "damageType": "SlashingAttack",
@@ -988,7 +988,7 @@
                         "cervidae-*", "elephantidae-*", "dinornithidae-*", "pantherinae-*", "caninae-*", "cervinae-*", "bovinae-*", "felinae-*", "rhinocerotidae-*", "machairodontinae-*", "vombatidae-*", "ursidae-*", "capreolinae-*",
                         "capercaillie-*","goldenpheasant-*","pheasant-*", "wildturkey-*", "bison-*", "cockatrice-*", "direwolf-*", "faunling-*", "foal-*", "geodecrab-*", "giraffe", "golem-*", "hellboar-*", "horse-*", "ostrich-*", "scorpion-*", "spider-*", "tame-*", "toad-*", "chelonoidis-*"
                         ],
-                        "priorityByType": {"*-adult-*":1,"*-baby-*":1.8,},
+                        "priorityByType": {"*-adult-*":1.8,"*-baby-*":1.8,},
 
                         "seekingRange": 15,
                         "movespeedByType": {
@@ -1045,6 +1045,9 @@
 
                         "pachycephalosauria-pachycephalosaurus-adult-*","pachycephalosauria-platytholus-adult-*","pachycephalosauria-prenocephale-adult-*","pachycephalosauria-stegoceras-adult-*","pachycephalosauria-hanssuesia-adult-*","pachycephalosauria-sinocephale-adult-*","pachycephalosauria-sphaerotholus-adult-*","pachycephalosauria-tylocephale-adult-*","pachycephalosauria-homalocephale-adult-*","pachycephalosauria-acrotholus-adult-*","pachycephalosauria-goyocephale-adult-*","pachycephalosauria-foraminacephale-adult-*","pachycephalosauria-alaskacephale-adult-*","pachycephalosauria-colepiocephale-adult-*","pachycephalosauria-amtocephale-adult-*","pachycephalosauria-wannanosaurus-adult-*",
 
+                        "carcharodontosauridae-giganotosaurus-adult-*","carcharodontosauridae-carcharodontosaurus-adult-*","carcharodontosauridae-mapusaurus-adult-*","carcharodontosauridae-tyrannotitan-adult-*","carcharodontosauridae-tameryraptor-adult-*","carcharodontosauridae-veterupristisaurus-adult-*","carcharodontosauridae-ulughbegsaurus-adult-*","carcharodontosauridae-siamraptor-adult-*","carcharodontosauridae-shaochilong-adult-*","carcharodontosauridae-concavenator-adult-*","carcharodontosauridae-lusovenator-adult-*","carcharodontosauridae-lajasvenator-adult-*",
+
+
                         "mosasauridae-*",
 
 
@@ -1053,6 +1056,50 @@
                         ],
                         "priorityByType": {"*-adult-*":0,"*-baby-*":1.8,},
                         "seekingRange": 30,
+                        "movespeedByType": {
+							"*-baby-*":0.035,
+							"*-tyrannosaurus-adult-*":0.065,
+							"*-tarbosaurus-adult-*": 0.07,
+							"*-nanuqsaurus-adult-*": 0.085,
+							"*-albertosaurus-adult-*": 0.075,
+							"*-gorgosaurus-adult-*": 0.08,
+							"*-alioramus-adult-*": 0.09,
+							"*-qianzhousaurus-adult-*": 0.08,
+							"*-zhuchengtyrannus-adult-*": 0.07,
+							"*-bistahieversor-adult-*": 0.075,
+							"*-thanatotheristes-adult-*": 0.08,
+							"*-teratophoneus-adult-*": 0.085,
+							"*-dynamoterror-adult-*": 0.085,
+						},
+						"animationSpeedByType": {
+							"*-baby-*":2.5,
+							"*-tyrannosaurus-adult-*":1.7,
+							"*-tarbosaurus-adult-*": 1.8,
+							"*-nanuqsaurus-adult-*": 1.95,
+							"*-albertosaurus-adult-*": 1.9,
+							"*-gorgosaurus-adult-*": 1.85,
+							"*-alioramus-adult-*": 2,
+							"*-qianzhousaurus-adult-*": 1.85,
+							"*-zhuchengtyrannus-adult-*": 1.8,
+							"*-bistahieversor-adult-*": 1.85,
+							"*-thanatotheristes-adult-*": 1.9,
+							"*-teratophoneus-adult-*": 1.95,
+							"*-dynamoterror-adult-*": 1.95,
+						},
+
+                    },
+                    {
+                        "code": "fleeentity",
+                        "animation": "Run",
+                        "enabledByType":{"*-adult-*":true,"*-baby-*":true,},
+                        "entityCodes":[
+							"mosasauridae-*",
+
+							"macronaria-argentinosaurus-adult-*","macronaria-patagotitan-adult-*","macronaria-dreadnoughtus-adult-*","macronaria-futalognkosaurus-adult-*","macronaria-brachiosaurus-adult-*","macronaria-giraffatitan-adult-*","macronaria-diamantinasaurus-adult-*","macronaria-europatitan-adult-*","macronaria-antarctosaurus-adult-*","macronaria-ruyangosaurus-adult-*","macronaria-camarasaurus-adult-*","macronaria-bruhathkayosaurus-adult-*","macronaria-malawisaurus-adult-*","macronaria-rapetosaurus-adult-*","macronaria-ampelosaurus-adult-*",
+                        ],
+                        "priorityByType": {"*-adult-*":2,"*-baby-*":2,},
+
+                        "seekingRange": 5,
                         "movespeedByType": {
 							"*-baby-*":0.035,
 							"*-tyrannosaurus-adult-*":0.065,
@@ -1307,7 +1354,7 @@
 		"worldgen": {
 			"chanceByType": {"*-baby-*": 0.0,},
 			"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 },
-			"triesPerChunk": { "avg": 0.0009, "var": 0},
+			"triesPerChunk": { "avg": 0.0007, "var": 0},
 			"tryOnlySurface": true,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
@@ -1349,10 +1396,10 @@
 					"minTemp": 10,
 					"maxTemp": 35,
 					"minRain": 0.3,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxForest": 1,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
@@ -1364,8 +1411,8 @@
 					"minRain": 0.0,
 					"maxRain": 0.7,
 					"minForestOrShrubs": 0.1,
-					"maxForest": 0.8,
-					"maxShrubs": 0.9,
+					"maxForest": 1,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.7
 				},
@@ -1377,10 +1424,10 @@
 					"minRain": 0.0,
 					"maxRain": 1,
 					"minForestOrShrubs": 0.0,
-					"maxForest": 0.9,
-					"maxShrubs": 0.9,
-					"minY": 1.0,
-					"maxY": 1.7
+					"maxForest": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
+					"maxY": 1.8
 				},
 			},
 			"*-albertosaurus-adult-*": {
@@ -1388,10 +1435,10 @@
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.2,
-					"maxForest": 0.8,
-					"maxShrubs": 0.6,
+					"maxForest": 1,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
@@ -1401,10 +1448,10 @@
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.2,
-					"maxForest": 0.8,
-					"maxShrubs": 0.6,
+					"maxForest": 1,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
@@ -1414,10 +1461,10 @@
 					"minTemp": 15,
 					"maxTemp": 38,
 					"minRain": 0.2,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.2,
-					"maxForest": 0.5,
-					"maxShrubs": 0.8,
+					"maxForest": 1,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.5
 				},
@@ -1427,76 +1474,76 @@
 					"minTemp": 15,
 					"maxTemp": 38,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
+					"maxForest": 1,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.5
 				},
 			},
-			"zhuchengtyrannus-tyrannosaurus-adult-":{
+			"*-zhuchengtyrannus-adult-*":{
 				"climate": {
 					"minTemp": 12,
 					"maxTemp": 34,
 					"minRain": 0.4,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
-					"maxForest": 0.75,
-					"maxShrubs": 0.6,
-					"minY": 1.0,
+					"maxForest": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.8
 				}
 			},
-			"bistahieversor-tyrannosaurus-adult-":{
+			"*-bistahieversor-adult-*":{
 				"climate": {
 					"minTemp": 11,
 					"maxTemp": 33,
 					"minRain": 0.3,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.35,
-					"maxForest": 0.7,
-					"maxShrubs": 0.65,
-					"minY": 1.0,
+					"maxForest": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.7
 				}
 			},
-			"thanatotheristes-tyrannosaurus-adult-":{
+			"*-thanatotheristes-adult-*":{
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 35,
 					"minRain": 0.3,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxForest": 1,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				}
 			},
-			"teratophoneus-tyrannosaurus-adult-":{
+			"*-teratophoneus-adult-*":{
 				"climate": {
 					"minTemp": 13,
 					"maxTemp": 32,
 					"minRain": 0.3,
-					"maxRain": 0.75,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.35,
-					"maxForest": 0.7,
-					"maxShrubs": 0.6,
-					"minY": 1.0,
+					"maxForest": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.6
 				}
 			},
-			"dynamoterror-tyrannosaurus-adult-":{
+			"*-dynamoterror-adult-*":{
 				"climate": {
 					"minTemp": 11,
 					"maxTemp": 33,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
-					"maxForest": 0.75,
-					"maxShrubs": 0.65,
-					"minY": 1.0,
+					"maxForest": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.7
 				}
 			},
