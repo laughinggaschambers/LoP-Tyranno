@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/Cube27,Root/Cube14/base7,Root/Cube14/base8,Root/Cube14/base5,Root/base11,Root/Cube14/base6,Root/base12,Root/base10,Root/Main,Root/Main/Cube14,Root/Cube5/base2,Root/Cube5/base3,Root/Cube5/base4,Root/Egg,Root/Cube5/base4/long4,Root/Egg2,Root/Main/Cube5,Root/base2/long2,Root/Cube14/base6/long6,Root/base9,Root/Cube5/base,Root/Cube5/base3/long3,Root/base4,Root/base2,Root/base3,Root/Cube14,Root/Main/base13,Root/Main/base12,Root/Main/base11,Root/base,Root/Main/base10,Root/base10/long10,Root/Main/base9,Root/Cube5,Root/base3/long3,Root/base13",
+		"collapsedPaths": "Root/Cube27,Root/Main/Cube14,Root/Cube5/base4/long4,Root/Main/base9,Root/Cube5/base2,Root/Cube5/base3,Root/Cube5/base4,Root/Cube5/base,Root/Cube5/base3/long3,Root/Main/base13,Root/Main/base12,Root/Main/base11,Root/Main/base10,Root/Cube5,Root/base11,Root/base12,Root/base10,Root/Egg,Root/Cube14/base6/long6,Root/base,Root/base10/long10,Root/base13,Root/Cube14/base7,Root/Cube14/base8,Root/Cube14/base5,Root/Cube14/base6,Root/Main,Root/Egg2,Root/Main/Cube5,Root/base2/long2,Root/base9,Root/base4,Root/base2,Root/base3,Root/Cube14,Root/base3/long3",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -68,6 +68,13 @@
 						"up": { "texture": "#egg", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
 						"down": { "texture": "#egg", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
 					}
+				}
+			],
+			"attachmentpoints": [
+				{
+					"code": "Center",
+					"posX": "1.0","posY": "0.0","posZ": "1.0",
+					"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 				}
 			]
 		}
