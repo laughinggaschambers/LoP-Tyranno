@@ -842,7 +842,7 @@
 							"*-dynamoterror-adult-*": 1.95,
 						},
 						"soundByType": {"*-tyrannosaurus-adult-*":"creature/stomp","*-tarbosaurus-adult-*":"creature/stomp"},
-						"whenInEmotionState": "aggressivearoundentities|aggressiveondamage|fleeondamage",
+						"whenInEmotionState": "aggressiveondamage|fleeondamage",
 						"leapAtTargetByType":{
 							"*-baby-*":true,
 							"*-adult-*":false,
