@@ -2258,11 +2258,11 @@
 						},
 						{
 							"name": "Tail Main",
-							"from": [ 23.6, 9.8, 4.2 ],
-							"to": [ 58.6, 28.0, 26.6 ],
+							"from": [ 23.6, 9.8, 3.2 ],
+							"to": [ 58.6, 28.0, 25.6 ],
 							"autoUnwrap": false,
 							"uv": [ 326.0, 104.0 ],
-							"rotationOrigin": [ 23.6, 18.8, 16.2 ],
+							"rotationOrigin": [ 23.6, 18.8, 15.2 ],
 							"rotationZ": -3.0,
 							"faces": {
 								"north": { "texture": "#zhuchengtyrannus-adult", "uv": [ 200.0, 126.0, 235.0, 144.0 ] },

@@ -19,6 +19,9 @@
   "item-creature-hitch": "Dinosaur Hitching Post",
   "itemdesc-creature-hitch": "Domesticated adult dinosaur(s) will stay put where the hitch placed",
   "itemdesc-creature-tyrannosauridae-*-egg-raw": "Can be placed to hatch or cooked in cooking pot",
+  "item-creature-hitch": "Dinosaur Hitching Post",
+  "item-toy": "Child's Tyrannosaurus Toy",
+  "itemdesc-toy": "Looks like somebody's crude attempt at making a tyrannosaurus",
 
 
   "item-creature-tyrannosauridae-tyrannosaurus-adult-male": "Tyrannosaurus (Male)",
@@ -46,6 +49,13 @@
   "game:prefixandcreature-tyrannosauridaetyrannosaurusnestmature": "a tyrannosaurus nest",
   "game:prefixandcreature-tyrannosauridaetyrannosaurusnestempty": "an empty tyrannosaurus nest",
   "game:prefixandcreature-tyrannosauridaetyrannosaurusegg": "a tyrannosaurus egg",
+  "item-pelt-tyrannosaurus-adult": "Tyrannosaurus Pelt",
+  "item-pelt-tyrannosaurus-baby": "Tyrannosaurus Pelt (Juvenile)",
+  "item-headmount-tyrannosaurus-adult": "Tyrannosaurus Head Mount",
+  "item-headmount-tyrannosaurus-baby": "Tyrannosaurus Head Mount (Juvenile)",
+  "item-taxidermy-tyrannosaurus-adult": "Tyrannosaurus Taxidermy",
+  "item-taxidermy-tyrannosaurus-baby": "Tyrannosaurus Taxidermy",
+
 
   "item-egg-tyrannosaurus": "Tyrannosaurus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-tyrannosaurus": "Cracked Tyrannosaurus Egg",
@@ -87,6 +97,13 @@
   "game:prefixandcreature-tyrannosauridaetarbosaurusnestmature": "a tarbosaurus nest",
   "game:prefixandcreature-tyrannosauridaetarbosaurusnestempty": "an empty tarbosaurus nest",
   "game:prefixandcreature-tyrannosauridaetarbosaurusegg": "a tarbosaurus egg",
+  "item-pelt-tarbosaurus-adult": "Tarbosaurus Pelt",
+  "item-pelt-tarbosaurus-baby": "Tarbosaurus Pelt (Juvenile)",
+  "item-headmount-tarbosaurus-adult": "Tarbosaurus Head Mount",
+  "item-headmount-tarbosaurus-baby": "Tarbosaurus Head Mount (Juvenile)",
+  "item-taxidermy-tarbosaurus-adult": "Tarbosaurus Taxidermy",
+  "item-taxidermy-tarbosaurus-baby": "Tarbosaurus Taxidermy",
+
 
   "item-egg-tarbosaurus": "Tarbosaurus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-tarbosaurus": "Cracked Tarbosaurus Egg",
@@ -128,6 +145,13 @@
   "game:prefixandcreature-tyrannosauridaenanuqsaurusnestmature": "a nanuqsaurus nest",
   "game:prefixandcreature-tyrannosauridaenanuqsaurusnestempty": "an empty nanuqsaurus nest",
   "game:prefixandcreature-tyrannosauridaenanuqsaurusegg": "a nanuqsaurus egg",
+  "item-pelt-nanuqsaurus-adult": "Nanuqsaurus Pelt",
+  "item-pelt-nanuqsaurus-baby": "Nanuqsaurus Pelt (Juvenile)",
+  "item-headmount-nanuqsaurus-adult": "Nanuqsaurus Head Mount",
+  "item-headmount-nanuqsaurus-baby": "Nanuqsaurus Head Mount (Juvenile)",
+  "item-taxidermy-nanuqsaurus-adult": "Nanuqsaurus Taxidermy",
+  "item-taxidermy-nanuqsaurus-baby": "Nanuqsaurus Taxidermy",
+
 
   "item-egg-nanuqsaurus": "Nanuqsaurus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-nanuqsaurus": "Cracked Nanuqsaurus Egg",
@@ -169,6 +193,13 @@
   "game:prefixandcreature-tyrannosauridaealbertosaurusnestmature": "a albertosaurus nest",
   "game:prefixandcreature-tyrannosauridaealbertosaurusnestempty": "an empty albertosaurus nest",
   "game:prefixandcreature-tyrannosauridaealbertosaurusegg": "a albertosaurus egg",
+  "item-pelt-albertosaurus-adult": "Albertosaurus Pelt",
+  "item-pelt-albertosaurus-baby": "Albertosaurus Pelt (Juvenile)",
+  "item-headmount-albertosaurus-adult": "Albertosaurus Head Mount",
+  "item-headmount-albertosaurus-baby": "Albertosaurus Head Mount (Juvenile)",
+  "item-taxidermy-albertosaurus-adult": "Albertosaurus Taxidermy",
+  "item-taxidermy-albertosaurus-baby": "Albertosaurus Taxidermy",
+
 
   "item-egg-albertosaurus": "Albertosaurus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-albertosaurus": "Cracked Albertosaurus Egg",
@@ -210,6 +241,13 @@
   "game:prefixandcreature-tyrannosauridaegorgosaurusnestmature": "a gorgosaurus nest",
   "game:prefixandcreature-tyrannosauridaegorgosaurusnestempty": "an empty gorgosaurus nest",
   "game:prefixandcreature-tyrannosauridaegorgosaurusegg": "a gorgosaurus egg",
+  "item-pelt-gorgosaurus-adult": "Gorgosaurus Pelt",
+  "item-pelt-gorgosaurus-baby": "Gorgosaurus Pelt (Juvenile)",
+  "item-headmount-gorgosaurus-adult": "Gorgosaurus Head Mount",
+  "item-headmount-gorgosaurus-baby": "Gorgosaurus Head Mount (Juvenile)",
+  "item-taxidermy-gorgosaurus-adult": "Gorgosaurus Taxidermy",
+  "item-taxidermy-gorgosaurus-baby": "Gorgosaurus Taxidermy",
+
 
   "item-egg-gorgosaurus": "Gorgosaurus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-gorgosaurus": "Cracked Gorgosaurus Egg",
@@ -251,6 +289,13 @@
   "game:prefixandcreature-tyrannosauridaealioramusnestmature": "a alioramus nest",
   "game:prefixandcreature-tyrannosauridaealioramusnestempty": "an empty alioramus nest",
   "game:prefixandcreature-tyrannosauridaealioramusegg": "a alioramus egg",
+  "item-pelt-alioramus-adult": "Alioramus Pelt",
+  "item-pelt-alioramus-baby": "Alioramus Pelt (Juvenile)",
+  "item-headmount-alioramus-adult": "Alioramus Head Mount",
+  "item-headmount-alioramus-baby": "Alioramus Head Mount (Juvenile)",
+  "item-taxidermy-alioramus-adult": "Alioramus Taxidermy",
+  "item-taxidermy-alioramus-baby": "Alioramus Taxidermy",
+
 
   "item-egg-alioramus": "Alioramus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-alioramus": "Cracked Alioramus Egg",
@@ -292,6 +337,13 @@
   "game:prefixandcreature-tyrannosauridaeqianzhousaurusnestmature": "a qianzhousaurus nest",
   "game:prefixandcreature-tyrannosauridaeqianzhousaurusnestempty": "an empty qianzhousaurus nest",
   "game:prefixandcreature-tyrannosauridaeqianzhousaurusegg": "a qianzhousaurus egg",
+  "item-pelt-qianzhousaurus-adult": "Qianzhousaurus Pelt",
+  "item-pelt-qianzhousaurus-baby": "Qianzhousaurus Pelt (Juvenile)",
+  "item-headmount-qianzhousaurus-adult": "Qianzhousaurus Head Mount",
+  "item-headmount-qianzhousaurus-baby": "Qianzhousaurus Head Mount (Juvenile)",
+  "item-taxidermy-qianzhousaurus-adult": "Qianzhousaurus Taxidermy",
+  "item-taxidermy-qianzhousaurus-baby": "Qianzhousaurus Taxidermy",
+
 
   "item-egg-qianzhousaurus": "Qianzhousaurus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-qianzhousaurus": "Cracked Qianzhousaurus Egg",
@@ -333,6 +385,13 @@
   "game:prefixandcreature-tyrannosauridaezhuchengtyrannusnestmature": "a zhuchengtyrannus nest",
   "game:prefixandcreature-tyrannosauridaezhuchengtyrannusnestempty": "an empty zhuchengtyrannus nest",
   "game:prefixandcreature-tyrannosauridaezhuchengtyrannusegg": "a zhuchengtyrannus egg",
+  "item-pelt-zhuchengtyrannus-adult": "Zhuchengtyrannus Pelt",
+  "item-pelt-zhuchengtyrannus-baby": "Zhuchengtyrannus Pelt (Juvenile)",
+  "item-headmount-zhuchengtyrannus-adult": "Zhuchengtyrannus Head Mount",
+  "item-headmount-zhuchengtyrannus-baby": "Zhuchengtyrannus Head Mount (Juvenile)",
+  "item-taxidermy-zhuchengtyrannus-adult": "Zhuchengtyrannus Taxidermy",
+  "item-taxidermy-zhuchengtyrannus-baby": "Zhuchengtyrannus Taxidermy",
+
 
   "item-egg-zhuchengtyrannus": "Zhuchengtyrannus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-zhuchengtyrannus": "Cracked Zhuchengtyrannus Egg",
@@ -374,6 +433,13 @@
   "game:prefixandcreature-tyrannosauridaebistahieversornestmature": "a bistahieversor nest",
   "game:prefixandcreature-tyrannosauridaebistahieversornestempty": "an empty bistahieversor nest",
   "game:prefixandcreature-tyrannosauridaebistahieversoregg": "a bistahieversor egg",
+  "item-pelt-bistahieversor-adult": "Bistahieversor Pelt",
+  "item-pelt-bistahieversor-baby": "Bistahieversor Pelt (Juvenile)",
+  "item-headmount-bistahieversor-adult": "Bistahieversor Head Mount",
+  "item-headmount-bistahieversor-baby": "Bistahieversor Head Mount (Juvenile)",
+  "item-taxidermy-bistahieversor-adult": "Bistahieversor Taxidermy",
+  "item-taxidermy-bistahieversor-baby": "Bistahieversor Taxidermy",
+
 
   "item-egg-bistahieversor": "Bistahieversor Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-bistahieversor": "Cracked Bistahieversor Egg",
@@ -415,6 +481,13 @@
   "game:prefixandcreature-tyrannosauridaethanatotheristesnestmature": "a thanatotheristes nest",
   "game:prefixandcreature-tyrannosauridaethanatotheristesnestempty": "an empty thanatotheristes nest",
   "game:prefixandcreature-tyrannosauridaethanatotheristesegg": "a thanatotheristes egg",
+  "item-pelt-thanatotheristes-adult": "Thanatotheristes Pelt",
+  "item-pelt-thanatotheristes-baby": "Thanatotheristes Pelt (Juvenile)",
+  "item-headmount-thanatotheristes-adult": "Thanatotheristes Head Mount",
+  "item-headmount-thanatotheristes-baby": "Thanatotheristes Head Mount (Juvenile)",
+  "item-taxidermy-thanatotheristes-adult": "Thanatotheristes Taxidermy",
+  "item-taxidermy-thanatotheristes-baby": "Thanatotheristes Taxidermy",
+
 
   "item-egg-thanatotheristes": "Thanatotheristes Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-thanatotheristes": "Cracked Thanatotheristes Egg",
@@ -456,6 +529,13 @@
   "game:prefixandcreature-tyrannosauridaeteratophoneusnestmature": "a teratophoneus nest",
   "game:prefixandcreature-tyrannosauridaeteratophoneusnestempty": "an empty teratophoneus nest",
   "game:prefixandcreature-tyrannosauridaeteratophoneusegg": "a teratophoneus egg",
+  "item-pelt-teratophoneus-adult": "Teratophoneus Pelt",
+  "item-pelt-teratophoneus-baby": "Teratophoneus Pelt (Juvenile)",
+  "item-headmount-teratophoneus-adult": "Teratophoneus Head Mount",
+  "item-headmount-teratophoneus-baby": "Teratophoneus Head Mount (Juvenile)",
+  "item-taxidermy-teratophoneus-adult": "Teratophoneus Taxidermy",
+  "item-taxidermy-teratophoneus-baby": "Teratophoneus Taxidermy",
+
 
   "item-egg-teratophoneus": "Teratophoneus Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-teratophoneus": "Cracked Teratophoneus Egg",
@@ -497,6 +577,13 @@
   "game:prefixandcreature-tyrannosauridaedynamoterrornestmature": "a dynamoterror nest",
   "game:prefixandcreature-tyrannosauridaedynamoterrornestempty": "an empty dynamoterror nest",
   "game:prefixandcreature-tyrannosauridaedynamoterroregg": "a dynamoterror egg",
+  "item-pelt-dynamoterror-adult": "Dynamoterror Pelt",
+  "item-pelt-dynamoterror-baby": "Dynamoterror Pelt (Juvenile)",
+  "item-headmount-dynamoterror-adult": "Dynamoterror Head Mount",
+  "item-headmount-dynamoterror-baby": "Dynamoterror Head Mount (Juvenile)",
+  "item-taxidermy-dynamoterror-adult": "Dynamoterror Taxidermy",
+  "item-taxidermy-dynamoterror-baby": "Dynamoterror Taxidermy",
+
 
   "item-egg-dynamoterror": "Dynamoterror Egg (a culinary artillery)",
   "aculinaryartillery:item-eggyolk-dynamoterror": "Cracked Dynamoterror Egg",
@@ -512,12 +599,5 @@
   "aculinaryartillery:recipeingredient-item-eggyolkfullportion-dynamoterror-insturmentalcase": "liquid dynamoterror egg",
   "aculinaryartillery:incontainer-item-eggyolkfullportion-dynamoterror": "Liquid dynamoterroregg",
   "game:incontainer-item-eggyolkfullportion-dynamoterror": "Liquid dynamoterror egg",
-
-
-
-
-
-
-
 
 }

@@ -1,0 +1,67 @@
+{
+  "code": "toy",
+	"maxstacksize": 4,
+		"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "SingleCenter"}}
+	],
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "taxidermy-*" ]
+    },
+		"displaycaseable": false, 
+		"shelvable": false,
+		"groundStorageTransformByType": {
+			"*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.1
+			}
+	}
+  },
+  "shapebytype": {
+    "*": {"base": "item/tyrannosauridae/toy/adult"}
+  },
+  "creativeinventory": {"general": [ "*" ], "decorative": [ "*" ]
+  },
+  "texturesByType": {
+	"*":{"skin":{"base": "entity/toy"}},
+  },
+  "combustibleProps": {
+    "burnTemperature": 400,
+    "burnDuration": 10
+  },
+  "sounds": {
+    "place": "game:block/cloth",
+    "walk": "game:walk/cloth"
+  },
+  "guiTransformByType": {
+		"*": {
+			"rotate": true,
+			"translation": { "x": -16, "y": 0, "z": -5 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.3
+		}			
+	},
+  "groundTransform": {
+    "translation": {"x": 0.5,"y": 0,"z": 0},
+    "rotation": {"x": 0,"y": 135,"z": 0},
+    "origin": {"x": 0.5,"y": -0.02,"z": 0.5},
+    "scale": 0.3
+  },
+  "tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -2.5, "y": -4.6, "z": -2.4 },
+			"rotation": { "x": 2, "y": -180, "z": 23 },
+			"origin": { "x": 0.1, "y": 0.3, "z": 0.3 },
+			"scale": 0.1
+		},
+	},
+  "fpHandTransform": {
+		"translation": { "x": 0.4, "y": 0, "z": 0 },
+		"rotation": { "x": -8, "y": -63, "z": -7 },
+    "origin": {"x": 0.5,"y": 0.1,"z": 0.5},
+    "scale": 0.5
+  },
+  "materialDensity": 200
+}

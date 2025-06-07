@@ -1,0 +1,205 @@
+[
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-tyrannosaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 10.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-tyrannosaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-tarbosaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 8.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-tarbosaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-nanuqsaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 5.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-nanuqsaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-albertosaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 7.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-albertosaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-gorgosaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 6.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-gorgosaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-alioramus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 4.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-alioramus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-qianzhousaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 6.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-qianzhousaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-zhuchengtyrannus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 8.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-zhuchengtyrannus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-bistahieversor-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 7.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-bistahieversor-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-thanatotheristes-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 6.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-thanatotheristes-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-teratophoneus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 5.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-teratophoneus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-dynamoterror-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 5.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "tyrannosauridae:pelt-dynamoterror-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+]

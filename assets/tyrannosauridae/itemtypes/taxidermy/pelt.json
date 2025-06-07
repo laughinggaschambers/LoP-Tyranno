@@ -1,0 +1,228 @@
+{
+	"code": "pelt",
+		"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "SingleCenter"}}
+	],
+  "variantgroups": [
+    {"code": "species","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus","zhuchengtyrannus","bistahieversor","thanatotheristes","teratophoneus","dynamoterror",]},
+    {"code": "type","states": [ "baby","adult" ]},
+],
+  "shapebytype": {
+    "*-baby": {
+      "base": "item/tyrannosauridae/pelt-baby"
+    },
+    "*-adult": {
+      "base": "item/tyrannosauridae/pelt"
+    }
+  },
+  "texturesByType": {
+	"*-gorgosaurus-*":{"skin":{"base": "entity/gorgosaurus-adult"}},
+	"*-qianzhousaurus-*":{"skin":{"base": "entity/qianzhousaurus-adult"}},
+	"*-teratophoneus-*":{"skin":{"base": "entity/teratophoneus-adult"}},
+	"*-dynamoterror-*":{"skin":{"base": "entity/dynamoterror-adult"}},
+	"*":{"skin":{"base": "entity/{species}-{type}"}},
+  },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 64,
+	"attributes": {
+		"handbook": {"groupBy": ["floorpelt-*"]},
+		"displaycaseable": false, 
+		"shelvable": false,
+		"antlerMountableByType": {
+			"*": true
+		},
+		"onAntlerMountTransformByType": {
+			"*-tyrannosaurus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 1
+			},
+			"*-tarbosaurus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.8
+			},
+			"*-nanuqsaurus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.5
+			},
+			"*-albertosaurus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.7
+			},
+			"*-gorgosaurus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.6
+			},
+			"*-alioramus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.45
+			},
+			"*-qianzhousaurus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.6
+			},
+			"*-zhuchengtyrannus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.8
+			},
+			"*-bistahieversor-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.7
+			},
+			"*-thanatotheristes-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.6
+			},
+			"*-teratophoneus-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.5
+			},
+			"*-dynamoterror-*":{
+				"translation": { "x": 0.0, "y": 1, "z": 0 },
+				"rotation": { "x": 0, "y": 0, "z": -90 },
+				"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				"scale": 0.5
+			},
+			"*": {
+					"translation": { "x": 0.0, "y": 1, "z": 0 },
+					"rotation": { "x": 0, "y": 0, "z": -90 },
+					"origin": { "x": 0.1, "y": 0.0, "z": 0.5 },
+				}
+		},
+		"groundStorageTransformByType": {
+			"*-tyrannosaurus-*":{
+			"scale": 1},
+			"*-tyrannosaurus-*":{
+				"translation": { "x": 0, "y": 0.0, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 1
+			},
+			"*-tarbosaurus-*":{
+				"translation": { "x": 0, "y": -0.10, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.8
+			},
+			"*-nanuqsaurus-*":{
+				"translation": { "x": 0, "y": -0.20, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.5
+			},
+			"*-albertosaurus-*":{
+				"translation": { "x": 0, "y": -0.20, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.7
+			},
+			"*-gorgosaurus-*":{
+				"translation": { "x": 0, "y": -0.20, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.6
+			},
+			"*-alioramus-*":{
+				"translation": { "x": 0, "y": -0.28, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.45
+			},
+			"*-qianzhousaurus-*":{
+				"translation": { "x": 0, "y": -0.20, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.6
+			},
+			"*-zhuchengtyrannus-*":{
+				"translation": { "x": 0, "y": -0.10, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.8
+			},
+			"*-bistahieversor-*":{
+				"translation": { "x": 0, "y": -0.20, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.7
+			},
+			"*-thanatotheristes-*":{
+				"translation": { "x": 0, "y": -0.20, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.6
+			},
+			"*-teratophoneus-*":{
+				"translation": { "x": 0, "y": -0.20, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.5
+			},
+			"*-dynamoterror-*":{
+				"translation": { "x": 0, "y": -0.20, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"scale": 0.5
+			},
+			"*":{
+				"translation": { "x": 0, "y": 0.0, "z": -0.0 },
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+			}
+		}
+	},
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+	"materialDensity": 500,
+	"heldTpHitAnimation": "breaktool",
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": -0.5, "z": -1.5 },
+		"rotation": { "x": 180, "y": 0, "z": 90 },
+		"scale": 1
+	},
+	"guiTransformByType": {
+		"*-adult": {
+			"translation": {"x": 0,"y": 1,"z": 0},
+			"rotation": {"x": 0,"y": 145,"z": 90},
+			"origin": {"x": 0.5,"y": 0.1,"z": 0.5},
+			"scale": 0.5
+		},
+		"*": {
+			"translation": {"x": 0,"y": 1,"z": 0},
+			"rotation": {"x": 0,"y": 145,"z": 90},
+			"origin": {"x": 0.5,"y": 0.1,"z": 0.5},
+			"scale": 1
+		}
+	},
+	"tpHandTransformByType": {
+		"*-adult":{
+			"translation": { "x": -0.55, "y": -0.1, "z": -0.45 },
+			"rotation": { "x": -90, "y": 90, "z": 0 },
+			"origin": { "x": 0.1, "y": 0, "z": 0.2 },
+			"scale": 0.2
+		},
+		"*":{
+			"translation": { "x": -0.55, "y": -0.1, "z": -0.45 },
+			"rotation": { "x": -90, "y": 90, "z": 0 },
+			"origin": { "x": 0.3, "y": -0, "z": 0.3 },
+			"scale": 0.5
+		},
+	},
+		"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0, "z": 0.5299 },
+		"scale": 2
+	}
+	
+
+}

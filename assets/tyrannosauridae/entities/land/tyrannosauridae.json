@@ -475,29 +475,9 @@
 					},
 					{
 						"type": "item",
-						"code": "game:hide-raw-huge",
+						"code": "tyrannosauridae:pelt-{type}-{age}",
 						"quantityByType": {
-							"*-baby-*": {"avg": 0,"var": 0},
-							"*-tyrannosaurus-adult-*": {"avg": 10,"var": 0},
-							"*-tarbosaurus-adult-*": {"avg": 8,"var": 0},
-							"*-nanuqsaurus-adult-*": {"avg": 5,"var": 0},
-							"*-albertosaurus-adult-*": {"avg": 7,"var": 0},
-							"*-gorgosaurus-adult-*": {"avg": 6,"var": 0},
-							"*-alioramus-adult-*": {"avg": 4,"var": 0},
-							"*-qianzhousaurus-adult-*": {"avg": 6,"var": 0},
-							"*-zhuchengtyrannus-adult-*": {"avg": 8.0,"var": 0},
-							"*-bistahieversor-adult-*": {"avg": 7.0,"var": 0},
-							"*-thanatotheristes-adult-*": {"avg": 6.0,"var": 0},
-							"*-teratophoneus-adult-*": {"avg": 5.0,"var": 0},
-							"*-dynamoterror-adult-*": {"avg": 5.0,"var": 0},
-						}
-					},
-					{
-						"type": "item",
-						"code": "game:hide-raw-small",
-						"quantityByType": {
-							"*-baby-*": {"avg": 1.0,"var": 0.0},
-							"*": {"avg": 0.0,"var": 0.0}
+							"*": {"avg": 1,"var": 0},
 						}
 					},
 					{

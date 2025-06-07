@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth,Root/Cube20,Root/Center/Body/Torso2/Torso3/Torso4,Root/Center/Body/Torso2/Torso3/Torso5,Root/Center/Body/Torso2/Neck2,Root/Center/Body/LegL,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth8,Root/Center/Body/Torso2/FatT2,Root/Body/Tail Main,Root/Center/Body/Torso/Neck/Neck2/Head/Top Jar,Root/Center/Body/ArmR,Root/Center/Body/Cube2,Root/Center/Body/Tail Main,Root/Center/Body/ArmL,Root/Low Jar,Root/Cube36,Root/Body/Torso/Neck/Head/Top Jar,Root/Cube34,Root/Center/Body/Torso/Neck/Neck2/Head/Low Jar,Root/Cube31,Root/Body/Cube2,Root/Body,Root/Center/Body/LegL/ThighL/ChinL,Root/Body/Torso/Neck,Root/Torso,Root/Center/Body/Torso/ArmR,Root/Cube39,Root/Center/Body/Torso/Neck/Neck2/FatN2,Root/Cube11/Cube12,Root/Torso/Neck,Root/Cube15/Cube16,Root/Top Jar/Cube20,Root/Center/Body/Torso/ArmL,Root/Center/Body/LegR,Root/Tail Main/Tail/Cube44,Root/Center/Body/Torso2/Torso3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth17,Root/Cube48,Root/Cube44,Root/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Center/Body/Torso2,Root/Center/Body/Torso/Neck2,Root/Center/Body/Torso/FatT,Root/Center/Body/Torso/Neck/Head,Root/Torso/Cube8,Root/Center/Body/LegL/ThighL/ChinL/FeetL/Cube68,Root/Tail Main,Root/Body/Torso,Root/Cube15,Root/Cube18/Cube20,Root/Cube16,Root/Head,Root/Cube11,Root/Center/Body/Torso/Neck/Neck2/Head,Root/Cube12,Root/Cube53,Root/Cube18,Root/Center/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Cube5,Root/Top Jar,Root/Center/Body/Cube11,Root/Center/Body/Torso/Neck/Neck2/Head/Dome,Root/Cube31/Cube34",
+		"collapsedPaths": ",Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth2,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth,Root/Cube20,Root/Center/Body/Torso2/Torso3/Torso4,Root/Center/Body/Torso2/Torso3/Torso5,Root/Center/Body/Torso2/Neck2,Root/Center/Body/LegL,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth8,Root/Center/Body/Torso2/FatT2,Root/Body/Tail Main,Root/Center/Body/Torso/Neck/Neck2/Head/Top Jar,Root/Center/Body/ArmR,Root/Center/Body/Cube2,Root/Center/Body/Tail Main,Root/Center/Body/ArmL,Root/Low Jar,Root/Cube36,Root/Body/Torso/Neck/Head/Top Jar,Root/Cube34,Root/Cube31,Root/Body/Cube2,Root/Body,Root/Center/Body/LegL/ThighL/ChinL,Root/Body/Torso/Neck,Root/Torso,Root/Center/Body/Torso/ArmR,Root/Cube39,Root/Center/Body/Torso/Neck/Neck2/FatN2,Root/Cube11/Cube12,Root/Torso/Neck,Root/Cube15/Cube16,Root/Top Jar/Cube20,Root/Center/Body/Torso/ArmL,Root/Center/Body/LegR,Root/Tail Main/Tail/Cube44,Root/Center/Body/Torso2/Torso3,Root/Center/Body/Torso/Neck/Head/Top Jar/Teeth17,Root/Cube48,Root/Cube44,Root/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Center/Body/Torso2,Root/Center/Body/Torso/Neck2,Root/Center/Body/Torso/FatT,Root/Center/Body/Torso/Neck/Head,Root/Torso/Cube8,Root/Center/Body/LegL/ThighL/ChinL/FeetL/Cube68,Root/Tail Main,Root/Body/Torso,Root/Cube15,Root/Cube18/Cube20,Root/Cube16,Root/Head,Root/Cube11,Root/Cube12,Root/Cube53,Root/Cube18,Root/Center/Body/Torso/Neck/Head/Top Jar/Cube20,Root/Cube5,Root/Top Jar,Root/Center/Body/Cube11,Root/Center/Body/Torso/Neck/Neck2/Head/Dome,Root/Cube31/Cube34",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -1591,10 +1591,10 @@
 																},
 																{
 																	"name": "Flap2",
-																	"from": [ 13.0, 5.0, 5.5 ],
-																	"to": [ 19.0, 15.0, 6.0 ],
+																	"from": [ 13.0, 5.0, 7.5 ],
+																	"to": [ 19.0, 15.0, 8.0 ],
 																	"uv": [ 1.0, 389.0 ],
-																	"rotationOrigin": [ 13.0, 5.0, 5.5 ],
+																	"rotationOrigin": [ 13.0, 5.0, 7.5 ],
 																	"rotationZ": -47.0,
 																	"faces": {
 																		"north": { "texture": "#qianzhousaurus-adult", "uv": [ 1.0, 389.5, 7.0, 399.5 ] },

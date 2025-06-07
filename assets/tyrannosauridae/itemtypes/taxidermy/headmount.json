@@ -1,0 +1,155 @@
+{
+  "code": "headmount",
+	"maxstacksize": 4,
+  "variantgroups": [
+    {"code": "species","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus","zhuchengtyrannus","bistahieversor","thanatotheristes","teratophoneus","dynamoterror",]},
+    {"code": "type","states": [ "baby","adult" ]},
+  ],
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "headmount-*" ]
+    },
+		"antlerMountableByType": {
+			"*": true
+		},
+		"onAntlerMountTransformByType": {
+            "*-tyrannosaurus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 1
+			},
+			"*-tarbosaurus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.8
+			},
+			"*-nanuqsaurus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.5
+			},
+			"*-albertosaurus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.7
+			},
+			"*-gorgosaurus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.6
+			},
+			"*-alioramus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.45
+			},
+			"*-qianzhousaurus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.6
+			},
+			"*-zhuchengtyrannus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.8
+			},
+			"*-bistahieversor-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.7
+			},
+			"*-thanatotheristes-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.6
+			},
+			"*-teratophoneus-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.5
+			},
+			"*-dynamoterror-*":{
+				"translation": { "x": -0.9, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 180, "z": 0 },
+                "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+				"scale": 0.5
+			},
+			"*": {
+              "translation": { "x": -0.9, "y": 0, "z": 0 },
+              "rotation": { "x": 0, "y": 180, "z": 0 },
+              "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+              "scale": 1
+			}
+		}
+  },
+  "shapebytype": {
+    "*": {"base": "item/tyrannosauridae/{species}/headmount-{type}"}
+  },
+  "creativeinventory": {"general": [ "*" ], "decorative": [ "*" ]
+  },
+  "texturesByType": {
+    "*-gorgosaurus-*":{"skin":{"base": "entity/gorgosaurus-adult"}},
+	"*-qianzhousaurus-*":{"skin":{"base": "entity/qianzhousaurus-adult"}},
+	"*-teratophoneus-*":{"skin":{"base": "entity/teratophoneus-adult"}},
+	"*-dynamoterror-*":{"skin":{"base": "entity/dynamoterror-adult"}},
+	"*":{"skin":{"base": "entity/{species}-{type}"}},
+  },
+  "combustibleProps": {
+    "burnTemperature": 400,
+    "burnDuration": 10
+  },
+  "sounds": {
+    "place": "game:block/cloth",
+    "walk": "game:walk/cloth"
+  },
+  "guiTransformByType": {
+    "*-adult": {
+			"translation": {"x": 0,"y": 3,"z": 0},
+            "rotation": {"x": 0,"y": -60,"z": 180},
+            "origin": {"x": 1,"y": 0.6,"z": 0.5},
+			"scale": 0.5
+		},
+    "*": {
+        "translation": {"x": 0,"y": 3,"z": 0},
+        "rotation": {"x": 0,"y": -60,"z": 180},
+        "origin": {"x": 1,"y": 0.6,"z": 0.5},
+        "scale": 1.0
+      }
+  },
+  "groundTransform": {
+    "translation": {"x": 0.5,"y": 0,"z": 0},
+    "rotation": {"x": 0,"y": 135,"z": 0},
+    "origin": {"x": 0.5,"y": -0.02,"z": 0.5},
+    "scale": 2
+  },
+  "tpHandTransformByType": {
+    "*-adult": {
+			"translation": { "x": -1.1, "y": -0.5, "z": -0.5 },
+            "rotation": { "x": 0, "y": 180, "z": 0 },
+            "origin": { "x": -0, "y": -0, "z": -0 },
+            "scale": 0.3
+		},
+		"*": {
+			"translation": { "x": -1.1, "y": -0.5, "z": -0.5 },
+            "rotation": { "x": 0, "y": 180, "z": 0 },
+            "origin": { "x": -0, "y": -0, "z": -0 },
+            "scale": 1.0
+		},
+  },
+  "fpHandTransform": {
+    "rotation": {"x": 0,"y": 0,"z": 0},
+    "origin": {"x": 0.5,"y": -1,"z": 1.5}
+  },
+  "materialDensity": 200
+}

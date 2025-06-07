@@ -1,0 +1,11 @@
+[
+     {
+        "ingredientPattern": "DEC",
+        "ingredients": {
+            "C": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "D": { "type": "item", "code": "tyrannosauridae:pelt-*"},
+            "E": { "type": "item", "code": "game:feather", "quantity": 12 },
+        }, "width": 3, "height": 1,
+        "output": {"type": "item", "code": "tyrannosauridae:toy", "quantity": 1}
+    },
+]

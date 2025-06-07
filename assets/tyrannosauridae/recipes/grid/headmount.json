@@ -1,0 +1,351 @@
+[
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-tyrannosaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-tyrannosaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-tyrannosaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-tyrannosaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-tarbosaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-tarbosaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-tarbosaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-tarbosaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-nanuqsaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-nanuqsaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-nanuqsaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-nanuqsaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-albertosaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-albertosaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-albertosaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-albertosaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-gorgosaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-gorgosaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-gorgosaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-gorgosaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-alioramus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-alioramus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-alioramus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-alioramus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-qianzhousaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-qianzhousaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-qianzhousaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-qianzhousaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-zhuchengtyrannus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-zhuchengtyrannus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-zhuchengtyrannus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-zhuchengtyrannus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-bistahieversor-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-bistahieversor-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-bistahieversor-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-bistahieversor-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-thanatotheristes-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-thanatotheristes-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-thanatotheristes-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-thanatotheristes-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-teratophoneus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-teratophoneus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-teratophoneus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-teratophoneus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-dynamoterror-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-dynamoterror-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "tyrannosauridae:pelt-dynamoterror-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "tyrannosauridae:headmount-dynamoterror-baby", "quantity": 1}
+    },
+
+]

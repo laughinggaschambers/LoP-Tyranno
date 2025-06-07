@@ -1,0 +1,150 @@
+{
+  "tyrannosaurus": 1.0,
+  "tarbosaurus": 0.8,
+  "nanuqsaurus": 0.5,
+  "albertosaurus": 0.7,
+  "gorgosaurus": 0.6,
+  "alioramus": 0.45,
+  "qianzhousaurus": 0.6,
+  "zhuchengtyrannus": 0.8,
+  "bistahieversor": 0.7,
+  "thanatotheristes": 0.6,
+  "teratophoneus": 0.5,
+  "dynamoterror": 0.5
+}
+
+{
+  "tyrannosaurus": {
+    "minTemp": 10,
+    "maxTemp": 35,
+    "minRain": 0.3,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.3,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.6
+  },
+  "tarbosaurus": {
+    "minTemp": 15,
+    "maxTemp": 40,
+    "minRain": 0.0,
+    "maxRain": 0.7,
+    "minForestOrShrubs": 0.1,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.7
+  },
+  "nanuqsaurus": {
+    "minTemp": -20,
+    "maxTemp": 15,
+    "minRain": 0.0,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.0,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.8
+  },
+  "albertosaurus": {
+    "minTemp": 5,
+    "maxTemp": 30,
+    "minRain": 0.3,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.2,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.6
+  },
+  "gorgosaurus": {
+    "minTemp": 5,
+    "maxTemp": 30,
+    "minRain": 0.3,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.2,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.6
+  },
+  "alioramus": {
+    "minTemp": 15,
+    "maxTemp": 38,
+    "minRain": 0.2,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.2,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.5
+  },
+  "qianzhousaurus": {
+    "minTemp": 15,
+    "maxTemp": 38,
+    "minRain": 0.3,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.3,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.5
+  },
+  "zhuchengtyrannus": {
+    "minTemp": 12,
+    "maxTemp": 34,
+    "minRain": 0.4,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.4,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.8
+  },
+  "bistahieversor": {
+    "minTemp": 11,
+    "maxTemp": 33,
+    "minRain": 0.3,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.35,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.7
+  },
+  "thanatotheristes": {
+    "minTemp": 10,
+    "maxTemp": 35,
+    "minRain": 0.3,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.3,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.6
+  },
+  "teratophoneus": {
+    "minTemp": 13,
+    "maxTemp": 32,
+    "minRain": 0.3,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.35,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.6
+  },
+  "dynamoterror": {
+    "minTemp": 11,
+    "maxTemp": 33,
+    "minRain": 0.3,
+    "maxRain": 1,
+    "minForestOrShrubs": 0.3,
+    "maxForest": 1,
+    "maxShrubs": 1,
+    "minY": 0.9,
+    "maxY": 1.7
+  }
+}
+
