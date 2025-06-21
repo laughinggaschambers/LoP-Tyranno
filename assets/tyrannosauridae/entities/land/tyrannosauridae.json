@@ -22,18 +22,18 @@
 		"*-dynamoterror-adult-*":6.0,
 		},
     "hitBoxSizeByType": {
-			"*-tyrannosaurus-adult-*": {"x": 3,"y": 4},"*-tyrannosaurus-baby-*": {"x": 0.7,"y": 0.7},
-			"*-tarbosaurus-adult-*": {"x": 3,"y": 3.9},"*-tarbosaurus-baby-*": {"x": 0.7,"y": 0.6},
-			"*-nanuqsaurus-adult-*": {"x": 3,"y": 2.5},"*-nanuqsaurus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-albertosaurus-adult-*": {"x": 3,"y": 2.75},"*-albertosaurus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-gorgosaurus-adult-*": {"x": 3,"y": 2.75},"*-gorgosaurus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-alioramus-adult-*": {"x": 3,"y": 2},"*-alioramus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-qianzhousaurus-adult-*": {"x": 3,"y": 2.75},"*-qianzhousaurus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-zhuchengtyrannus-adult-*": {"x": 3,"y": 3.9}, "*-zhuchengtyrannus-baby-*": {"x": 0.7,"y": 0.6},
-			"*-bistahieversor-adult-*": {"x": 3,"y": 2.75}, "*-bistahieversor-baby-*": {"x": 0.7,"y": 0.6},
-			"*-thanatotheristes-adult-*": {"x": 3,"y": 2.7}, "*-thanatotheristes-baby-*": {"x": 0.7,"y": 0.5},
-			"*-teratophoneus-adult-*": {"x": 3,"y": 2.5}, "*-teratophoneus-baby-*": {"x": 0.7,"y": 0.5},
-			"*-dynamoterror-adult-*": {"x": 3,"y": 2.5}, "*-dynamoterror-baby-*": {"x": 0.7,"y": 0.5},
+			"*-tyrannosaurus-adult-*": {"x": 2.3,"y": 4},"*-tyrannosaurus-baby-*": {"x": 0.5,"y": 0.7},
+			"*-tarbosaurus-adult-*": {"x": 2,"y": 3.9},"*-tarbosaurus-baby-*": {"x": 0.5,"y": 0.6},
+			"*-nanuqsaurus-adult-*": {"x": 1.5,"y": 2.5},"*-nanuqsaurus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-albertosaurus-adult-*": {"x": 1.75,"y": 2.75},"*-albertosaurus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-gorgosaurus-adult-*": {"x": 1.75,"y": 2.75},"*-gorgosaurus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-alioramus-adult-*": {"x": 1,"y": 2},"*-alioramus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-qianzhousaurus-adult-*": {"x": 1.5,"y": 2.75},"*-qianzhousaurus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-zhuchengtyrannus-adult-*": {"x": 2.3,"y": 3.9}, "*-zhuchengtyrannus-baby-*": {"x": 0.5,"y": 0.6},
+			"*-bistahieversor-adult-*": {"x": 1.75,"y": 2.75}, "*-bistahieversor-baby-*": {"x": 0.5,"y": 0.6},
+			"*-thanatotheristes-adult-*": {"x": 1.65,"y": 2.7}, "*-thanatotheristes-baby-*": {"x": 0.5,"y": 0.5},
+			"*-teratophoneus-adult-*": {"x": 1.5,"y": 2.5}, "*-teratophoneus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-dynamoterror-adult-*": {"x": 1.5,"y": 2.5}, "*-dynamoterror-baby-*": {"x": 0.5,"y": 0.5},
 		},
 
     "deadhitBoxSizeByType": {"*-adult-*":{	"x": 2,"y": 2},"*-baby-*":{	"x": 1,"y": 1}},
@@ -54,16 +54,16 @@
 	},
 	"behaviorConfigs": {
 		"rideableaccessories": {
-			"wearableSlots": [
+			"wearableSlotsByType": {"*":[
 				{"code": "head", "forCategoryCodes": ["tyrannobridle"], "attachmentPointCode": "HeadAP" },
 				{"code": "face", "forCategoryCodes": [], "attachmentPointCode": "FaceAP" },
 				{"code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
-				{"code": "middleback", "forCategoryCodes": ["tyrannosaddle"], "attachmentPointCode": "MidAP","stepParentTo": {"": { "elementName": "Torso" }} },
-				{"code": "Back Storage 1","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "BStore1AP","stepParentTo": {"": { "elementName": "BackStorage1" }}},
-			]
+				{"code": "middleback", "forCategoryCodes": ["tyrannosaddle"], "attachmentPointCode": "MidAP" },
+				{"code": "Back Storage 1","forCategoryCodes": ["tyrannosaddle","chest", "basket", "crate"],"attachmentPointcode": "BStore1AP","stepParentTo": {"": { "elementName": "BackStorage1" }}},
+			]}
 		},
 		"selectionboxes": {
-			"selectionBoxes": ["HeadAP","FaceAP", "NeckAP", "MidAP","BStore1AP",]
+			"selectionBoxesByType": {"*":["HeadAP","FaceAP", "NeckAP", "MidAP","BStore1AP"]}
 		},
 		"rideable": {
 			"interactMountAnySeat": true,
@@ -342,6 +342,9 @@
 			"*-dynamoterror-adult-male": 0.5,"*-dynamoterror-adult-female": 0.4,"*-dynamoterror-baby-*": 0.5,
 		},
         "behaviors": [
+			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeightByType":
@@ -367,9 +370,7 @@
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
 			{"code": "ropetieable","minGeneration": 8},
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+
         ],
         "animations": [
             {"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -392,10 +393,10 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 60,"maxTurnAnglePerSec": 120}},
         "behaviors": [
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeightByType":
 				{

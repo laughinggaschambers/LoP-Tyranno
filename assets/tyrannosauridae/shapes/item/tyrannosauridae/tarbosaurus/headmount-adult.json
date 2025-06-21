@@ -1403,12 +1403,12 @@
 													"rotationOrigin": [ 13.0, 5.0, 0.3 ],
 													"rotationZ": -47.0,
 													"faces": {
-														"north": { "texture": "#qianzhousaurus-adult", "uv": [ 1.0, 389.5, 7.0, 399.5 ] },
-														"east": { "texture": "#qianzhousaurus-adult", "uv": [ 7.0, 389.5, 7.5, 399.5 ] },
-														"south": { "texture": "#qianzhousaurus-adult", "uv": [ 7.5, 389.5, 13.5, 399.5 ] },
-														"west": { "texture": "#qianzhousaurus-adult", "uv": [ 13.5, 389.5, 14.0, 399.5 ] },
-														"up": { "texture": "#qianzhousaurus-adult", "uv": [ 1.0, 389.0, 7.0, 389.5 ] },
-														"down": { "texture": "#qianzhousaurus-adult", "uv": [ 7.0, 389.0, 13.0, 389.5 ] }
+														"north": { "texture": "#skin", "uv": [ 1.0, 389.5, 7.0, 399.5 ] },
+														"east": { "texture": "#skin", "uv": [ 7.0, 389.5, 7.5, 399.5 ] },
+														"south": { "texture": "#skin", "uv": [ 7.5, 389.5, 13.5, 399.5 ] },
+														"west": { "texture": "#skin", "uv": [ 13.5, 389.5, 14.0, 399.5 ] },
+														"up": { "texture": "#skin", "uv": [ 1.0, 389.0, 7.0, 389.5 ] },
+														"down": { "texture": "#skin", "uv": [ 7.0, 389.0, 13.0, 389.5 ] }
 													}
 												},
 												{
@@ -1419,12 +1419,12 @@
 													"rotationOrigin": [ 13.0, 5.0, 5.5 ],
 													"rotationZ": -47.0,
 													"faces": {
-														"north": { "texture": "#qianzhousaurus-adult", "uv": [ 1.0, 389.5, 7.0, 399.5 ] },
-														"east": { "texture": "#qianzhousaurus-adult", "uv": [ 7.0, 389.5, 7.5, 399.5 ] },
-														"south": { "texture": "#qianzhousaurus-adult", "uv": [ 7.5, 389.5, 13.5, 399.5 ] },
-														"west": { "texture": "#qianzhousaurus-adult", "uv": [ 13.5, 389.5, 14.0, 399.5 ] },
-														"up": { "texture": "#qianzhousaurus-adult", "uv": [ 1.0, 389.0, 7.0, 389.5 ] },
-														"down": { "texture": "#qianzhousaurus-adult", "uv": [ 7.0, 389.0, 13.0, 389.5 ] }
+														"north": { "texture": "#skin", "uv": [ 1.0, 389.5, 7.0, 399.5 ] },
+														"east": { "texture": "#skin", "uv": [ 7.0, 389.5, 7.5, 399.5 ] },
+														"south": { "texture": "#skin", "uv": [ 7.5, 389.5, 13.5, 399.5 ] },
+														"west": { "texture": "#skin", "uv": [ 13.5, 389.5, 14.0, 399.5 ] },
+														"up": { "texture": "#skin", "uv": [ 1.0, 389.0, 7.0, 389.5 ] },
+														"down": { "texture": "#skin", "uv": [ 7.0, 389.0, 13.0, 389.5 ] }
 													}
 												}
 											]

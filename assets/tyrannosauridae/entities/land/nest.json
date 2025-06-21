@@ -24,6 +24,7 @@
 	},
 	"drops": [],
 	"attributes": {
+		"handbook": {"groupcode": "creaturegroup-nest"},
 	},
 	"client": {
 		"renderer": "Shape",
